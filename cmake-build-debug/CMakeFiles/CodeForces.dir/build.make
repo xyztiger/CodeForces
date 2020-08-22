@@ -57,27 +57,27 @@ include CMakeFiles/CodeForces.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CodeForces.dir/flags.make
 
-CMakeFiles/CodeForces.dir/800/main.cpp.o: CMakeFiles/CodeForces.dir/flags.make
-CMakeFiles/CodeForces.dir/800/main.cpp.o: ../800/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CodeForces.dir/800/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CodeForces.dir/800/main.cpp.o -c /Users/foolioxd/CLionProjects/CodeForces/800/main.cpp
+CMakeFiles/CodeForces.dir/800/WaterMelon.cpp.o: CMakeFiles/CodeForces.dir/flags.make
+CMakeFiles/CodeForces.dir/800/WaterMelon.cpp.o: ../800/WaterMelon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CodeForces.dir/800/WaterMelon.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CodeForces.dir/800/WaterMelon.cpp.o -c /Users/foolioxd/CLionProjects/CodeForces/800/WaterMelon.cpp
 
-CMakeFiles/CodeForces.dir/800/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CodeForces.dir/800/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/foolioxd/CLionProjects/CodeForces/800/main.cpp > CMakeFiles/CodeForces.dir/800/main.cpp.i
+CMakeFiles/CodeForces.dir/800/WaterMelon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CodeForces.dir/800/WaterMelon.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/foolioxd/CLionProjects/CodeForces/800/WaterMelon.cpp > CMakeFiles/CodeForces.dir/800/WaterMelon.cpp.i
 
-CMakeFiles/CodeForces.dir/800/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CodeForces.dir/800/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/foolioxd/CLionProjects/CodeForces/800/main.cpp -o CMakeFiles/CodeForces.dir/800/main.cpp.s
+CMakeFiles/CodeForces.dir/800/WaterMelon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CodeForces.dir/800/WaterMelon.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/foolioxd/CLionProjects/CodeForces/800/WaterMelon.cpp -o CMakeFiles/CodeForces.dir/800/WaterMelon.cpp.s
 
 # Object files for target CodeForces
 CodeForces_OBJECTS = \
-"CMakeFiles/CodeForces.dir/800/main.cpp.o"
+"CMakeFiles/CodeForces.dir/800/WaterMelon.cpp.o"
 
 # External object files for target CodeForces
 CodeForces_EXTERNAL_OBJECTS =
 
-CodeForces: CMakeFiles/CodeForces.dir/800/main.cpp.o
+CodeForces: CMakeFiles/CodeForces.dir/800/WaterMelon.cpp.o
 CodeForces: CMakeFiles/CodeForces.dir/build.make
 CodeForces: CMakeFiles/CodeForces.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CodeForces"

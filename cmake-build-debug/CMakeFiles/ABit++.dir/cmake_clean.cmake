@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "ABit++"
   "ABit++.pdb"
-  "CMakeFiles/ABit++.dir/800/ABit++.cpp.o"
+  "CMakeFiles/ABit++.dir/800/Bit++.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

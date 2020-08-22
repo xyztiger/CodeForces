@@ -1,4 +1,8 @@
 /Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/DominoPiling.dir
+/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/Team.dir
+/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/NextRound.dir
+/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/Bit++.dir
 /Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/ABit++.dir
-/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/CodeForces.dir
+/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/WaterMelon.dir
+/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/WayTooLongWords.dir

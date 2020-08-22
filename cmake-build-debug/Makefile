@@ -111,84 +111,244 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ABit++
+# Target rules for targets named DominoPiling
 
 # Build rule for target.
-ABit++: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ABit++
-.PHONY : ABit++
+DominoPiling: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 DominoPiling
+.PHONY : DominoPiling
 
 # fast build rule for target.
-ABit++/fast:
-	$(MAKE) -f CMakeFiles/ABit++.dir/build.make CMakeFiles/ABit++.dir/build
-.PHONY : ABit++/fast
+DominoPiling/fast:
+	$(MAKE) -f CMakeFiles/DominoPiling.dir/build.make CMakeFiles/DominoPiling.dir/build
+.PHONY : DominoPiling/fast
 
 #=============================================================================
-# Target rules for targets named CodeForces
+# Target rules for targets named Team
 
 # Build rule for target.
-CodeForces: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 CodeForces
-.PHONY : CodeForces
+Team: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Team
+.PHONY : Team
 
 # fast build rule for target.
-CodeForces/fast:
-	$(MAKE) -f CMakeFiles/CodeForces.dir/build.make CMakeFiles/CodeForces.dir/build
-.PHONY : CodeForces/fast
+Team/fast:
+	$(MAKE) -f CMakeFiles/Team.dir/build.make CMakeFiles/Team.dir/build
+.PHONY : Team/fast
 
-800/ABit++.o: 800/ABit++.cpp.o
+#=============================================================================
+# Target rules for targets named NextRound
 
-.PHONY : 800/ABit++.o
+# Build rule for target.
+NextRound: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 NextRound
+.PHONY : NextRound
+
+# fast build rule for target.
+NextRound/fast:
+	$(MAKE) -f CMakeFiles/NextRound.dir/build.make CMakeFiles/NextRound.dir/build
+.PHONY : NextRound/fast
+
+#=============================================================================
+# Target rules for targets named Bit++
+
+# Build rule for target.
+Bit++: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Bit++
+.PHONY : Bit++
+
+# fast build rule for target.
+Bit++/fast:
+	$(MAKE) -f CMakeFiles/Bit++.dir/build.make CMakeFiles/Bit++.dir/build
+.PHONY : Bit++/fast
+
+#=============================================================================
+# Target rules for targets named WaterMelon
+
+# Build rule for target.
+WaterMelon: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 WaterMelon
+.PHONY : WaterMelon
+
+# fast build rule for target.
+WaterMelon/fast:
+	$(MAKE) -f CMakeFiles/WaterMelon.dir/build.make CMakeFiles/WaterMelon.dir/build
+.PHONY : WaterMelon/fast
+
+#=============================================================================
+# Target rules for targets named WayTooLongWords
+
+# Build rule for target.
+WayTooLongWords: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 WayTooLongWords
+.PHONY : WayTooLongWords
+
+# fast build rule for target.
+WayTooLongWords/fast:
+	$(MAKE) -f CMakeFiles/WayTooLongWords.dir/build.make CMakeFiles/WayTooLongWords.dir/build
+.PHONY : WayTooLongWords/fast
+
+800/Bit++.o: 800/Bit++.cpp.o
+
+.PHONY : 800/Bit++.o
 
 # target to build an object file
-800/ABit++.cpp.o:
-	$(MAKE) -f CMakeFiles/ABit++.dir/build.make CMakeFiles/ABit++.dir/800/ABit++.cpp.o
-.PHONY : 800/ABit++.cpp.o
+800/Bit++.cpp.o:
+	$(MAKE) -f CMakeFiles/Bit++.dir/build.make CMakeFiles/Bit++.dir/800/Bit++.cpp.o
+.PHONY : 800/Bit++.cpp.o
 
-800/ABit++.i: 800/ABit++.cpp.i
+800/Bit++.i: 800/Bit++.cpp.i
 
-.PHONY : 800/ABit++.i
+.PHONY : 800/Bit++.i
 
 # target to preprocess a source file
-800/ABit++.cpp.i:
-	$(MAKE) -f CMakeFiles/ABit++.dir/build.make CMakeFiles/ABit++.dir/800/ABit++.cpp.i
-.PHONY : 800/ABit++.cpp.i
+800/Bit++.cpp.i:
+	$(MAKE) -f CMakeFiles/Bit++.dir/build.make CMakeFiles/Bit++.dir/800/Bit++.cpp.i
+.PHONY : 800/Bit++.cpp.i
 
-800/ABit++.s: 800/ABit++.cpp.s
+800/Bit++.s: 800/Bit++.cpp.s
 
-.PHONY : 800/ABit++.s
+.PHONY : 800/Bit++.s
 
 # target to generate assembly for a file
-800/ABit++.cpp.s:
-	$(MAKE) -f CMakeFiles/ABit++.dir/build.make CMakeFiles/ABit++.dir/800/ABit++.cpp.s
-.PHONY : 800/ABit++.cpp.s
+800/Bit++.cpp.s:
+	$(MAKE) -f CMakeFiles/Bit++.dir/build.make CMakeFiles/Bit++.dir/800/Bit++.cpp.s
+.PHONY : 800/Bit++.cpp.s
 
-800/main.o: 800/main.cpp.o
+800/DominoPiling.o: 800/DominoPiling.cpp.o
 
-.PHONY : 800/main.o
+.PHONY : 800/DominoPiling.o
 
 # target to build an object file
-800/main.cpp.o:
-	$(MAKE) -f CMakeFiles/CodeForces.dir/build.make CMakeFiles/CodeForces.dir/800/main.cpp.o
-.PHONY : 800/main.cpp.o
+800/DominoPiling.cpp.o:
+	$(MAKE) -f CMakeFiles/DominoPiling.dir/build.make CMakeFiles/DominoPiling.dir/800/DominoPiling.cpp.o
+.PHONY : 800/DominoPiling.cpp.o
 
-800/main.i: 800/main.cpp.i
+800/DominoPiling.i: 800/DominoPiling.cpp.i
 
-.PHONY : 800/main.i
+.PHONY : 800/DominoPiling.i
 
 # target to preprocess a source file
-800/main.cpp.i:
-	$(MAKE) -f CMakeFiles/CodeForces.dir/build.make CMakeFiles/CodeForces.dir/800/main.cpp.i
-.PHONY : 800/main.cpp.i
+800/DominoPiling.cpp.i:
+	$(MAKE) -f CMakeFiles/DominoPiling.dir/build.make CMakeFiles/DominoPiling.dir/800/DominoPiling.cpp.i
+.PHONY : 800/DominoPiling.cpp.i
 
-800/main.s: 800/main.cpp.s
+800/DominoPiling.s: 800/DominoPiling.cpp.s
 
-.PHONY : 800/main.s
+.PHONY : 800/DominoPiling.s
 
 # target to generate assembly for a file
-800/main.cpp.s:
-	$(MAKE) -f CMakeFiles/CodeForces.dir/build.make CMakeFiles/CodeForces.dir/800/main.cpp.s
-.PHONY : 800/main.cpp.s
+800/DominoPiling.cpp.s:
+	$(MAKE) -f CMakeFiles/DominoPiling.dir/build.make CMakeFiles/DominoPiling.dir/800/DominoPiling.cpp.s
+.PHONY : 800/DominoPiling.cpp.s
+
+800/NextRound.o: 800/NextRound.cpp.o
+
+.PHONY : 800/NextRound.o
+
+# target to build an object file
+800/NextRound.cpp.o:
+	$(MAKE) -f CMakeFiles/NextRound.dir/build.make CMakeFiles/NextRound.dir/800/NextRound.cpp.o
+.PHONY : 800/NextRound.cpp.o
+
+800/NextRound.i: 800/NextRound.cpp.i
+
+.PHONY : 800/NextRound.i
+
+# target to preprocess a source file
+800/NextRound.cpp.i:
+	$(MAKE) -f CMakeFiles/NextRound.dir/build.make CMakeFiles/NextRound.dir/800/NextRound.cpp.i
+.PHONY : 800/NextRound.cpp.i
+
+800/NextRound.s: 800/NextRound.cpp.s
+
+.PHONY : 800/NextRound.s
+
+# target to generate assembly for a file
+800/NextRound.cpp.s:
+	$(MAKE) -f CMakeFiles/NextRound.dir/build.make CMakeFiles/NextRound.dir/800/NextRound.cpp.s
+.PHONY : 800/NextRound.cpp.s
+
+800/Team.o: 800/Team.cpp.o
+
+.PHONY : 800/Team.o
+
+# target to build an object file
+800/Team.cpp.o:
+	$(MAKE) -f CMakeFiles/Team.dir/build.make CMakeFiles/Team.dir/800/Team.cpp.o
+.PHONY : 800/Team.cpp.o
+
+800/Team.i: 800/Team.cpp.i
+
+.PHONY : 800/Team.i
+
+# target to preprocess a source file
+800/Team.cpp.i:
+	$(MAKE) -f CMakeFiles/Team.dir/build.make CMakeFiles/Team.dir/800/Team.cpp.i
+.PHONY : 800/Team.cpp.i
+
+800/Team.s: 800/Team.cpp.s
+
+.PHONY : 800/Team.s
+
+# target to generate assembly for a file
+800/Team.cpp.s:
+	$(MAKE) -f CMakeFiles/Team.dir/build.make CMakeFiles/Team.dir/800/Team.cpp.s
+.PHONY : 800/Team.cpp.s
+
+800/WaterMelon.o: 800/WaterMelon.cpp.o
+
+.PHONY : 800/WaterMelon.o
+
+# target to build an object file
+800/WaterMelon.cpp.o:
+	$(MAKE) -f CMakeFiles/WaterMelon.dir/build.make CMakeFiles/WaterMelon.dir/800/WaterMelon.cpp.o
+.PHONY : 800/WaterMelon.cpp.o
+
+800/WaterMelon.i: 800/WaterMelon.cpp.i
+
+.PHONY : 800/WaterMelon.i
+
+# target to preprocess a source file
+800/WaterMelon.cpp.i:
+	$(MAKE) -f CMakeFiles/WaterMelon.dir/build.make CMakeFiles/WaterMelon.dir/800/WaterMelon.cpp.i
+.PHONY : 800/WaterMelon.cpp.i
+
+800/WaterMelon.s: 800/WaterMelon.cpp.s
+
+.PHONY : 800/WaterMelon.s
+
+# target to generate assembly for a file
+800/WaterMelon.cpp.s:
+	$(MAKE) -f CMakeFiles/WaterMelon.dir/build.make CMakeFiles/WaterMelon.dir/800/WaterMelon.cpp.s
+.PHONY : 800/WaterMelon.cpp.s
+
+800/WayTooLongWords.o: 800/WayTooLongWords.cpp.o
+
+.PHONY : 800/WayTooLongWords.o
+
+# target to build an object file
+800/WayTooLongWords.cpp.o:
+	$(MAKE) -f CMakeFiles/WayTooLongWords.dir/build.make CMakeFiles/WayTooLongWords.dir/800/WayTooLongWords.cpp.o
+.PHONY : 800/WayTooLongWords.cpp.o
+
+800/WayTooLongWords.i: 800/WayTooLongWords.cpp.i
+
+.PHONY : 800/WayTooLongWords.i
+
+# target to preprocess a source file
+800/WayTooLongWords.cpp.i:
+	$(MAKE) -f CMakeFiles/WayTooLongWords.dir/build.make CMakeFiles/WayTooLongWords.dir/800/WayTooLongWords.cpp.i
+.PHONY : 800/WayTooLongWords.cpp.i
+
+800/WayTooLongWords.s: 800/WayTooLongWords.cpp.s
+
+.PHONY : 800/WayTooLongWords.s
+
+# target to generate assembly for a file
+800/WayTooLongWords.cpp.s:
+	$(MAKE) -f CMakeFiles/WayTooLongWords.dir/build.make CMakeFiles/WayTooLongWords.dir/800/WayTooLongWords.cpp.s
+.PHONY : 800/WayTooLongWords.cpp.s
 
 # Help Target
 help:
@@ -197,15 +357,31 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... DominoPiling"
+	@echo "... Team"
+	@echo "... NextRound"
+	@echo "... Bit++"
 	@echo "... edit_cache"
-	@echo "... ABit++"
-	@echo "... CodeForces"
-	@echo "... 800/ABit++.o"
-	@echo "... 800/ABit++.i"
-	@echo "... 800/ABit++.s"
-	@echo "... 800/main.o"
-	@echo "... 800/main.i"
-	@echo "... 800/main.s"
+	@echo "... WaterMelon"
+	@echo "... WayTooLongWords"
+	@echo "... 800/Bit++.o"
+	@echo "... 800/Bit++.i"
+	@echo "... 800/Bit++.s"
+	@echo "... 800/DominoPiling.o"
+	@echo "... 800/DominoPiling.i"
+	@echo "... 800/DominoPiling.s"
+	@echo "... 800/NextRound.o"
+	@echo "... 800/NextRound.i"
+	@echo "... 800/NextRound.s"
+	@echo "... 800/Team.o"
+	@echo "... 800/Team.i"
+	@echo "... 800/Team.s"
+	@echo "... 800/WaterMelon.o"
+	@echo "... 800/WaterMelon.i"
+	@echo "... 800/WaterMelon.s"
+	@echo "... 800/WayTooLongWords.o"
+	@echo "... 800/WayTooLongWords.i"
+	@echo "... 800/WayTooLongWords.s"
 .PHONY : help
 
 

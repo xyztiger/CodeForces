@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CodeForces.dir/800/main.cpp.o"
+  "CMakeFiles/CodeForces.dir/800/WaterMelon.cpp.o"
   "CodeForces"
   "CodeForces.pdb"
 )

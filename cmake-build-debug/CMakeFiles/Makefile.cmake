@@ -52,6 +52,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/ABit++.dir/DependInfo.cmake"
-  "CMakeFiles/CodeForces.dir/DependInfo.cmake"
+  "CMakeFiles/DominoPiling.dir/DependInfo.cmake"
+  "CMakeFiles/Team.dir/DependInfo.cmake"
+  "CMakeFiles/NextRound.dir/DependInfo.cmake"
+  "CMakeFiles/Bit++.dir/DependInfo.cmake"
+  "CMakeFiles/WaterMelon.dir/DependInfo.cmake"
+  "CMakeFiles/WayTooLongWords.dir/DependInfo.cmake"
   )

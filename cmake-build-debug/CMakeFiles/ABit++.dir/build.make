@@ -57,27 +57,27 @@ include CMakeFiles/ABit++.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ABit++.dir/flags.make
 
-CMakeFiles/ABit++.dir/800/ABit++.cpp.o: CMakeFiles/ABit++.dir/flags.make
-CMakeFiles/ABit++.dir/800/ABit++.cpp.o: ../800/ABit++.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ABit++.dir/800/ABit++.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ABit++.dir/800/ABit++.cpp.o -c /Users/foolioxd/CLionProjects/CodeForces/800/ABit++.cpp
+CMakeFiles/ABit++.dir/800/Bit++.cpp.o: CMakeFiles/ABit++.dir/flags.make
+CMakeFiles/ABit++.dir/800/Bit++.cpp.o: ../800/Bit++.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ABit++.dir/800/Bit++.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ABit++.dir/800/Bit++.cpp.o -c /Users/foolioxd/CLionProjects/CodeForces/800/Bit++.cpp
 
-CMakeFiles/ABit++.dir/800/ABit++.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ABit++.dir/800/ABit++.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/foolioxd/CLionProjects/CodeForces/800/ABit++.cpp > CMakeFiles/ABit++.dir/800/ABit++.cpp.i
+CMakeFiles/ABit++.dir/800/Bit++.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ABit++.dir/800/Bit++.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/foolioxd/CLionProjects/CodeForces/800/Bit++.cpp > CMakeFiles/ABit++.dir/800/Bit++.cpp.i
 
-CMakeFiles/ABit++.dir/800/ABit++.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ABit++.dir/800/ABit++.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/foolioxd/CLionProjects/CodeForces/800/ABit++.cpp -o CMakeFiles/ABit++.dir/800/ABit++.cpp.s
+CMakeFiles/ABit++.dir/800/Bit++.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ABit++.dir/800/Bit++.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/foolioxd/CLionProjects/CodeForces/800/Bit++.cpp -o CMakeFiles/ABit++.dir/800/Bit++.cpp.s
 
 # Object files for target ABit++
 ABit_______OBJECTS = \
-"CMakeFiles/ABit++.dir/800/ABit++.cpp.o"
+"CMakeFiles/ABit++.dir/800/Bit++.cpp.o"
 
 # External object files for target ABit++
 ABit_______EXTERNAL_OBJECTS =
 
-ABit++: CMakeFiles/ABit++.dir/800/ABit++.cpp.o
+ABit++: CMakeFiles/ABit++.dir/800/Bit++.cpp.o
 ABit++: CMakeFiles/ABit++.dir/build.make
 ABit++: CMakeFiles/ABit++.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ABit++"

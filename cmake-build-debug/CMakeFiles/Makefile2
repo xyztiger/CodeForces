@@ -53,8 +53,12 @@ CMAKE_BINARY_DIR = /Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/ABit++.dir/all
-all: CMakeFiles/CodeForces.dir/all
+all: CMakeFiles/DominoPiling.dir/all
+all: CMakeFiles/Team.dir/all
+all: CMakeFiles/NextRound.dir/all
+all: CMakeFiles/Bit++.dir/all
+all: CMakeFiles/WaterMelon.dir/all
+all: CMakeFiles/WayTooLongWords.dir/all
 
 .PHONY : all
 
@@ -64,64 +68,176 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/ABit++.dir/clean
-clean: CMakeFiles/CodeForces.dir/clean
+clean: CMakeFiles/DominoPiling.dir/clean
+clean: CMakeFiles/Team.dir/clean
+clean: CMakeFiles/NextRound.dir/clean
+clean: CMakeFiles/Bit++.dir/clean
+clean: CMakeFiles/WaterMelon.dir/clean
+clean: CMakeFiles/WayTooLongWords.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ABit++.dir
+# Target rules for target CMakeFiles/DominoPiling.dir
 
 # All Build rule for target.
-CMakeFiles/ABit++.dir/all:
-	$(MAKE) -f CMakeFiles/ABit++.dir/build.make CMakeFiles/ABit++.dir/depend
-	$(MAKE) -f CMakeFiles/ABit++.dir/build.make CMakeFiles/ABit++.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target ABit++"
-.PHONY : CMakeFiles/ABit++.dir/all
+CMakeFiles/DominoPiling.dir/all:
+	$(MAKE) -f CMakeFiles/DominoPiling.dir/build.make CMakeFiles/DominoPiling.dir/depend
+	$(MAKE) -f CMakeFiles/DominoPiling.dir/build.make CMakeFiles/DominoPiling.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target DominoPiling"
+.PHONY : CMakeFiles/DominoPiling.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ABit++.dir/rule: cmake_check_build_system
+CMakeFiles/DominoPiling.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ABit++.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/DominoPiling.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/ABit++.dir/rule
+.PHONY : CMakeFiles/DominoPiling.dir/rule
 
 # Convenience name for target.
-ABit++: CMakeFiles/ABit++.dir/rule
+DominoPiling: CMakeFiles/DominoPiling.dir/rule
 
-.PHONY : ABit++
+.PHONY : DominoPiling
 
 # clean rule for target.
-CMakeFiles/ABit++.dir/clean:
-	$(MAKE) -f CMakeFiles/ABit++.dir/build.make CMakeFiles/ABit++.dir/clean
-.PHONY : CMakeFiles/ABit++.dir/clean
+CMakeFiles/DominoPiling.dir/clean:
+	$(MAKE) -f CMakeFiles/DominoPiling.dir/build.make CMakeFiles/DominoPiling.dir/clean
+.PHONY : CMakeFiles/DominoPiling.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/CodeForces.dir
+# Target rules for target CMakeFiles/Team.dir
 
 # All Build rule for target.
-CMakeFiles/CodeForces.dir/all:
-	$(MAKE) -f CMakeFiles/CodeForces.dir/build.make CMakeFiles/CodeForces.dir/depend
-	$(MAKE) -f CMakeFiles/CodeForces.dir/build.make CMakeFiles/CodeForces.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target CodeForces"
-.PHONY : CMakeFiles/CodeForces.dir/all
+CMakeFiles/Team.dir/all:
+	$(MAKE) -f CMakeFiles/Team.dir/build.make CMakeFiles/Team.dir/depend
+	$(MAKE) -f CMakeFiles/Team.dir/build.make CMakeFiles/Team.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target Team"
+.PHONY : CMakeFiles/Team.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/CodeForces.dir/rule: cmake_check_build_system
+CMakeFiles/Team.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CodeForces.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Team.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/CodeForces.dir/rule
+.PHONY : CMakeFiles/Team.dir/rule
 
 # Convenience name for target.
-CodeForces: CMakeFiles/CodeForces.dir/rule
+Team: CMakeFiles/Team.dir/rule
 
-.PHONY : CodeForces
+.PHONY : Team
 
 # clean rule for target.
-CMakeFiles/CodeForces.dir/clean:
-	$(MAKE) -f CMakeFiles/CodeForces.dir/build.make CMakeFiles/CodeForces.dir/clean
-.PHONY : CMakeFiles/CodeForces.dir/clean
+CMakeFiles/Team.dir/clean:
+	$(MAKE) -f CMakeFiles/Team.dir/build.make CMakeFiles/Team.dir/clean
+.PHONY : CMakeFiles/Team.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/NextRound.dir
+
+# All Build rule for target.
+CMakeFiles/NextRound.dir/all:
+	$(MAKE) -f CMakeFiles/NextRound.dir/build.make CMakeFiles/NextRound.dir/depend
+	$(MAKE) -f CMakeFiles/NextRound.dir/build.make CMakeFiles/NextRound.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target NextRound"
+.PHONY : CMakeFiles/NextRound.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/NextRound.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/NextRound.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/NextRound.dir/rule
+
+# Convenience name for target.
+NextRound: CMakeFiles/NextRound.dir/rule
+
+.PHONY : NextRound
+
+# clean rule for target.
+CMakeFiles/NextRound.dir/clean:
+	$(MAKE) -f CMakeFiles/NextRound.dir/build.make CMakeFiles/NextRound.dir/clean
+.PHONY : CMakeFiles/NextRound.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Bit++.dir
+
+# All Build rule for target.
+CMakeFiles/Bit++.dir/all:
+	$(MAKE) -f CMakeFiles/Bit++.dir/build.make CMakeFiles/Bit++.dir/depend
+	$(MAKE) -f CMakeFiles/Bit++.dir/build.make CMakeFiles/Bit++.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Bit++"
+.PHONY : CMakeFiles/Bit++.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Bit++.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Bit++.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Bit++.dir/rule
+
+# Convenience name for target.
+Bit++: CMakeFiles/Bit++.dir/rule
+
+.PHONY : Bit++
+
+# clean rule for target.
+CMakeFiles/Bit++.dir/clean:
+	$(MAKE) -f CMakeFiles/Bit++.dir/build.make CMakeFiles/Bit++.dir/clean
+.PHONY : CMakeFiles/Bit++.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/WaterMelon.dir
+
+# All Build rule for target.
+CMakeFiles/WaterMelon.dir/all:
+	$(MAKE) -f CMakeFiles/WaterMelon.dir/build.make CMakeFiles/WaterMelon.dir/depend
+	$(MAKE) -f CMakeFiles/WaterMelon.dir/build.make CMakeFiles/WaterMelon.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target WaterMelon"
+.PHONY : CMakeFiles/WaterMelon.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/WaterMelon.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/WaterMelon.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/WaterMelon.dir/rule
+
+# Convenience name for target.
+WaterMelon: CMakeFiles/WaterMelon.dir/rule
+
+.PHONY : WaterMelon
+
+# clean rule for target.
+CMakeFiles/WaterMelon.dir/clean:
+	$(MAKE) -f CMakeFiles/WaterMelon.dir/build.make CMakeFiles/WaterMelon.dir/clean
+.PHONY : CMakeFiles/WaterMelon.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/WayTooLongWords.dir
+
+# All Build rule for target.
+CMakeFiles/WayTooLongWords.dir/all:
+	$(MAKE) -f CMakeFiles/WayTooLongWords.dir/build.make CMakeFiles/WayTooLongWords.dir/depend
+	$(MAKE) -f CMakeFiles/WayTooLongWords.dir/build.make CMakeFiles/WayTooLongWords.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target WayTooLongWords"
+.PHONY : CMakeFiles/WayTooLongWords.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/WayTooLongWords.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/WayTooLongWords.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/WayTooLongWords.dir/rule
+
+# Convenience name for target.
+WayTooLongWords: CMakeFiles/WayTooLongWords.dir/rule
+
+.PHONY : WayTooLongWords
+
+# clean rule for target.
+CMakeFiles/WayTooLongWords.dir/clean:
+	$(MAKE) -f CMakeFiles/WayTooLongWords.dir/build.make CMakeFiles/WayTooLongWords.dir/clean
+.PHONY : CMakeFiles/WayTooLongWords.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

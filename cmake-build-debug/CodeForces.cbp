@@ -27,6 +27,174 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="DominoPiling">
+				<Option output="/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/DominoPiling" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 DominoPiling"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DominoPiling/fast">
+				<Option output="/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/DominoPiling" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 DominoPiling/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Team">
+				<Option output="/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Team" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 Team"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Team/fast">
+				<Option output="/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Team" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 Team/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NextRound">
+				<Option output="/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/NextRound" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 NextRound"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NextRound/fast">
+				<Option output="/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/NextRound" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 NextRound/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Bit++">
+				<Option output="/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Bit++" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 Bit++"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Bit++/fast">
+				<Option output="/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Bit++" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 Bit++/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug"/>
 				<Option type="4"/>
@@ -37,8 +205,8 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="ABit++">
-				<Option output="/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/ABit++" prefix_auto="0" extension_auto="0"/>
+			<Target title="WaterMelon">
+				<Option output="/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/WaterMelon" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -52,14 +220,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 ABit++"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 WaterMelon"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="ABit++/fast">
-				<Option output="/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/ABit++" prefix_auto="0" extension_auto="0"/>
+			<Target title="WaterMelon/fast">
+				<Option output="/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/WaterMelon" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -73,14 +241,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 ABit++/fast"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 WaterMelon/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="CodeForces">
-				<Option output="/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CodeForces" prefix_auto="0" extension_auto="0"/>
+			<Target title="WayTooLongWords">
+				<Option output="/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/WayTooLongWords" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -94,14 +262,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 CodeForces"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 WayTooLongWords"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="CodeForces/fast">
-				<Option output="/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CodeForces" prefix_auto="0" extension_auto="0"/>
+			<Target title="WayTooLongWords/fast">
+				<Option output="/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/WayTooLongWords" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -115,21 +283,30 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 CodeForces/fast"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 WayTooLongWords/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/foolioxd/CLionProjects/CodeForces/800">
-			<Option target="CodeForces"/>
+		<Unit filename="/Users/foolioxd/CLionProjects/CodeForces/800/Bit++.cpp">
+			<Option target="Bit++"/>
 		</Unit>
-		<Unit filename="/Users/foolioxd/CLionProjects/CodeForces/800/ABit++.cpp">
-			<Option target="ABit++"/>
+		<Unit filename="/Users/foolioxd/CLionProjects/CodeForces/800/DominoPiling.cpp">
+			<Option target="DominoPiling"/>
 		</Unit>
-		<Unit filename="/Users/foolioxd/CLionProjects/CodeForces/800/main.cpp">
-			<Option target="CodeForces"/>
+		<Unit filename="/Users/foolioxd/CLionProjects/CodeForces/800/NextRound.cpp">
+			<Option target="NextRound"/>
+		</Unit>
+		<Unit filename="/Users/foolioxd/CLionProjects/CodeForces/800/Team.cpp">
+			<Option target="Team"/>
+		</Unit>
+		<Unit filename="/Users/foolioxd/CLionProjects/CodeForces/800/WaterMelon.cpp">
+			<Option target="WaterMelon"/>
+		</Unit>
+		<Unit filename="/Users/foolioxd/CLionProjects/CodeForces/800/WayTooLongWords.cpp">
+			<Option target="WayTooLongWords"/>
 		</Unit>
 		<Unit filename="/Users/foolioxd/CLionProjects/CodeForces/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
