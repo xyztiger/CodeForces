@@ -1,4 +1,5 @@
 /Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/PetyaAndStrings.dir
 /Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/DominoPiling.dir
 /Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/Team.dir
 /Users/foolioxd/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/NextRound.dir

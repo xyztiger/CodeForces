@@ -52,6 +52,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/PetyaAndStrings.dir/DependInfo.cmake"
   "CMakeFiles/DominoPiling.dir/DependInfo.cmake"
   "CMakeFiles/Team.dir/DependInfo.cmake"
   "CMakeFiles/NextRound.dir/DependInfo.cmake"

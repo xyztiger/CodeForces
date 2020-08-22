@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named PetyaAndStrings
+
+# Build rule for target.
+PetyaAndStrings: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PetyaAndStrings
+.PHONY : PetyaAndStrings
+
+# fast build rule for target.
+PetyaAndStrings/fast:
+	$(MAKE) -f CMakeFiles/PetyaAndStrings.dir/build.make CMakeFiles/PetyaAndStrings.dir/build
+.PHONY : PetyaAndStrings/fast
+
+#=============================================================================
 # Target rules for targets named DominoPiling
 
 # Build rule for target.
@@ -269,6 +282,33 @@ WayTooLongWords/fast:
 	$(MAKE) -f CMakeFiles/NextRound.dir/build.make CMakeFiles/NextRound.dir/800/NextRound.cpp.s
 .PHONY : 800/NextRound.cpp.s
 
+800/PetyaAndStrings.o: 800/PetyaAndStrings.cpp.o
+
+.PHONY : 800/PetyaAndStrings.o
+
+# target to build an object file
+800/PetyaAndStrings.cpp.o:
+	$(MAKE) -f CMakeFiles/PetyaAndStrings.dir/build.make CMakeFiles/PetyaAndStrings.dir/800/PetyaAndStrings.cpp.o
+.PHONY : 800/PetyaAndStrings.cpp.o
+
+800/PetyaAndStrings.i: 800/PetyaAndStrings.cpp.i
+
+.PHONY : 800/PetyaAndStrings.i
+
+# target to preprocess a source file
+800/PetyaAndStrings.cpp.i:
+	$(MAKE) -f CMakeFiles/PetyaAndStrings.dir/build.make CMakeFiles/PetyaAndStrings.dir/800/PetyaAndStrings.cpp.i
+.PHONY : 800/PetyaAndStrings.cpp.i
+
+800/PetyaAndStrings.s: 800/PetyaAndStrings.cpp.s
+
+.PHONY : 800/PetyaAndStrings.s
+
+# target to generate assembly for a file
+800/PetyaAndStrings.cpp.s:
+	$(MAKE) -f CMakeFiles/PetyaAndStrings.dir/build.make CMakeFiles/PetyaAndStrings.dir/800/PetyaAndStrings.cpp.s
+.PHONY : 800/PetyaAndStrings.cpp.s
+
 800/Team.o: 800/Team.cpp.o
 
 .PHONY : 800/Team.o
@@ -357,6 +397,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... PetyaAndStrings"
 	@echo "... DominoPiling"
 	@echo "... Team"
 	@echo "... NextRound"
@@ -373,6 +414,9 @@ help:
 	@echo "... 800/NextRound.o"
 	@echo "... 800/NextRound.i"
 	@echo "... 800/NextRound.s"
+	@echo "... 800/PetyaAndStrings.o"
+	@echo "... 800/PetyaAndStrings.i"
+	@echo "... 800/PetyaAndStrings.s"
 	@echo "... 800/Team.o"
 	@echo "... 800/Team.i"
 	@echo "... 800/Team.s"
