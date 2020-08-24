@@ -285,6 +285,19 @@ BoyOrGirl/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoyOrGirl.dir\build.make CMakeFiles/BoyOrGirl.dir/build
 .PHONY : BoyOrGirl/fast
 
+#=============================================================================
+# Target rules for targets named Football
+
+# Build rule for target.
+Football: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Football
+.PHONY : Football
+
+# fast build rule for target.
+Football/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Football.dir\build.make CMakeFiles/Football.dir/build
+.PHONY : Football/fast
+
 800/BeautifulMatrix.obj: 800/BeautifulMatrix.cpp.obj
 
 .PHONY : 800/BeautifulMatrix.obj
@@ -609,6 +622,33 @@ BoyOrGirl/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WordCapitalization.dir\build.make CMakeFiles/WordCapitalization.dir/800/WordCapitalization.cpp.s
 .PHONY : 800/WordCapitalization.cpp.s
 
+900/Football.obj: 900/Football.cpp.obj
+
+.PHONY : 900/Football.obj
+
+# target to build an object file
+900/Football.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Football.dir\build.make CMakeFiles/Football.dir/900/Football.cpp.obj
+.PHONY : 900/Football.cpp.obj
+
+900/Football.i: 900/Football.cpp.i
+
+.PHONY : 900/Football.i
+
+# target to preprocess a source file
+900/Football.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Football.dir\build.make CMakeFiles/Football.dir/900/Football.cpp.i
+.PHONY : 900/Football.cpp.i
+
+900/Football.s: 900/Football.cpp.s
+
+.PHONY : 900/Football.s
+
+# target to generate assembly for a file
+900/Football.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Football.dir\build.make CMakeFiles/Football.dir/900/Football.cpp.s
+.PHONY : 900/Football.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -621,6 +661,7 @@ help:
 	@echo ... Bit++
 	@echo ... BoyOrGirl
 	@echo ... DominoPiling
+	@echo ... Football
 	@echo ... HelpfulMaths
 	@echo ... NextRound
 	@echo ... PetyaAndStrings
@@ -665,6 +706,9 @@ help:
 	@echo ... 800/WordCapitalization.obj
 	@echo ... 800/WordCapitalization.i
 	@echo ... 800/WordCapitalization.s
+	@echo ... 900/Football.obj
+	@echo ... 900/Football.i
+	@echo ... 900/Football.s
 .PHONY : help
 
 
