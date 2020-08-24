@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named WordCapitalization
+
+# Build rule for target.
+WordCapitalization: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 WordCapitalization
+.PHONY : WordCapitalization
+
+# fast build rule for target.
+WordCapitalization/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WordCapitalization.dir\build.make CMakeFiles/WordCapitalization.dir/build
+.PHONY : WordCapitalization/fast
+
+#=============================================================================
 # Target rules for targets named PetyaAndStrings
 
 # Build rule for target.
@@ -246,6 +259,32 @@ HelpfulMaths/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HelpfulMaths.dir\build.make CMakeFiles/HelpfulMaths.dir/build
 .PHONY : HelpfulMaths/fast
 
+#=============================================================================
+# Target rules for targets named StonesOnTheTable
+
+# Build rule for target.
+StonesOnTheTable: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 StonesOnTheTable
+.PHONY : StonesOnTheTable
+
+# fast build rule for target.
+StonesOnTheTable/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StonesOnTheTable.dir\build.make CMakeFiles/StonesOnTheTable.dir/build
+.PHONY : StonesOnTheTable/fast
+
+#=============================================================================
+# Target rules for targets named BoyOrGirl
+
+# Build rule for target.
+BoyOrGirl: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BoyOrGirl
+.PHONY : BoyOrGirl
+
+# fast build rule for target.
+BoyOrGirl/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoyOrGirl.dir\build.make CMakeFiles/BoyOrGirl.dir/build
+.PHONY : BoyOrGirl/fast
+
 800/BeautifulMatrix.obj: 800/BeautifulMatrix.cpp.obj
 
 .PHONY : 800/BeautifulMatrix.obj
@@ -299,6 +338,33 @@ HelpfulMaths/fast:
 800/Bit++.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bit++.dir\build.make CMakeFiles/Bit++.dir/800/Bit++.cpp.s
 .PHONY : 800/Bit++.cpp.s
+
+800/BoyOrGirl.obj: 800/BoyOrGirl.cpp.obj
+
+.PHONY : 800/BoyOrGirl.obj
+
+# target to build an object file
+800/BoyOrGirl.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoyOrGirl.dir\build.make CMakeFiles/BoyOrGirl.dir/800/BoyOrGirl.cpp.obj
+.PHONY : 800/BoyOrGirl.cpp.obj
+
+800/BoyOrGirl.i: 800/BoyOrGirl.cpp.i
+
+.PHONY : 800/BoyOrGirl.i
+
+# target to preprocess a source file
+800/BoyOrGirl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoyOrGirl.dir\build.make CMakeFiles/BoyOrGirl.dir/800/BoyOrGirl.cpp.i
+.PHONY : 800/BoyOrGirl.cpp.i
+
+800/BoyOrGirl.s: 800/BoyOrGirl.cpp.s
+
+.PHONY : 800/BoyOrGirl.s
+
+# target to generate assembly for a file
+800/BoyOrGirl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoyOrGirl.dir\build.make CMakeFiles/BoyOrGirl.dir/800/BoyOrGirl.cpp.s
+.PHONY : 800/BoyOrGirl.cpp.s
 
 800/DominoPiling.obj: 800/DominoPiling.cpp.obj
 
@@ -408,6 +474,33 @@ HelpfulMaths/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PetyaAndStrings.dir\build.make CMakeFiles/PetyaAndStrings.dir/800/PetyaAndStrings.cpp.s
 .PHONY : 800/PetyaAndStrings.cpp.s
 
+800/StonesOnTheTable.obj: 800/StonesOnTheTable.cpp.obj
+
+.PHONY : 800/StonesOnTheTable.obj
+
+# target to build an object file
+800/StonesOnTheTable.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StonesOnTheTable.dir\build.make CMakeFiles/StonesOnTheTable.dir/800/StonesOnTheTable.cpp.obj
+.PHONY : 800/StonesOnTheTable.cpp.obj
+
+800/StonesOnTheTable.i: 800/StonesOnTheTable.cpp.i
+
+.PHONY : 800/StonesOnTheTable.i
+
+# target to preprocess a source file
+800/StonesOnTheTable.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StonesOnTheTable.dir\build.make CMakeFiles/StonesOnTheTable.dir/800/StonesOnTheTable.cpp.i
+.PHONY : 800/StonesOnTheTable.cpp.i
+
+800/StonesOnTheTable.s: 800/StonesOnTheTable.cpp.s
+
+.PHONY : 800/StonesOnTheTable.s
+
+# target to generate assembly for a file
+800/StonesOnTheTable.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StonesOnTheTable.dir\build.make CMakeFiles/StonesOnTheTable.dir/800/StonesOnTheTable.cpp.s
+.PHONY : 800/StonesOnTheTable.cpp.s
+
 800/Team.obj: 800/Team.cpp.obj
 
 .PHONY : 800/Team.obj
@@ -489,6 +582,33 @@ HelpfulMaths/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WayTooLongWords.dir\build.make CMakeFiles/WayTooLongWords.dir/800/WayTooLongWords.cpp.s
 .PHONY : 800/WayTooLongWords.cpp.s
 
+800/WordCapitalization.obj: 800/WordCapitalization.cpp.obj
+
+.PHONY : 800/WordCapitalization.obj
+
+# target to build an object file
+800/WordCapitalization.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WordCapitalization.dir\build.make CMakeFiles/WordCapitalization.dir/800/WordCapitalization.cpp.obj
+.PHONY : 800/WordCapitalization.cpp.obj
+
+800/WordCapitalization.i: 800/WordCapitalization.cpp.i
+
+.PHONY : 800/WordCapitalization.i
+
+# target to preprocess a source file
+800/WordCapitalization.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WordCapitalization.dir\build.make CMakeFiles/WordCapitalization.dir/800/WordCapitalization.cpp.i
+.PHONY : 800/WordCapitalization.cpp.i
+
+800/WordCapitalization.s: 800/WordCapitalization.cpp.s
+
+.PHONY : 800/WordCapitalization.s
+
+# target to generate assembly for a file
+800/WordCapitalization.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WordCapitalization.dir\build.make CMakeFiles/WordCapitalization.dir/800/WordCapitalization.cpp.s
+.PHONY : 800/WordCapitalization.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -499,19 +619,25 @@ help:
 	@echo ... rebuild_cache
 	@echo ... BeautifulMatrix
 	@echo ... Bit++
+	@echo ... BoyOrGirl
 	@echo ... DominoPiling
 	@echo ... HelpfulMaths
 	@echo ... NextRound
 	@echo ... PetyaAndStrings
+	@echo ... StonesOnTheTable
 	@echo ... Team
 	@echo ... WaterMelon
 	@echo ... WayTooLongWords
+	@echo ... WordCapitalization
 	@echo ... 800/BeautifulMatrix.obj
 	@echo ... 800/BeautifulMatrix.i
 	@echo ... 800/BeautifulMatrix.s
 	@echo ... 800/Bit++.obj
 	@echo ... 800/Bit++.i
 	@echo ... 800/Bit++.s
+	@echo ... 800/BoyOrGirl.obj
+	@echo ... 800/BoyOrGirl.i
+	@echo ... 800/BoyOrGirl.s
 	@echo ... 800/DominoPiling.obj
 	@echo ... 800/DominoPiling.i
 	@echo ... 800/DominoPiling.s
@@ -524,6 +650,9 @@ help:
 	@echo ... 800/PetyaAndStrings.obj
 	@echo ... 800/PetyaAndStrings.i
 	@echo ... 800/PetyaAndStrings.s
+	@echo ... 800/StonesOnTheTable.obj
+	@echo ... 800/StonesOnTheTable.i
+	@echo ... 800/StonesOnTheTable.s
 	@echo ... 800/Team.obj
 	@echo ... 800/Team.i
 	@echo ... 800/Team.s
@@ -533,6 +662,9 @@ help:
 	@echo ... 800/WayTooLongWords.obj
 	@echo ... 800/WayTooLongWords.i
 	@echo ... 800/WayTooLongWords.s
+	@echo ... 800/WordCapitalization.obj
+	@echo ... 800/WordCapitalization.i
+	@echo ... 800/WordCapitalization.s
 .PHONY : help
 
 

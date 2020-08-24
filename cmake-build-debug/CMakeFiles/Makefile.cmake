@@ -53,6 +53,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/WordCapitalization.dir/DependInfo.cmake"
   "CMakeFiles/PetyaAndStrings.dir/DependInfo.cmake"
   "CMakeFiles/WayTooLongWords.dir/DependInfo.cmake"
   "CMakeFiles/WaterMelon.dir/DependInfo.cmake"
@@ -62,4 +63,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/NextRound.dir/DependInfo.cmake"
   "CMakeFiles/BeautifulMatrix.dir/DependInfo.cmake"
   "CMakeFiles/HelpfulMaths.dir/DependInfo.cmake"
+  "CMakeFiles/StonesOnTheTable.dir/DependInfo.cmake"
+  "CMakeFiles/BoyOrGirl.dir/DependInfo.cmake"
   )
