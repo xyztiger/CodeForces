@@ -1,3 +1,4 @@
 Makefile linguist-generated=true
 *.cmake     linguist-generated=true 
 *.txt linguist-generated=true
+*.cbp linguist-generated=true
