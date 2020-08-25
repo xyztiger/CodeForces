@@ -1,1 +1,2 @@
-*.cmake     linguist-generated=true 
+*.cmake     linguist-generated=true
+Makefile2     linguist-generated=true
