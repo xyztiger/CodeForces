@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -96,6 +85,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"C:\Program Files\JetBrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -260,6 +260,19 @@ HelpfulMaths/fast:
 .PHONY : HelpfulMaths/fast
 
 #=============================================================================
+# Target rules for targets named BoatsCompetition
+
+# Build rule for target.
+BoatsCompetition: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BoatsCompetition
+.PHONY : BoatsCompetition
+
+# fast build rule for target.
+BoatsCompetition/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoatsCompetition.dir\build.make CMakeFiles/BoatsCompetition.dir/build
+.PHONY : BoatsCompetition/fast
+
+#=============================================================================
 # Target rules for targets named StonesOnTheTable
 
 # Build rule for target.
@@ -297,6 +310,179 @@ Football: cmake_check_build_system
 Football/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Football.dir\build.make CMakeFiles/Football.dir/build
 .PHONY : Football/fast
+
+#=============================================================================
+# Target rules for targets named Twins
+
+# Build rule for target.
+Twins: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Twins
+.PHONY : Twins
+
+# fast build rule for target.
+Twins/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Twins.dir\build.make CMakeFiles/Twins.dir/build
+.PHONY : Twins/fast
+
+#=============================================================================
+# Target rules for targets named HQ9+
+
+# Build rule for target.
+HQ9+: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 HQ9+
+.PHONY : HQ9+
+
+# fast build rule for target.
+HQ9+/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HQ9+.dir\build.make CMakeFiles/HQ9+.dir/build
+.PHONY : HQ9+/fast
+
+#=============================================================================
+# Target rules for targets named SuperheroTransformation
+
+# Build rule for target.
+SuperheroTransformation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SuperheroTransformation
+.PHONY : SuperheroTransformation
+
+# fast build rule for target.
+SuperheroTransformation/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SuperheroTransformation.dir\build.make CMakeFiles/SuperheroTransformation.dir/build
+.PHONY : SuperheroTransformation/fast
+
+#=============================================================================
+# Target rules for targets named DisturbedPeople
+
+# Build rule for target.
+DisturbedPeople: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DisturbedPeople
+.PHONY : DisturbedPeople
+
+# fast build rule for target.
+DisturbedPeople/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DisturbedPeople.dir\build.make CMakeFiles/DisturbedPeople.dir/build
+.PHONY : DisturbedPeople/fast
+
+#=============================================================================
+# Target rules for targets named CandyBags
+
+# Build rule for target.
+CandyBags: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CandyBags
+.PHONY : CandyBags
+
+# fast build rule for target.
+CandyBags/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CandyBags.dir\build.make CMakeFiles/CandyBags.dir/build
+.PHONY : CandyBags/fast
+
+1000/CandyBags.obj: 1000/CandyBags.cpp.obj
+
+.PHONY : 1000/CandyBags.obj
+
+# target to build an object file
+1000/CandyBags.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CandyBags.dir\build.make CMakeFiles/CandyBags.dir/1000/CandyBags.cpp.obj
+.PHONY : 1000/CandyBags.cpp.obj
+
+1000/CandyBags.i: 1000/CandyBags.cpp.i
+
+.PHONY : 1000/CandyBags.i
+
+# target to preprocess a source file
+1000/CandyBags.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CandyBags.dir\build.make CMakeFiles/CandyBags.dir/1000/CandyBags.cpp.i
+.PHONY : 1000/CandyBags.cpp.i
+
+1000/CandyBags.s: 1000/CandyBags.cpp.s
+
+.PHONY : 1000/CandyBags.s
+
+# target to generate assembly for a file
+1000/CandyBags.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CandyBags.dir\build.make CMakeFiles/CandyBags.dir/1000/CandyBags.cpp.s
+.PHONY : 1000/CandyBags.cpp.s
+
+1000/DisturbedPeople.obj: 1000/DisturbedPeople.cpp.obj
+
+.PHONY : 1000/DisturbedPeople.obj
+
+# target to build an object file
+1000/DisturbedPeople.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DisturbedPeople.dir\build.make CMakeFiles/DisturbedPeople.dir/1000/DisturbedPeople.cpp.obj
+.PHONY : 1000/DisturbedPeople.cpp.obj
+
+1000/DisturbedPeople.i: 1000/DisturbedPeople.cpp.i
+
+.PHONY : 1000/DisturbedPeople.i
+
+# target to preprocess a source file
+1000/DisturbedPeople.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DisturbedPeople.dir\build.make CMakeFiles/DisturbedPeople.dir/1000/DisturbedPeople.cpp.i
+.PHONY : 1000/DisturbedPeople.cpp.i
+
+1000/DisturbedPeople.s: 1000/DisturbedPeople.cpp.s
+
+.PHONY : 1000/DisturbedPeople.s
+
+# target to generate assembly for a file
+1000/DisturbedPeople.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DisturbedPeople.dir\build.make CMakeFiles/DisturbedPeople.dir/1000/DisturbedPeople.cpp.s
+.PHONY : 1000/DisturbedPeople.cpp.s
+
+1000/SuperheroTransformation.obj: 1000/SuperheroTransformation.cpp.obj
+
+.PHONY : 1000/SuperheroTransformation.obj
+
+# target to build an object file
+1000/SuperheroTransformation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SuperheroTransformation.dir\build.make CMakeFiles/SuperheroTransformation.dir/1000/SuperheroTransformation.cpp.obj
+.PHONY : 1000/SuperheroTransformation.cpp.obj
+
+1000/SuperheroTransformation.i: 1000/SuperheroTransformation.cpp.i
+
+.PHONY : 1000/SuperheroTransformation.i
+
+# target to preprocess a source file
+1000/SuperheroTransformation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SuperheroTransformation.dir\build.make CMakeFiles/SuperheroTransformation.dir/1000/SuperheroTransformation.cpp.i
+.PHONY : 1000/SuperheroTransformation.cpp.i
+
+1000/SuperheroTransformation.s: 1000/SuperheroTransformation.cpp.s
+
+.PHONY : 1000/SuperheroTransformation.s
+
+# target to generate assembly for a file
+1000/SuperheroTransformation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SuperheroTransformation.dir\build.make CMakeFiles/SuperheroTransformation.dir/1000/SuperheroTransformation.cpp.s
+.PHONY : 1000/SuperheroTransformation.cpp.s
+
+1200/BoatsCompetition.obj: 1200/BoatsCompetition.cpp.obj
+
+.PHONY : 1200/BoatsCompetition.obj
+
+# target to build an object file
+1200/BoatsCompetition.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoatsCompetition.dir\build.make CMakeFiles/BoatsCompetition.dir/1200/BoatsCompetition.cpp.obj
+.PHONY : 1200/BoatsCompetition.cpp.obj
+
+1200/BoatsCompetition.i: 1200/BoatsCompetition.cpp.i
+
+.PHONY : 1200/BoatsCompetition.i
+
+# target to preprocess a source file
+1200/BoatsCompetition.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoatsCompetition.dir\build.make CMakeFiles/BoatsCompetition.dir/1200/BoatsCompetition.cpp.i
+.PHONY : 1200/BoatsCompetition.cpp.i
+
+1200/BoatsCompetition.s: 1200/BoatsCompetition.cpp.s
+
+.PHONY : 1200/BoatsCompetition.s
+
+# target to generate assembly for a file
+1200/BoatsCompetition.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoatsCompetition.dir\build.make CMakeFiles/BoatsCompetition.dir/1200/BoatsCompetition.cpp.s
+.PHONY : 1200/BoatsCompetition.cpp.s
 
 800/BeautifulMatrix.obj: 800/BeautifulMatrix.cpp.obj
 
@@ -649,6 +835,60 @@ Football/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Football.dir\build.make CMakeFiles/Football.dir/900/Football.cpp.s
 .PHONY : 900/Football.cpp.s
 
+900/HQ9+.obj: 900/HQ9+.cpp.obj
+
+.PHONY : 900/HQ9+.obj
+
+# target to build an object file
+900/HQ9+.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HQ9+.dir\build.make CMakeFiles/HQ9+.dir/900/HQ9+.cpp.obj
+.PHONY : 900/HQ9+.cpp.obj
+
+900/HQ9+.i: 900/HQ9+.cpp.i
+
+.PHONY : 900/HQ9+.i
+
+# target to preprocess a source file
+900/HQ9+.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HQ9+.dir\build.make CMakeFiles/HQ9+.dir/900/HQ9+.cpp.i
+.PHONY : 900/HQ9+.cpp.i
+
+900/HQ9+.s: 900/HQ9+.cpp.s
+
+.PHONY : 900/HQ9+.s
+
+# target to generate assembly for a file
+900/HQ9+.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HQ9+.dir\build.make CMakeFiles/HQ9+.dir/900/HQ9+.cpp.s
+.PHONY : 900/HQ9+.cpp.s
+
+900/Twins.obj: 900/Twins.cpp.obj
+
+.PHONY : 900/Twins.obj
+
+# target to build an object file
+900/Twins.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Twins.dir\build.make CMakeFiles/Twins.dir/900/Twins.cpp.obj
+.PHONY : 900/Twins.cpp.obj
+
+900/Twins.i: 900/Twins.cpp.i
+
+.PHONY : 900/Twins.i
+
+# target to preprocess a source file
+900/Twins.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Twins.dir\build.make CMakeFiles/Twins.dir/900/Twins.cpp.i
+.PHONY : 900/Twins.cpp.i
+
+900/Twins.s: 900/Twins.cpp.s
+
+.PHONY : 900/Twins.s
+
+# target to generate assembly for a file
+900/Twins.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Twins.dir\build.make CMakeFiles/Twins.dir/900/Twins.cpp.s
+.PHONY : 900/Twins.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -659,17 +899,35 @@ help:
 	@echo ... rebuild_cache
 	@echo ... BeautifulMatrix
 	@echo ... Bit++
+	@echo ... BoatsCompetition
 	@echo ... BoyOrGirl
+	@echo ... CandyBags
+	@echo ... DisturbedPeople
 	@echo ... DominoPiling
 	@echo ... Football
+	@echo ... HQ9+
 	@echo ... HelpfulMaths
 	@echo ... NextRound
 	@echo ... PetyaAndStrings
 	@echo ... StonesOnTheTable
+	@echo ... SuperheroTransformation
 	@echo ... Team
+	@echo ... Twins
 	@echo ... WaterMelon
 	@echo ... WayTooLongWords
 	@echo ... WordCapitalization
+	@echo ... 1000/CandyBags.obj
+	@echo ... 1000/CandyBags.i
+	@echo ... 1000/CandyBags.s
+	@echo ... 1000/DisturbedPeople.obj
+	@echo ... 1000/DisturbedPeople.i
+	@echo ... 1000/DisturbedPeople.s
+	@echo ... 1000/SuperheroTransformation.obj
+	@echo ... 1000/SuperheroTransformation.i
+	@echo ... 1000/SuperheroTransformation.s
+	@echo ... 1200/BoatsCompetition.obj
+	@echo ... 1200/BoatsCompetition.i
+	@echo ... 1200/BoatsCompetition.s
 	@echo ... 800/BeautifulMatrix.obj
 	@echo ... 800/BeautifulMatrix.i
 	@echo ... 800/BeautifulMatrix.s
@@ -709,6 +967,12 @@ help:
 	@echo ... 900/Football.obj
 	@echo ... 900/Football.i
 	@echo ... 900/Football.s
+	@echo ... 900/HQ9+.obj
+	@echo ... 900/HQ9+.i
+	@echo ... 900/HQ9+.s
+	@echo ... 900/Twins.obj
+	@echo ... 900/Twins.i
+	@echo ... 900/Twins.s
 .PHONY : help
 
 

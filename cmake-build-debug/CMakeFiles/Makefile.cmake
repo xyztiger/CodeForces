@@ -63,7 +63,13 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/NextRound.dir/DependInfo.cmake"
   "CMakeFiles/BeautifulMatrix.dir/DependInfo.cmake"
   "CMakeFiles/HelpfulMaths.dir/DependInfo.cmake"
+  "CMakeFiles/BoatsCompetition.dir/DependInfo.cmake"
   "CMakeFiles/StonesOnTheTable.dir/DependInfo.cmake"
   "CMakeFiles/BoyOrGirl.dir/DependInfo.cmake"
   "CMakeFiles/Football.dir/DependInfo.cmake"
+  "CMakeFiles/Twins.dir/DependInfo.cmake"
+  "CMakeFiles/HQ9+.dir/DependInfo.cmake"
+  "CMakeFiles/SuperheroTransformation.dir/DependInfo.cmake"
+  "CMakeFiles/DisturbedPeople.dir/DependInfo.cmake"
+  "CMakeFiles/CandyBags.dir/DependInfo.cmake"
   )
