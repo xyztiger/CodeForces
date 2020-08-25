@@ -72,4 +72,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/SuperheroTransformation.dir/DependInfo.cmake"
   "CMakeFiles/DisturbedPeople.dir/DependInfo.cmake"
   "CMakeFiles/CandyBags.dir/DependInfo.cmake"
+  "CMakeFiles/OmkarAndWaterslide.dir/DependInfo.cmake"
   )

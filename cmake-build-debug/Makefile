@@ -376,6 +376,19 @@ CandyBags/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CandyBags.dir\build.make CMakeFiles/CandyBags.dir/build
 .PHONY : CandyBags/fast
 
+#=============================================================================
+# Target rules for targets named OmkarAndWaterslide
+
+# Build rule for target.
+OmkarAndWaterslide: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 OmkarAndWaterslide
+.PHONY : OmkarAndWaterslide
+
+# fast build rule for target.
+OmkarAndWaterslide/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OmkarAndWaterslide.dir\build.make CMakeFiles/OmkarAndWaterslide.dir/build
+.PHONY : OmkarAndWaterslide/fast
+
 1000/CandyBags.obj: 1000/CandyBags.cpp.obj
 
 .PHONY : 1000/CandyBags.obj
@@ -483,6 +496,33 @@ CandyBags/fast:
 1200/BoatsCompetition.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoatsCompetition.dir\build.make CMakeFiles/BoatsCompetition.dir/1200/BoatsCompetition.cpp.s
 .PHONY : 1200/BoatsCompetition.cpp.s
+
+1200/OmkarAndWaterslide.obj: 1200/OmkarAndWaterslide.cpp.obj
+
+.PHONY : 1200/OmkarAndWaterslide.obj
+
+# target to build an object file
+1200/OmkarAndWaterslide.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OmkarAndWaterslide.dir\build.make CMakeFiles/OmkarAndWaterslide.dir/1200/OmkarAndWaterslide.cpp.obj
+.PHONY : 1200/OmkarAndWaterslide.cpp.obj
+
+1200/OmkarAndWaterslide.i: 1200/OmkarAndWaterslide.cpp.i
+
+.PHONY : 1200/OmkarAndWaterslide.i
+
+# target to preprocess a source file
+1200/OmkarAndWaterslide.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OmkarAndWaterslide.dir\build.make CMakeFiles/OmkarAndWaterslide.dir/1200/OmkarAndWaterslide.cpp.i
+.PHONY : 1200/OmkarAndWaterslide.cpp.i
+
+1200/OmkarAndWaterslide.s: 1200/OmkarAndWaterslide.cpp.s
+
+.PHONY : 1200/OmkarAndWaterslide.s
+
+# target to generate assembly for a file
+1200/OmkarAndWaterslide.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OmkarAndWaterslide.dir\build.make CMakeFiles/OmkarAndWaterslide.dir/1200/OmkarAndWaterslide.cpp.s
+.PHONY : 1200/OmkarAndWaterslide.cpp.s
 
 800/BeautifulMatrix.obj: 800/BeautifulMatrix.cpp.obj
 
@@ -908,6 +948,7 @@ help:
 	@echo ... HQ9+
 	@echo ... HelpfulMaths
 	@echo ... NextRound
+	@echo ... OmkarAndWaterslide
 	@echo ... PetyaAndStrings
 	@echo ... StonesOnTheTable
 	@echo ... SuperheroTransformation
@@ -928,6 +969,9 @@ help:
 	@echo ... 1200/BoatsCompetition.obj
 	@echo ... 1200/BoatsCompetition.i
 	@echo ... 1200/BoatsCompetition.s
+	@echo ... 1200/OmkarAndWaterslide.obj
+	@echo ... 1200/OmkarAndWaterslide.i
+	@echo ... 1200/OmkarAndWaterslide.s
 	@echo ... 800/BeautifulMatrix.obj
 	@echo ... 800/BeautifulMatrix.i
 	@echo ... 800/BeautifulMatrix.s
