@@ -389,6 +389,45 @@ OmkarAndWaterslide/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OmkarAndWaterslide.dir\build.make CMakeFiles/OmkarAndWaterslide.dir/build
 .PHONY : OmkarAndWaterslide/fast
 
+#=============================================================================
+# Target rules for targets named MakeItGood
+
+# Build rule for target.
+MakeItGood: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MakeItGood
+.PHONY : MakeItGood
+
+# fast build rule for target.
+MakeItGood/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MakeItGood.dir\build.make CMakeFiles/MakeItGood.dir/build
+.PHONY : MakeItGood/fast
+
+#=============================================================================
+# Target rules for targets named NeighborGrid
+
+# Build rule for target.
+NeighborGrid: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 NeighborGrid
+.PHONY : NeighborGrid
+
+# fast build rule for target.
+NeighborGrid/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeighborGrid.dir\build.make CMakeFiles/NeighborGrid.dir/build
+.PHONY : NeighborGrid/fast
+
+#=============================================================================
+# Target rules for targets named MagicalCalendar
+
+# Build rule for target.
+MagicalCalendar: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MagicalCalendar
+.PHONY : MagicalCalendar
+
+# fast build rule for target.
+MagicalCalendar/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicalCalendar.dir\build.make CMakeFiles/MagicalCalendar.dir/build
+.PHONY : MagicalCalendar/fast
+
 1000/CandyBags.obj: 1000/CandyBags.cpp.obj
 
 .PHONY : 1000/CandyBags.obj
@@ -496,6 +535,87 @@ OmkarAndWaterslide/fast:
 1200/BoatsCompetition.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoatsCompetition.dir\build.make CMakeFiles/BoatsCompetition.dir/1200/BoatsCompetition.cpp.s
 .PHONY : 1200/BoatsCompetition.cpp.s
+
+1200/MagicalCalendar.obj: 1200/MagicalCalendar.cpp.obj
+
+.PHONY : 1200/MagicalCalendar.obj
+
+# target to build an object file
+1200/MagicalCalendar.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicalCalendar.dir\build.make CMakeFiles/MagicalCalendar.dir/1200/MagicalCalendar.cpp.obj
+.PHONY : 1200/MagicalCalendar.cpp.obj
+
+1200/MagicalCalendar.i: 1200/MagicalCalendar.cpp.i
+
+.PHONY : 1200/MagicalCalendar.i
+
+# target to preprocess a source file
+1200/MagicalCalendar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicalCalendar.dir\build.make CMakeFiles/MagicalCalendar.dir/1200/MagicalCalendar.cpp.i
+.PHONY : 1200/MagicalCalendar.cpp.i
+
+1200/MagicalCalendar.s: 1200/MagicalCalendar.cpp.s
+
+.PHONY : 1200/MagicalCalendar.s
+
+# target to generate assembly for a file
+1200/MagicalCalendar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicalCalendar.dir\build.make CMakeFiles/MagicalCalendar.dir/1200/MagicalCalendar.cpp.s
+.PHONY : 1200/MagicalCalendar.cpp.s
+
+1200/MakeItGood.obj: 1200/MakeItGood.cpp.obj
+
+.PHONY : 1200/MakeItGood.obj
+
+# target to build an object file
+1200/MakeItGood.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MakeItGood.dir\build.make CMakeFiles/MakeItGood.dir/1200/MakeItGood.cpp.obj
+.PHONY : 1200/MakeItGood.cpp.obj
+
+1200/MakeItGood.i: 1200/MakeItGood.cpp.i
+
+.PHONY : 1200/MakeItGood.i
+
+# target to preprocess a source file
+1200/MakeItGood.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MakeItGood.dir\build.make CMakeFiles/MakeItGood.dir/1200/MakeItGood.cpp.i
+.PHONY : 1200/MakeItGood.cpp.i
+
+1200/MakeItGood.s: 1200/MakeItGood.cpp.s
+
+.PHONY : 1200/MakeItGood.s
+
+# target to generate assembly for a file
+1200/MakeItGood.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MakeItGood.dir\build.make CMakeFiles/MakeItGood.dir/1200/MakeItGood.cpp.s
+.PHONY : 1200/MakeItGood.cpp.s
+
+1200/NeighborGrid.obj: 1200/NeighborGrid.cpp.obj
+
+.PHONY : 1200/NeighborGrid.obj
+
+# target to build an object file
+1200/NeighborGrid.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeighborGrid.dir\build.make CMakeFiles/NeighborGrid.dir/1200/NeighborGrid.cpp.obj
+.PHONY : 1200/NeighborGrid.cpp.obj
+
+1200/NeighborGrid.i: 1200/NeighborGrid.cpp.i
+
+.PHONY : 1200/NeighborGrid.i
+
+# target to preprocess a source file
+1200/NeighborGrid.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeighborGrid.dir\build.make CMakeFiles/NeighborGrid.dir/1200/NeighborGrid.cpp.i
+.PHONY : 1200/NeighborGrid.cpp.i
+
+1200/NeighborGrid.s: 1200/NeighborGrid.cpp.s
+
+.PHONY : 1200/NeighborGrid.s
+
+# target to generate assembly for a file
+1200/NeighborGrid.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeighborGrid.dir\build.make CMakeFiles/NeighborGrid.dir/1200/NeighborGrid.cpp.s
+.PHONY : 1200/NeighborGrid.cpp.s
 
 1200/OmkarAndWaterslide.obj: 1200/OmkarAndWaterslide.cpp.obj
 
@@ -947,6 +1067,9 @@ help:
 	@echo ... Football
 	@echo ... HQ9+
 	@echo ... HelpfulMaths
+	@echo ... MagicalCalendar
+	@echo ... MakeItGood
+	@echo ... NeighborGrid
 	@echo ... NextRound
 	@echo ... OmkarAndWaterslide
 	@echo ... PetyaAndStrings
@@ -969,6 +1092,15 @@ help:
 	@echo ... 1200/BoatsCompetition.obj
 	@echo ... 1200/BoatsCompetition.i
 	@echo ... 1200/BoatsCompetition.s
+	@echo ... 1200/MagicalCalendar.obj
+	@echo ... 1200/MagicalCalendar.i
+	@echo ... 1200/MagicalCalendar.s
+	@echo ... 1200/MakeItGood.obj
+	@echo ... 1200/MakeItGood.i
+	@echo ... 1200/MakeItGood.s
+	@echo ... 1200/NeighborGrid.obj
+	@echo ... 1200/NeighborGrid.i
+	@echo ... 1200/NeighborGrid.s
 	@echo ... 1200/OmkarAndWaterslide.obj
 	@echo ... 1200/OmkarAndWaterslide.i
 	@echo ... 1200/OmkarAndWaterslide.s

@@ -73,4 +73,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/DisturbedPeople.dir/DependInfo.cmake"
   "CMakeFiles/CandyBags.dir/DependInfo.cmake"
   "CMakeFiles/OmkarAndWaterslide.dir/DependInfo.cmake"
+  "CMakeFiles/MakeItGood.dir/DependInfo.cmake"
+  "CMakeFiles/NeighborGrid.dir/DependInfo.cmake"
+  "CMakeFiles/MagicalCalendar.dir/DependInfo.cmake"
   )
