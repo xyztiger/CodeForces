@@ -169,6 +169,19 @@ WayTooLongWords/fast:
 .PHONY : WayTooLongWords/fast
 
 #=============================================================================
+# Target rules for targets named XXXXX
+
+# Build rule for target.
+XXXXX: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 XXXXX
+.PHONY : XXXXX
+
+# fast build rule for target.
+XXXXX/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\XXXXX.dir\build.make CMakeFiles/XXXXX.dir/build
+.PHONY : XXXXX/fast
+
+#=============================================================================
 # Target rules for targets named WaterMelon
 
 # Build rule for target.
@@ -428,6 +441,32 @@ MagicalCalendar/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicalCalendar.dir\build.make CMakeFiles/MagicalCalendar.dir/build
 .PHONY : MagicalCalendar/fast
 
+#=============================================================================
+# Target rules for targets named AccurateLee
+
+# Build rule for target.
+AccurateLee: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 AccurateLee
+.PHONY : AccurateLee
+
+# fast build rule for target.
+AccurateLee/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AccurateLee.dir\build.make CMakeFiles/AccurateLee.dir/build
+.PHONY : AccurateLee/fast
+
+#=============================================================================
+# Target rules for targets named OddSelection
+
+# Build rule for target.
+OddSelection: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 OddSelection
+.PHONY : OddSelection
+
+# fast build rule for target.
+OddSelection/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddSelection.dir\build.make CMakeFiles/OddSelection.dir/build
+.PHONY : OddSelection/fast
+
 1000/CandyBags.obj: 1000/CandyBags.cpp.obj
 
 .PHONY : 1000/CandyBags.obj
@@ -508,6 +547,33 @@ MagicalCalendar/fast:
 1000/SuperheroTransformation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SuperheroTransformation.dir\build.make CMakeFiles/SuperheroTransformation.dir/1000/SuperheroTransformation.cpp.s
 .PHONY : 1000/SuperheroTransformation.cpp.s
+
+1200/AccurateLee.obj: 1200/AccurateLee.cpp.obj
+
+.PHONY : 1200/AccurateLee.obj
+
+# target to build an object file
+1200/AccurateLee.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AccurateLee.dir\build.make CMakeFiles/AccurateLee.dir/1200/AccurateLee.cpp.obj
+.PHONY : 1200/AccurateLee.cpp.obj
+
+1200/AccurateLee.i: 1200/AccurateLee.cpp.i
+
+.PHONY : 1200/AccurateLee.i
+
+# target to preprocess a source file
+1200/AccurateLee.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AccurateLee.dir\build.make CMakeFiles/AccurateLee.dir/1200/AccurateLee.cpp.i
+.PHONY : 1200/AccurateLee.cpp.i
+
+1200/AccurateLee.s: 1200/AccurateLee.cpp.s
+
+.PHONY : 1200/AccurateLee.s
+
+# target to generate assembly for a file
+1200/AccurateLee.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AccurateLee.dir\build.make CMakeFiles/AccurateLee.dir/1200/AccurateLee.cpp.s
+.PHONY : 1200/AccurateLee.cpp.s
 
 1200/BoatsCompetition.obj: 1200/BoatsCompetition.cpp.obj
 
@@ -617,6 +683,33 @@ MagicalCalendar/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeighborGrid.dir\build.make CMakeFiles/NeighborGrid.dir/1200/NeighborGrid.cpp.s
 .PHONY : 1200/NeighborGrid.cpp.s
 
+1200/OddSelection.obj: 1200/OddSelection.cpp.obj
+
+.PHONY : 1200/OddSelection.obj
+
+# target to build an object file
+1200/OddSelection.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddSelection.dir\build.make CMakeFiles/OddSelection.dir/1200/OddSelection.cpp.obj
+.PHONY : 1200/OddSelection.cpp.obj
+
+1200/OddSelection.i: 1200/OddSelection.cpp.i
+
+.PHONY : 1200/OddSelection.i
+
+# target to preprocess a source file
+1200/OddSelection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddSelection.dir\build.make CMakeFiles/OddSelection.dir/1200/OddSelection.cpp.i
+.PHONY : 1200/OddSelection.cpp.i
+
+1200/OddSelection.s: 1200/OddSelection.cpp.s
+
+.PHONY : 1200/OddSelection.s
+
+# target to generate assembly for a file
+1200/OddSelection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddSelection.dir\build.make CMakeFiles/OddSelection.dir/1200/OddSelection.cpp.s
+.PHONY : 1200/OddSelection.cpp.s
+
 1200/OmkarAndWaterslide.obj: 1200/OmkarAndWaterslide.cpp.obj
 
 .PHONY : 1200/OmkarAndWaterslide.obj
@@ -643,6 +736,33 @@ MagicalCalendar/fast:
 1200/OmkarAndWaterslide.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OmkarAndWaterslide.dir\build.make CMakeFiles/OmkarAndWaterslide.dir/1200/OmkarAndWaterslide.cpp.s
 .PHONY : 1200/OmkarAndWaterslide.cpp.s
+
+1200/XXXXX.obj: 1200/XXXXX.cpp.obj
+
+.PHONY : 1200/XXXXX.obj
+
+# target to build an object file
+1200/XXXXX.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\XXXXX.dir\build.make CMakeFiles/XXXXX.dir/1200/XXXXX.cpp.obj
+.PHONY : 1200/XXXXX.cpp.obj
+
+1200/XXXXX.i: 1200/XXXXX.cpp.i
+
+.PHONY : 1200/XXXXX.i
+
+# target to preprocess a source file
+1200/XXXXX.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\XXXXX.dir\build.make CMakeFiles/XXXXX.dir/1200/XXXXX.cpp.i
+.PHONY : 1200/XXXXX.cpp.i
+
+1200/XXXXX.s: 1200/XXXXX.cpp.s
+
+.PHONY : 1200/XXXXX.s
+
+# target to generate assembly for a file
+1200/XXXXX.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\XXXXX.dir\build.make CMakeFiles/XXXXX.dir/1200/XXXXX.cpp.s
+.PHONY : 1200/XXXXX.cpp.s
 
 800/BeautifulMatrix.obj: 800/BeautifulMatrix.cpp.obj
 
@@ -1057,6 +1177,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... AccurateLee
 	@echo ... BeautifulMatrix
 	@echo ... Bit++
 	@echo ... BoatsCompetition
@@ -1071,6 +1192,7 @@ help:
 	@echo ... MakeItGood
 	@echo ... NeighborGrid
 	@echo ... NextRound
+	@echo ... OddSelection
 	@echo ... OmkarAndWaterslide
 	@echo ... PetyaAndStrings
 	@echo ... StonesOnTheTable
@@ -1080,6 +1202,7 @@ help:
 	@echo ... WaterMelon
 	@echo ... WayTooLongWords
 	@echo ... WordCapitalization
+	@echo ... XXXXX
 	@echo ... 1000/CandyBags.obj
 	@echo ... 1000/CandyBags.i
 	@echo ... 1000/CandyBags.s
@@ -1089,6 +1212,9 @@ help:
 	@echo ... 1000/SuperheroTransformation.obj
 	@echo ... 1000/SuperheroTransformation.i
 	@echo ... 1000/SuperheroTransformation.s
+	@echo ... 1200/AccurateLee.obj
+	@echo ... 1200/AccurateLee.i
+	@echo ... 1200/AccurateLee.s
 	@echo ... 1200/BoatsCompetition.obj
 	@echo ... 1200/BoatsCompetition.i
 	@echo ... 1200/BoatsCompetition.s
@@ -1101,9 +1227,15 @@ help:
 	@echo ... 1200/NeighborGrid.obj
 	@echo ... 1200/NeighborGrid.i
 	@echo ... 1200/NeighborGrid.s
+	@echo ... 1200/OddSelection.obj
+	@echo ... 1200/OddSelection.i
+	@echo ... 1200/OddSelection.s
 	@echo ... 1200/OmkarAndWaterslide.obj
 	@echo ... 1200/OmkarAndWaterslide.i
 	@echo ... 1200/OmkarAndWaterslide.s
+	@echo ... 1200/XXXXX.obj
+	@echo ... 1200/XXXXX.i
+	@echo ... 1200/XXXXX.s
 	@echo ... 800/BeautifulMatrix.obj
 	@echo ... 800/BeautifulMatrix.i
 	@echo ... 800/BeautifulMatrix.s

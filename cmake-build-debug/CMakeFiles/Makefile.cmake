@@ -56,6 +56,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/WordCapitalization.dir/DependInfo.cmake"
   "CMakeFiles/PetyaAndStrings.dir/DependInfo.cmake"
   "CMakeFiles/WayTooLongWords.dir/DependInfo.cmake"
+  "CMakeFiles/XXXXX.dir/DependInfo.cmake"
   "CMakeFiles/WaterMelon.dir/DependInfo.cmake"
   "CMakeFiles/DominoPiling.dir/DependInfo.cmake"
   "CMakeFiles/Bit++.dir/DependInfo.cmake"
@@ -76,4 +77,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/MakeItGood.dir/DependInfo.cmake"
   "CMakeFiles/NeighborGrid.dir/DependInfo.cmake"
   "CMakeFiles/MagicalCalendar.dir/DependInfo.cmake"
+  "CMakeFiles/AccurateLee.dir/DependInfo.cmake"
+  "CMakeFiles/OddSelection.dir/DependInfo.cmake"
   )
