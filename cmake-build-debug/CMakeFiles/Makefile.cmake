@@ -53,6 +53,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/TernaryString.dir/DependInfo.cmake"
   "CMakeFiles/WordCapitalization.dir/DependInfo.cmake"
   "CMakeFiles/PetyaAndStrings.dir/DependInfo.cmake"
   "CMakeFiles/WayTooLongWords.dir/DependInfo.cmake"
@@ -79,4 +80,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/MagicalCalendar.dir/DependInfo.cmake"
   "CMakeFiles/AccurateLee.dir/DependInfo.cmake"
   "CMakeFiles/OddSelection.dir/DependInfo.cmake"
+  "CMakeFiles/YoungExplorers.dir/DependInfo.cmake"
+  "CMakeFiles/SequenceWithDigits.dir/DependInfo.cmake"
   )

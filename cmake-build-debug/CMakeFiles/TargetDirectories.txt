@@ -1,3 +1,4 @@
+C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/TernaryString.dir
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/WordCapitalization.dir
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/PetyaAndStrings.dir
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/WayTooLongWords.dir
@@ -26,3 +27,5 @@ C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/Magical
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/AccurateLee.dir
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/OddSelection.dir
+C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/YoungExplorers.dir
+C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/SequenceWithDigits.dir

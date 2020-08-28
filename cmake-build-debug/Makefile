@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named TernaryString
+
+# Build rule for target.
+TernaryString: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TernaryString
+.PHONY : TernaryString
+
+# fast build rule for target.
+TernaryString/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TernaryString.dir\build.make CMakeFiles/TernaryString.dir/build
+.PHONY : TernaryString/fast
+
+#=============================================================================
 # Target rules for targets named WordCapitalization
 
 # Build rule for target.
@@ -467,6 +480,32 @@ OddSelection/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddSelection.dir\build.make CMakeFiles/OddSelection.dir/build
 .PHONY : OddSelection/fast
 
+#=============================================================================
+# Target rules for targets named YoungExplorers
+
+# Build rule for target.
+YoungExplorers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 YoungExplorers
+.PHONY : YoungExplorers
+
+# fast build rule for target.
+YoungExplorers/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YoungExplorers.dir\build.make CMakeFiles/YoungExplorers.dir/build
+.PHONY : YoungExplorers/fast
+
+#=============================================================================
+# Target rules for targets named SequenceWithDigits
+
+# Build rule for target.
+SequenceWithDigits: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SequenceWithDigits
+.PHONY : SequenceWithDigits
+
+# fast build rule for target.
+SequenceWithDigits/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceWithDigits.dir\build.make CMakeFiles/SequenceWithDigits.dir/build
+.PHONY : SequenceWithDigits/fast
+
 1000/CandyBags.obj: 1000/CandyBags.cpp.obj
 
 .PHONY : 1000/CandyBags.obj
@@ -737,6 +776,60 @@ OddSelection/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OmkarAndWaterslide.dir\build.make CMakeFiles/OmkarAndWaterslide.dir/1200/OmkarAndWaterslide.cpp.s
 .PHONY : 1200/OmkarAndWaterslide.cpp.s
 
+1200/SequenceWithDigits.obj: 1200/SequenceWithDigits.cpp.obj
+
+.PHONY : 1200/SequenceWithDigits.obj
+
+# target to build an object file
+1200/SequenceWithDigits.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceWithDigits.dir\build.make CMakeFiles/SequenceWithDigits.dir/1200/SequenceWithDigits.cpp.obj
+.PHONY : 1200/SequenceWithDigits.cpp.obj
+
+1200/SequenceWithDigits.i: 1200/SequenceWithDigits.cpp.i
+
+.PHONY : 1200/SequenceWithDigits.i
+
+# target to preprocess a source file
+1200/SequenceWithDigits.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceWithDigits.dir\build.make CMakeFiles/SequenceWithDigits.dir/1200/SequenceWithDigits.cpp.i
+.PHONY : 1200/SequenceWithDigits.cpp.i
+
+1200/SequenceWithDigits.s: 1200/SequenceWithDigits.cpp.s
+
+.PHONY : 1200/SequenceWithDigits.s
+
+# target to generate assembly for a file
+1200/SequenceWithDigits.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceWithDigits.dir\build.make CMakeFiles/SequenceWithDigits.dir/1200/SequenceWithDigits.cpp.s
+.PHONY : 1200/SequenceWithDigits.cpp.s
+
+1200/TernaryString.obj: 1200/TernaryString.cpp.obj
+
+.PHONY : 1200/TernaryString.obj
+
+# target to build an object file
+1200/TernaryString.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TernaryString.dir\build.make CMakeFiles/TernaryString.dir/1200/TernaryString.cpp.obj
+.PHONY : 1200/TernaryString.cpp.obj
+
+1200/TernaryString.i: 1200/TernaryString.cpp.i
+
+.PHONY : 1200/TernaryString.i
+
+# target to preprocess a source file
+1200/TernaryString.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TernaryString.dir\build.make CMakeFiles/TernaryString.dir/1200/TernaryString.cpp.i
+.PHONY : 1200/TernaryString.cpp.i
+
+1200/TernaryString.s: 1200/TernaryString.cpp.s
+
+.PHONY : 1200/TernaryString.s
+
+# target to generate assembly for a file
+1200/TernaryString.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TernaryString.dir\build.make CMakeFiles/TernaryString.dir/1200/TernaryString.cpp.s
+.PHONY : 1200/TernaryString.cpp.s
+
 1200/XXXXX.obj: 1200/XXXXX.cpp.obj
 
 .PHONY : 1200/XXXXX.obj
@@ -763,6 +856,33 @@ OddSelection/fast:
 1200/XXXXX.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\XXXXX.dir\build.make CMakeFiles/XXXXX.dir/1200/XXXXX.cpp.s
 .PHONY : 1200/XXXXX.cpp.s
+
+1200/YoungExplorers.obj: 1200/YoungExplorers.cpp.obj
+
+.PHONY : 1200/YoungExplorers.obj
+
+# target to build an object file
+1200/YoungExplorers.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YoungExplorers.dir\build.make CMakeFiles/YoungExplorers.dir/1200/YoungExplorers.cpp.obj
+.PHONY : 1200/YoungExplorers.cpp.obj
+
+1200/YoungExplorers.i: 1200/YoungExplorers.cpp.i
+
+.PHONY : 1200/YoungExplorers.i
+
+# target to preprocess a source file
+1200/YoungExplorers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YoungExplorers.dir\build.make CMakeFiles/YoungExplorers.dir/1200/YoungExplorers.cpp.i
+.PHONY : 1200/YoungExplorers.cpp.i
+
+1200/YoungExplorers.s: 1200/YoungExplorers.cpp.s
+
+.PHONY : 1200/YoungExplorers.s
+
+# target to generate assembly for a file
+1200/YoungExplorers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YoungExplorers.dir\build.make CMakeFiles/YoungExplorers.dir/1200/YoungExplorers.cpp.s
+.PHONY : 1200/YoungExplorers.cpp.s
 
 800/BeautifulMatrix.obj: 800/BeautifulMatrix.cpp.obj
 
@@ -1195,14 +1315,17 @@ help:
 	@echo ... OddSelection
 	@echo ... OmkarAndWaterslide
 	@echo ... PetyaAndStrings
+	@echo ... SequenceWithDigits
 	@echo ... StonesOnTheTable
 	@echo ... SuperheroTransformation
 	@echo ... Team
+	@echo ... TernaryString
 	@echo ... Twins
 	@echo ... WaterMelon
 	@echo ... WayTooLongWords
 	@echo ... WordCapitalization
 	@echo ... XXXXX
+	@echo ... YoungExplorers
 	@echo ... 1000/CandyBags.obj
 	@echo ... 1000/CandyBags.i
 	@echo ... 1000/CandyBags.s
@@ -1233,9 +1356,18 @@ help:
 	@echo ... 1200/OmkarAndWaterslide.obj
 	@echo ... 1200/OmkarAndWaterslide.i
 	@echo ... 1200/OmkarAndWaterslide.s
+	@echo ... 1200/SequenceWithDigits.obj
+	@echo ... 1200/SequenceWithDigits.i
+	@echo ... 1200/SequenceWithDigits.s
+	@echo ... 1200/TernaryString.obj
+	@echo ... 1200/TernaryString.i
+	@echo ... 1200/TernaryString.s
 	@echo ... 1200/XXXXX.obj
 	@echo ... 1200/XXXXX.i
 	@echo ... 1200/XXXXX.s
+	@echo ... 1200/YoungExplorers.obj
+	@echo ... 1200/YoungExplorers.i
+	@echo ... 1200/YoungExplorers.s
 	@echo ... 800/BeautifulMatrix.obj
 	@echo ... 800/BeautifulMatrix.i
 	@echo ... 800/BeautifulMatrix.s
