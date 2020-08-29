@@ -169,6 +169,19 @@ PetyaAndStrings/fast:
 .PHONY : PetyaAndStrings/fast
 
 #=============================================================================
+# Target rules for targets named AlternatingSubsequence
+
+# Build rule for target.
+AlternatingSubsequence: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 AlternatingSubsequence
+.PHONY : AlternatingSubsequence
+
+# fast build rule for target.
+AlternatingSubsequence/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AlternatingSubsequence.dir\build.make CMakeFiles/AlternatingSubsequence.dir/build
+.PHONY : AlternatingSubsequence/fast
+
+#=============================================================================
 # Target rules for targets named WayTooLongWords
 
 # Build rule for target.
@@ -506,6 +519,45 @@ SequenceWithDigits/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceWithDigits.dir\build.make CMakeFiles/SequenceWithDigits.dir/build
 .PHONY : SequenceWithDigits/fast
 
+#=============================================================================
+# Target rules for targets named K-thNotDivisibleByN
+
+# Build rule for target.
+K-thNotDivisibleByN: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 K-thNotDivisibleByN
+.PHONY : K-thNotDivisibleByN
+
+# fast build rule for target.
+K-thNotDivisibleByN/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\K-thNotDivisibleByN.dir\build.make CMakeFiles/K-thNotDivisibleByN.dir/build
+.PHONY : K-thNotDivisibleByN/fast
+
+#=============================================================================
+# Target rules for targets named K-thNotDivisibleByNBinarySearch
+
+# Build rule for target.
+K-thNotDivisibleByNBinarySearch: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 K-thNotDivisibleByNBinarySearch
+.PHONY : K-thNotDivisibleByNBinarySearch
+
+# fast build rule for target.
+K-thNotDivisibleByNBinarySearch/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\K-thNotDivisibleByNBinarySearch.dir\build.make CMakeFiles/K-thNotDivisibleByNBinarySearch.dir/build
+.PHONY : K-thNotDivisibleByNBinarySearch/fast
+
+#=============================================================================
+# Target rules for targets named SameParitySummands
+
+# Build rule for target.
+SameParitySummands: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SameParitySummands
+.PHONY : SameParitySummands
+
+# fast build rule for target.
+SameParitySummands/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SameParitySummands.dir\build.make CMakeFiles/SameParitySummands.dir/build
+.PHONY : SameParitySummands/fast
+
 1000/CandyBags.obj: 1000/CandyBags.cpp.obj
 
 .PHONY : 1000/CandyBags.obj
@@ -614,6 +666,33 @@ SequenceWithDigits/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AccurateLee.dir\build.make CMakeFiles/AccurateLee.dir/1200/AccurateLee.cpp.s
 .PHONY : 1200/AccurateLee.cpp.s
 
+1200/AlternatingSubsequence.obj: 1200/AlternatingSubsequence.cpp.obj
+
+.PHONY : 1200/AlternatingSubsequence.obj
+
+# target to build an object file
+1200/AlternatingSubsequence.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AlternatingSubsequence.dir\build.make CMakeFiles/AlternatingSubsequence.dir/1200/AlternatingSubsequence.cpp.obj
+.PHONY : 1200/AlternatingSubsequence.cpp.obj
+
+1200/AlternatingSubsequence.i: 1200/AlternatingSubsequence.cpp.i
+
+.PHONY : 1200/AlternatingSubsequence.i
+
+# target to preprocess a source file
+1200/AlternatingSubsequence.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AlternatingSubsequence.dir\build.make CMakeFiles/AlternatingSubsequence.dir/1200/AlternatingSubsequence.cpp.i
+.PHONY : 1200/AlternatingSubsequence.cpp.i
+
+1200/AlternatingSubsequence.s: 1200/AlternatingSubsequence.cpp.s
+
+.PHONY : 1200/AlternatingSubsequence.s
+
+# target to generate assembly for a file
+1200/AlternatingSubsequence.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AlternatingSubsequence.dir\build.make CMakeFiles/AlternatingSubsequence.dir/1200/AlternatingSubsequence.cpp.s
+.PHONY : 1200/AlternatingSubsequence.cpp.s
+
 1200/BoatsCompetition.obj: 1200/BoatsCompetition.cpp.obj
 
 .PHONY : 1200/BoatsCompetition.obj
@@ -640,6 +719,60 @@ SequenceWithDigits/fast:
 1200/BoatsCompetition.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoatsCompetition.dir\build.make CMakeFiles/BoatsCompetition.dir/1200/BoatsCompetition.cpp.s
 .PHONY : 1200/BoatsCompetition.cpp.s
+
+1200/K-thNotDivisibleByN.obj: 1200/K-thNotDivisibleByN.cpp.obj
+
+.PHONY : 1200/K-thNotDivisibleByN.obj
+
+# target to build an object file
+1200/K-thNotDivisibleByN.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\K-thNotDivisibleByN.dir\build.make CMakeFiles/K-thNotDivisibleByN.dir/1200/K-thNotDivisibleByN.cpp.obj
+.PHONY : 1200/K-thNotDivisibleByN.cpp.obj
+
+1200/K-thNotDivisibleByN.i: 1200/K-thNotDivisibleByN.cpp.i
+
+.PHONY : 1200/K-thNotDivisibleByN.i
+
+# target to preprocess a source file
+1200/K-thNotDivisibleByN.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\K-thNotDivisibleByN.dir\build.make CMakeFiles/K-thNotDivisibleByN.dir/1200/K-thNotDivisibleByN.cpp.i
+.PHONY : 1200/K-thNotDivisibleByN.cpp.i
+
+1200/K-thNotDivisibleByN.s: 1200/K-thNotDivisibleByN.cpp.s
+
+.PHONY : 1200/K-thNotDivisibleByN.s
+
+# target to generate assembly for a file
+1200/K-thNotDivisibleByN.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\K-thNotDivisibleByN.dir\build.make CMakeFiles/K-thNotDivisibleByN.dir/1200/K-thNotDivisibleByN.cpp.s
+.PHONY : 1200/K-thNotDivisibleByN.cpp.s
+
+1200/K-thNotDivisibleByNBinarySearch.obj: 1200/K-thNotDivisibleByNBinarySearch.cpp.obj
+
+.PHONY : 1200/K-thNotDivisibleByNBinarySearch.obj
+
+# target to build an object file
+1200/K-thNotDivisibleByNBinarySearch.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\K-thNotDivisibleByNBinarySearch.dir\build.make CMakeFiles/K-thNotDivisibleByNBinarySearch.dir/1200/K-thNotDivisibleByNBinarySearch.cpp.obj
+.PHONY : 1200/K-thNotDivisibleByNBinarySearch.cpp.obj
+
+1200/K-thNotDivisibleByNBinarySearch.i: 1200/K-thNotDivisibleByNBinarySearch.cpp.i
+
+.PHONY : 1200/K-thNotDivisibleByNBinarySearch.i
+
+# target to preprocess a source file
+1200/K-thNotDivisibleByNBinarySearch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\K-thNotDivisibleByNBinarySearch.dir\build.make CMakeFiles/K-thNotDivisibleByNBinarySearch.dir/1200/K-thNotDivisibleByNBinarySearch.cpp.i
+.PHONY : 1200/K-thNotDivisibleByNBinarySearch.cpp.i
+
+1200/K-thNotDivisibleByNBinarySearch.s: 1200/K-thNotDivisibleByNBinarySearch.cpp.s
+
+.PHONY : 1200/K-thNotDivisibleByNBinarySearch.s
+
+# target to generate assembly for a file
+1200/K-thNotDivisibleByNBinarySearch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\K-thNotDivisibleByNBinarySearch.dir\build.make CMakeFiles/K-thNotDivisibleByNBinarySearch.dir/1200/K-thNotDivisibleByNBinarySearch.cpp.s
+.PHONY : 1200/K-thNotDivisibleByNBinarySearch.cpp.s
 
 1200/MagicalCalendar.obj: 1200/MagicalCalendar.cpp.obj
 
@@ -775,6 +908,33 @@ SequenceWithDigits/fast:
 1200/OmkarAndWaterslide.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OmkarAndWaterslide.dir\build.make CMakeFiles/OmkarAndWaterslide.dir/1200/OmkarAndWaterslide.cpp.s
 .PHONY : 1200/OmkarAndWaterslide.cpp.s
+
+1200/SameParitySummands.obj: 1200/SameParitySummands.cpp.obj
+
+.PHONY : 1200/SameParitySummands.obj
+
+# target to build an object file
+1200/SameParitySummands.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SameParitySummands.dir\build.make CMakeFiles/SameParitySummands.dir/1200/SameParitySummands.cpp.obj
+.PHONY : 1200/SameParitySummands.cpp.obj
+
+1200/SameParitySummands.i: 1200/SameParitySummands.cpp.i
+
+.PHONY : 1200/SameParitySummands.i
+
+# target to preprocess a source file
+1200/SameParitySummands.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SameParitySummands.dir\build.make CMakeFiles/SameParitySummands.dir/1200/SameParitySummands.cpp.i
+.PHONY : 1200/SameParitySummands.cpp.i
+
+1200/SameParitySummands.s: 1200/SameParitySummands.cpp.s
+
+.PHONY : 1200/SameParitySummands.s
+
+# target to generate assembly for a file
+1200/SameParitySummands.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SameParitySummands.dir\build.make CMakeFiles/SameParitySummands.dir/1200/SameParitySummands.cpp.s
+.PHONY : 1200/SameParitySummands.cpp.s
 
 1200/SequenceWithDigits.obj: 1200/SequenceWithDigits.cpp.obj
 
@@ -1298,6 +1458,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... AccurateLee
+	@echo ... AlternatingSubsequence
 	@echo ... BeautifulMatrix
 	@echo ... Bit++
 	@echo ... BoatsCompetition
@@ -1308,6 +1469,8 @@ help:
 	@echo ... Football
 	@echo ... HQ9+
 	@echo ... HelpfulMaths
+	@echo ... K-thNotDivisibleByN
+	@echo ... K-thNotDivisibleByNBinarySearch
 	@echo ... MagicalCalendar
 	@echo ... MakeItGood
 	@echo ... NeighborGrid
@@ -1315,6 +1478,7 @@ help:
 	@echo ... OddSelection
 	@echo ... OmkarAndWaterslide
 	@echo ... PetyaAndStrings
+	@echo ... SameParitySummands
 	@echo ... SequenceWithDigits
 	@echo ... StonesOnTheTable
 	@echo ... SuperheroTransformation
@@ -1338,9 +1502,18 @@ help:
 	@echo ... 1200/AccurateLee.obj
 	@echo ... 1200/AccurateLee.i
 	@echo ... 1200/AccurateLee.s
+	@echo ... 1200/AlternatingSubsequence.obj
+	@echo ... 1200/AlternatingSubsequence.i
+	@echo ... 1200/AlternatingSubsequence.s
 	@echo ... 1200/BoatsCompetition.obj
 	@echo ... 1200/BoatsCompetition.i
 	@echo ... 1200/BoatsCompetition.s
+	@echo ... 1200/K-thNotDivisibleByN.obj
+	@echo ... 1200/K-thNotDivisibleByN.i
+	@echo ... 1200/K-thNotDivisibleByN.s
+	@echo ... 1200/K-thNotDivisibleByNBinarySearch.obj
+	@echo ... 1200/K-thNotDivisibleByNBinarySearch.i
+	@echo ... 1200/K-thNotDivisibleByNBinarySearch.s
 	@echo ... 1200/MagicalCalendar.obj
 	@echo ... 1200/MagicalCalendar.i
 	@echo ... 1200/MagicalCalendar.s
@@ -1356,6 +1529,9 @@ help:
 	@echo ... 1200/OmkarAndWaterslide.obj
 	@echo ... 1200/OmkarAndWaterslide.i
 	@echo ... 1200/OmkarAndWaterslide.s
+	@echo ... 1200/SameParitySummands.obj
+	@echo ... 1200/SameParitySummands.i
+	@echo ... 1200/SameParitySummands.s
 	@echo ... 1200/SequenceWithDigits.obj
 	@echo ... 1200/SequenceWithDigits.i
 	@echo ... 1200/SequenceWithDigits.s

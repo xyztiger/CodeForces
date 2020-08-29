@@ -6,11 +6,6 @@
 
 using namespace std;
 
-bool contains(int k, string s) {
-    string seen = "\0";
-
-}
-
 int main() {
     int t;
     cin >> t;

@@ -56,6 +56,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/TernaryString.dir/DependInfo.cmake"
   "CMakeFiles/WordCapitalization.dir/DependInfo.cmake"
   "CMakeFiles/PetyaAndStrings.dir/DependInfo.cmake"
+  "CMakeFiles/AlternatingSubsequence.dir/DependInfo.cmake"
   "CMakeFiles/WayTooLongWords.dir/DependInfo.cmake"
   "CMakeFiles/XXXXX.dir/DependInfo.cmake"
   "CMakeFiles/WaterMelon.dir/DependInfo.cmake"
@@ -82,4 +83,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/OddSelection.dir/DependInfo.cmake"
   "CMakeFiles/YoungExplorers.dir/DependInfo.cmake"
   "CMakeFiles/SequenceWithDigits.dir/DependInfo.cmake"
+  "CMakeFiles/K-thNotDivisibleByN.dir/DependInfo.cmake"
+  "CMakeFiles/K-thNotDivisibleByNBinarySearch.dir/DependInfo.cmake"
+  "CMakeFiles/SameParitySummands.dir/DependInfo.cmake"
   )
