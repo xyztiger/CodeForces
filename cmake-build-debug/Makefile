@@ -325,6 +325,19 @@ StonesOnTheTable/fast:
 .PHONY : StonesOnTheTable/fast
 
 #=============================================================================
+# Target rules for targets named SortedAdjacentDifferences
+
+# Build rule for target.
+SortedAdjacentDifferences: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SortedAdjacentDifferences
+.PHONY : SortedAdjacentDifferences
+
+# fast build rule for target.
+SortedAdjacentDifferences/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedAdjacentDifferences.dir\build.make CMakeFiles/SortedAdjacentDifferences.dir/build
+.PHONY : SortedAdjacentDifferences/fast
+
+#=============================================================================
 # Target rules for targets named BoyOrGirl
 
 # Build rule for target.
@@ -505,6 +518,19 @@ YoungExplorers: cmake_check_build_system
 YoungExplorers/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\YoungExplorers.dir\build.make CMakeFiles/YoungExplorers.dir/build
 .PHONY : YoungExplorers/fast
+
+#=============================================================================
+# Target rules for targets named LevelStatistics
+
+# Build rule for target.
+LevelStatistics: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LevelStatistics
+.PHONY : LevelStatistics
+
+# fast build rule for target.
+LevelStatistics/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LevelStatistics.dir\build.make CMakeFiles/LevelStatistics.dir/build
+.PHONY : LevelStatistics/fast
 
 #=============================================================================
 # Target rules for targets named SequenceWithDigits
@@ -774,6 +800,33 @@ SameParitySummands/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\K-thNotDivisibleByNBinarySearch.dir\build.make CMakeFiles/K-thNotDivisibleByNBinarySearch.dir/1200/K-thNotDivisibleByNBinarySearch.cpp.s
 .PHONY : 1200/K-thNotDivisibleByNBinarySearch.cpp.s
 
+1200/LevelStatistics.obj: 1200/LevelStatistics.cpp.obj
+
+.PHONY : 1200/LevelStatistics.obj
+
+# target to build an object file
+1200/LevelStatistics.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LevelStatistics.dir\build.make CMakeFiles/LevelStatistics.dir/1200/LevelStatistics.cpp.obj
+.PHONY : 1200/LevelStatistics.cpp.obj
+
+1200/LevelStatistics.i: 1200/LevelStatistics.cpp.i
+
+.PHONY : 1200/LevelStatistics.i
+
+# target to preprocess a source file
+1200/LevelStatistics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LevelStatistics.dir\build.make CMakeFiles/LevelStatistics.dir/1200/LevelStatistics.cpp.i
+.PHONY : 1200/LevelStatistics.cpp.i
+
+1200/LevelStatistics.s: 1200/LevelStatistics.cpp.s
+
+.PHONY : 1200/LevelStatistics.s
+
+# target to generate assembly for a file
+1200/LevelStatistics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LevelStatistics.dir\build.make CMakeFiles/LevelStatistics.dir/1200/LevelStatistics.cpp.s
+.PHONY : 1200/LevelStatistics.cpp.s
+
 1200/MagicalCalendar.obj: 1200/MagicalCalendar.cpp.obj
 
 .PHONY : 1200/MagicalCalendar.obj
@@ -962,6 +1015,33 @@ SameParitySummands/fast:
 1200/SequenceWithDigits.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceWithDigits.dir\build.make CMakeFiles/SequenceWithDigits.dir/1200/SequenceWithDigits.cpp.s
 .PHONY : 1200/SequenceWithDigits.cpp.s
+
+1200/SortedAdjacentDifferences.obj: 1200/SortedAdjacentDifferences.cpp.obj
+
+.PHONY : 1200/SortedAdjacentDifferences.obj
+
+# target to build an object file
+1200/SortedAdjacentDifferences.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedAdjacentDifferences.dir\build.make CMakeFiles/SortedAdjacentDifferences.dir/1200/SortedAdjacentDifferences.cpp.obj
+.PHONY : 1200/SortedAdjacentDifferences.cpp.obj
+
+1200/SortedAdjacentDifferences.i: 1200/SortedAdjacentDifferences.cpp.i
+
+.PHONY : 1200/SortedAdjacentDifferences.i
+
+# target to preprocess a source file
+1200/SortedAdjacentDifferences.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedAdjacentDifferences.dir\build.make CMakeFiles/SortedAdjacentDifferences.dir/1200/SortedAdjacentDifferences.cpp.i
+.PHONY : 1200/SortedAdjacentDifferences.cpp.i
+
+1200/SortedAdjacentDifferences.s: 1200/SortedAdjacentDifferences.cpp.s
+
+.PHONY : 1200/SortedAdjacentDifferences.s
+
+# target to generate assembly for a file
+1200/SortedAdjacentDifferences.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedAdjacentDifferences.dir\build.make CMakeFiles/SortedAdjacentDifferences.dir/1200/SortedAdjacentDifferences.cpp.s
+.PHONY : 1200/SortedAdjacentDifferences.cpp.s
 
 1200/TernaryString.obj: 1200/TernaryString.cpp.obj
 
@@ -1471,6 +1551,7 @@ help:
 	@echo ... HelpfulMaths
 	@echo ... K-thNotDivisibleByN
 	@echo ... K-thNotDivisibleByNBinarySearch
+	@echo ... LevelStatistics
 	@echo ... MagicalCalendar
 	@echo ... MakeItGood
 	@echo ... NeighborGrid
@@ -1480,6 +1561,7 @@ help:
 	@echo ... PetyaAndStrings
 	@echo ... SameParitySummands
 	@echo ... SequenceWithDigits
+	@echo ... SortedAdjacentDifferences
 	@echo ... StonesOnTheTable
 	@echo ... SuperheroTransformation
 	@echo ... Team
@@ -1514,6 +1596,9 @@ help:
 	@echo ... 1200/K-thNotDivisibleByNBinarySearch.obj
 	@echo ... 1200/K-thNotDivisibleByNBinarySearch.i
 	@echo ... 1200/K-thNotDivisibleByNBinarySearch.s
+	@echo ... 1200/LevelStatistics.obj
+	@echo ... 1200/LevelStatistics.i
+	@echo ... 1200/LevelStatistics.s
 	@echo ... 1200/MagicalCalendar.obj
 	@echo ... 1200/MagicalCalendar.i
 	@echo ... 1200/MagicalCalendar.s
@@ -1535,6 +1620,9 @@ help:
 	@echo ... 1200/SequenceWithDigits.obj
 	@echo ... 1200/SequenceWithDigits.i
 	@echo ... 1200/SequenceWithDigits.s
+	@echo ... 1200/SortedAdjacentDifferences.obj
+	@echo ... 1200/SortedAdjacentDifferences.i
+	@echo ... 1200/SortedAdjacentDifferences.s
 	@echo ... 1200/TernaryString.obj
 	@echo ... 1200/TernaryString.i
 	@echo ... 1200/TernaryString.s
