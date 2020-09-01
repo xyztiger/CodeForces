@@ -88,4 +88,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/K-thNotDivisibleByN.dir/DependInfo.cmake"
   "CMakeFiles/K-thNotDivisibleByNBinarySearch.dir/DependInfo.cmake"
   "CMakeFiles/SameParitySummands.dir/DependInfo.cmake"
+  "CMakeFiles/TernaryXOR.dir/DependInfo.cmake"
+  "CMakeFiles/MereArray.dir/DependInfo.cmake"
+  "CMakeFiles/PrefixFlipEasyVersion.dir/DependInfo.cmake"
   )

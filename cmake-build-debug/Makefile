@@ -584,6 +584,45 @@ SameParitySummands/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SameParitySummands.dir\build.make CMakeFiles/SameParitySummands.dir/build
 .PHONY : SameParitySummands/fast
 
+#=============================================================================
+# Target rules for targets named TernaryXOR
+
+# Build rule for target.
+TernaryXOR: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TernaryXOR
+.PHONY : TernaryXOR
+
+# fast build rule for target.
+TernaryXOR/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TernaryXOR.dir\build.make CMakeFiles/TernaryXOR.dir/build
+.PHONY : TernaryXOR/fast
+
+#=============================================================================
+# Target rules for targets named MereArray
+
+# Build rule for target.
+MereArray: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MereArray
+.PHONY : MereArray
+
+# fast build rule for target.
+MereArray/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MereArray.dir\build.make CMakeFiles/MereArray.dir/build
+.PHONY : MereArray/fast
+
+#=============================================================================
+# Target rules for targets named PrefixFlipEasyVersion
+
+# Build rule for target.
+PrefixFlipEasyVersion: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PrefixFlipEasyVersion
+.PHONY : PrefixFlipEasyVersion
+
+# fast build rule for target.
+PrefixFlipEasyVersion/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrefixFlipEasyVersion.dir\build.make CMakeFiles/PrefixFlipEasyVersion.dir/build
+.PHONY : PrefixFlipEasyVersion/fast
+
 1000/CandyBags.obj: 1000/CandyBags.cpp.obj
 
 .PHONY : 1000/CandyBags.obj
@@ -1070,6 +1109,33 @@ SameParitySummands/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TernaryString.dir\build.make CMakeFiles/TernaryString.dir/1200/TernaryString.cpp.s
 .PHONY : 1200/TernaryString.cpp.s
 
+1200/TernaryXOR.obj: 1200/TernaryXOR.cpp.obj
+
+.PHONY : 1200/TernaryXOR.obj
+
+# target to build an object file
+1200/TernaryXOR.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TernaryXOR.dir\build.make CMakeFiles/TernaryXOR.dir/1200/TernaryXOR.cpp.obj
+.PHONY : 1200/TernaryXOR.cpp.obj
+
+1200/TernaryXOR.i: 1200/TernaryXOR.cpp.i
+
+.PHONY : 1200/TernaryXOR.i
+
+# target to preprocess a source file
+1200/TernaryXOR.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TernaryXOR.dir\build.make CMakeFiles/TernaryXOR.dir/1200/TernaryXOR.cpp.i
+.PHONY : 1200/TernaryXOR.cpp.i
+
+1200/TernaryXOR.s: 1200/TernaryXOR.cpp.s
+
+.PHONY : 1200/TernaryXOR.s
+
+# target to generate assembly for a file
+1200/TernaryXOR.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TernaryXOR.dir\build.make CMakeFiles/TernaryXOR.dir/1200/TernaryXOR.cpp.s
+.PHONY : 1200/TernaryXOR.cpp.s
+
 1200/XXXXX.obj: 1200/XXXXX.cpp.obj
 
 .PHONY : 1200/XXXXX.obj
@@ -1123,6 +1189,60 @@ SameParitySummands/fast:
 1200/YoungExplorers.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\YoungExplorers.dir\build.make CMakeFiles/YoungExplorers.dir/1200/YoungExplorers.cpp.s
 .PHONY : 1200/YoungExplorers.cpp.s
+
+1300/MereArray.obj: 1300/MereArray.cpp.obj
+
+.PHONY : 1300/MereArray.obj
+
+# target to build an object file
+1300/MereArray.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MereArray.dir\build.make CMakeFiles/MereArray.dir/1300/MereArray.cpp.obj
+.PHONY : 1300/MereArray.cpp.obj
+
+1300/MereArray.i: 1300/MereArray.cpp.i
+
+.PHONY : 1300/MereArray.i
+
+# target to preprocess a source file
+1300/MereArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MereArray.dir\build.make CMakeFiles/MereArray.dir/1300/MereArray.cpp.i
+.PHONY : 1300/MereArray.cpp.i
+
+1300/MereArray.s: 1300/MereArray.cpp.s
+
+.PHONY : 1300/MereArray.s
+
+# target to generate assembly for a file
+1300/MereArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MereArray.dir\build.make CMakeFiles/MereArray.dir/1300/MereArray.cpp.s
+.PHONY : 1300/MereArray.cpp.s
+
+1300/PrefixFlipEasyVersion.obj: 1300/PrefixFlipEasyVersion.cpp.obj
+
+.PHONY : 1300/PrefixFlipEasyVersion.obj
+
+# target to build an object file
+1300/PrefixFlipEasyVersion.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrefixFlipEasyVersion.dir\build.make CMakeFiles/PrefixFlipEasyVersion.dir/1300/PrefixFlipEasyVersion.cpp.obj
+.PHONY : 1300/PrefixFlipEasyVersion.cpp.obj
+
+1300/PrefixFlipEasyVersion.i: 1300/PrefixFlipEasyVersion.cpp.i
+
+.PHONY : 1300/PrefixFlipEasyVersion.i
+
+# target to preprocess a source file
+1300/PrefixFlipEasyVersion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrefixFlipEasyVersion.dir\build.make CMakeFiles/PrefixFlipEasyVersion.dir/1300/PrefixFlipEasyVersion.cpp.i
+.PHONY : 1300/PrefixFlipEasyVersion.cpp.i
+
+1300/PrefixFlipEasyVersion.s: 1300/PrefixFlipEasyVersion.cpp.s
+
+.PHONY : 1300/PrefixFlipEasyVersion.s
+
+# target to generate assembly for a file
+1300/PrefixFlipEasyVersion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrefixFlipEasyVersion.dir\build.make CMakeFiles/PrefixFlipEasyVersion.dir/1300/PrefixFlipEasyVersion.cpp.s
+.PHONY : 1300/PrefixFlipEasyVersion.cpp.s
 
 800/BeautifulMatrix.obj: 800/BeautifulMatrix.cpp.obj
 
@@ -1554,11 +1674,13 @@ help:
 	@echo ... LevelStatistics
 	@echo ... MagicalCalendar
 	@echo ... MakeItGood
+	@echo ... MereArray
 	@echo ... NeighborGrid
 	@echo ... NextRound
 	@echo ... OddSelection
 	@echo ... OmkarAndWaterslide
 	@echo ... PetyaAndStrings
+	@echo ... PrefixFlipEasyVersion
 	@echo ... SameParitySummands
 	@echo ... SequenceWithDigits
 	@echo ... SortedAdjacentDifferences
@@ -1566,6 +1688,7 @@ help:
 	@echo ... SuperheroTransformation
 	@echo ... Team
 	@echo ... TernaryString
+	@echo ... TernaryXOR
 	@echo ... Twins
 	@echo ... WaterMelon
 	@echo ... WayTooLongWords
@@ -1626,12 +1749,21 @@ help:
 	@echo ... 1200/TernaryString.obj
 	@echo ... 1200/TernaryString.i
 	@echo ... 1200/TernaryString.s
+	@echo ... 1200/TernaryXOR.obj
+	@echo ... 1200/TernaryXOR.i
+	@echo ... 1200/TernaryXOR.s
 	@echo ... 1200/XXXXX.obj
 	@echo ... 1200/XXXXX.i
 	@echo ... 1200/XXXXX.s
 	@echo ... 1200/YoungExplorers.obj
 	@echo ... 1200/YoungExplorers.i
 	@echo ... 1200/YoungExplorers.s
+	@echo ... 1300/MereArray.obj
+	@echo ... 1300/MereArray.i
+	@echo ... 1300/MereArray.s
+	@echo ... 1300/PrefixFlipEasyVersion.obj
+	@echo ... 1300/PrefixFlipEasyVersion.i
+	@echo ... 1300/PrefixFlipEasyVersion.s
 	@echo ... 800/BeautifulMatrix.obj
 	@echo ... 800/BeautifulMatrix.i
 	@echo ... 800/BeautifulMatrix.s
