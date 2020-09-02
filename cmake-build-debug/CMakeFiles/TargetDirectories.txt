@@ -1,6 +1,7 @@
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/TernaryString.dir
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/WordCapitalization.dir
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/PetyaAndStrings.dir
+C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/Polygon.dir
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/AlternatingSubsequence.dir
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/WayTooLongWords.dir
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/XXXXX.dir
@@ -38,3 +39,4 @@ C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/SamePar
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/TernaryXOR.dir
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/MereArray.dir
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/PrefixFlipEasyVersion.dir
+C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/ApplejackAndStorages.dir

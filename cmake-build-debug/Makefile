@@ -169,6 +169,19 @@ PetyaAndStrings/fast:
 .PHONY : PetyaAndStrings/fast
 
 #=============================================================================
+# Target rules for targets named Polygon
+
+# Build rule for target.
+Polygon: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Polygon
+.PHONY : Polygon
+
+# fast build rule for target.
+Polygon/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polygon.dir\build.make CMakeFiles/Polygon.dir/build
+.PHONY : Polygon/fast
+
+#=============================================================================
 # Target rules for targets named AlternatingSubsequence
 
 # Build rule for target.
@@ -622,6 +635,19 @@ PrefixFlipEasyVersion: cmake_check_build_system
 PrefixFlipEasyVersion/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrefixFlipEasyVersion.dir\build.make CMakeFiles/PrefixFlipEasyVersion.dir/build
 .PHONY : PrefixFlipEasyVersion/fast
+
+#=============================================================================
+# Target rules for targets named ApplejackAndStorages
+
+# Build rule for target.
+ApplejackAndStorages: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ApplejackAndStorages
+.PHONY : ApplejackAndStorages
+
+# fast build rule for target.
+ApplejackAndStorages/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ApplejackAndStorages.dir\build.make CMakeFiles/ApplejackAndStorages.dir/build
+.PHONY : ApplejackAndStorages/fast
 
 1000/CandyBags.obj: 1000/CandyBags.cpp.obj
 
@@ -1217,6 +1243,33 @@ PrefixFlipEasyVersion/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MereArray.dir\build.make CMakeFiles/MereArray.dir/1300/MereArray.cpp.s
 .PHONY : 1300/MereArray.cpp.s
 
+1300/Polygon.obj: 1300/Polygon.cpp.obj
+
+.PHONY : 1300/Polygon.obj
+
+# target to build an object file
+1300/Polygon.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polygon.dir\build.make CMakeFiles/Polygon.dir/1300/Polygon.cpp.obj
+.PHONY : 1300/Polygon.cpp.obj
+
+1300/Polygon.i: 1300/Polygon.cpp.i
+
+.PHONY : 1300/Polygon.i
+
+# target to preprocess a source file
+1300/Polygon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polygon.dir\build.make CMakeFiles/Polygon.dir/1300/Polygon.cpp.i
+.PHONY : 1300/Polygon.cpp.i
+
+1300/Polygon.s: 1300/Polygon.cpp.s
+
+.PHONY : 1300/Polygon.s
+
+# target to generate assembly for a file
+1300/Polygon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polygon.dir\build.make CMakeFiles/Polygon.dir/1300/Polygon.cpp.s
+.PHONY : 1300/Polygon.cpp.s
+
 1300/PrefixFlipEasyVersion.obj: 1300/PrefixFlipEasyVersion.cpp.obj
 
 .PHONY : 1300/PrefixFlipEasyVersion.obj
@@ -1243,6 +1296,33 @@ PrefixFlipEasyVersion/fast:
 1300/PrefixFlipEasyVersion.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrefixFlipEasyVersion.dir\build.make CMakeFiles/PrefixFlipEasyVersion.dir/1300/PrefixFlipEasyVersion.cpp.s
 .PHONY : 1300/PrefixFlipEasyVersion.cpp.s
+
+1400/ApplejackAndStorages.obj: 1400/ApplejackAndStorages.cpp.obj
+
+.PHONY : 1400/ApplejackAndStorages.obj
+
+# target to build an object file
+1400/ApplejackAndStorages.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ApplejackAndStorages.dir\build.make CMakeFiles/ApplejackAndStorages.dir/1400/ApplejackAndStorages.cpp.obj
+.PHONY : 1400/ApplejackAndStorages.cpp.obj
+
+1400/ApplejackAndStorages.i: 1400/ApplejackAndStorages.cpp.i
+
+.PHONY : 1400/ApplejackAndStorages.i
+
+# target to preprocess a source file
+1400/ApplejackAndStorages.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ApplejackAndStorages.dir\build.make CMakeFiles/ApplejackAndStorages.dir/1400/ApplejackAndStorages.cpp.i
+.PHONY : 1400/ApplejackAndStorages.cpp.i
+
+1400/ApplejackAndStorages.s: 1400/ApplejackAndStorages.cpp.s
+
+.PHONY : 1400/ApplejackAndStorages.s
+
+# target to generate assembly for a file
+1400/ApplejackAndStorages.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ApplejackAndStorages.dir\build.make CMakeFiles/ApplejackAndStorages.dir/1400/ApplejackAndStorages.cpp.s
+.PHONY : 1400/ApplejackAndStorages.cpp.s
 
 800/BeautifulMatrix.obj: 800/BeautifulMatrix.cpp.obj
 
@@ -1659,6 +1739,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... AccurateLee
 	@echo ... AlternatingSubsequence
+	@echo ... ApplejackAndStorages
 	@echo ... BeautifulMatrix
 	@echo ... Bit++
 	@echo ... BoatsCompetition
@@ -1680,6 +1761,7 @@ help:
 	@echo ... OddSelection
 	@echo ... OmkarAndWaterslide
 	@echo ... PetyaAndStrings
+	@echo ... Polygon
 	@echo ... PrefixFlipEasyVersion
 	@echo ... SameParitySummands
 	@echo ... SequenceWithDigits
@@ -1761,9 +1843,15 @@ help:
 	@echo ... 1300/MereArray.obj
 	@echo ... 1300/MereArray.i
 	@echo ... 1300/MereArray.s
+	@echo ... 1300/Polygon.obj
+	@echo ... 1300/Polygon.i
+	@echo ... 1300/Polygon.s
 	@echo ... 1300/PrefixFlipEasyVersion.obj
 	@echo ... 1300/PrefixFlipEasyVersion.i
 	@echo ... 1300/PrefixFlipEasyVersion.s
+	@echo ... 1400/ApplejackAndStorages.obj
+	@echo ... 1400/ApplejackAndStorages.i
+	@echo ... 1400/ApplejackAndStorages.s
 	@echo ... 800/BeautifulMatrix.obj
 	@echo ... 800/BeautifulMatrix.i
 	@echo ... 800/BeautifulMatrix.s

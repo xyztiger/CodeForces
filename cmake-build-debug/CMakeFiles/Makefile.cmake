@@ -56,6 +56,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/TernaryString.dir/DependInfo.cmake"
   "CMakeFiles/WordCapitalization.dir/DependInfo.cmake"
   "CMakeFiles/PetyaAndStrings.dir/DependInfo.cmake"
+  "CMakeFiles/Polygon.dir/DependInfo.cmake"
   "CMakeFiles/AlternatingSubsequence.dir/DependInfo.cmake"
   "CMakeFiles/WayTooLongWords.dir/DependInfo.cmake"
   "CMakeFiles/XXXXX.dir/DependInfo.cmake"
@@ -91,4 +92,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/TernaryXOR.dir/DependInfo.cmake"
   "CMakeFiles/MereArray.dir/DependInfo.cmake"
   "CMakeFiles/PrefixFlipEasyVersion.dir/DependInfo.cmake"
+  "CMakeFiles/ApplejackAndStorages.dir/DependInfo.cmake"
   )
