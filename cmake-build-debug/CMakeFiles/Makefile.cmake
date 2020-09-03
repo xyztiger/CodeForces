@@ -76,7 +76,9 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/HQ9+.dir/DependInfo.cmake"
   "CMakeFiles/SuperheroTransformation.dir/DependInfo.cmake"
   "CMakeFiles/DisturbedPeople.dir/DependInfo.cmake"
+  "CMakeFiles/UniversalSolution.dir/DependInfo.cmake"
   "CMakeFiles/CandyBags.dir/DependInfo.cmake"
+  "CMakeFiles/CreateTheTeams.dir/DependInfo.cmake"
   "CMakeFiles/OmkarAndWaterslide.dir/DependInfo.cmake"
   "CMakeFiles/MakeItGood.dir/DependInfo.cmake"
   "CMakeFiles/NeighborGrid.dir/DependInfo.cmake"
@@ -93,4 +95,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/MereArray.dir/DependInfo.cmake"
   "CMakeFiles/PrefixFlipEasyVersion.dir/DependInfo.cmake"
   "CMakeFiles/ApplejackAndStorages.dir/DependInfo.cmake"
+  "CMakeFiles/ElementExtermination.dir/DependInfo.cmake"
+  "CMakeFiles/TwoButtons.dir/DependInfo.cmake"
   )

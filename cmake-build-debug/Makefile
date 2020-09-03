@@ -429,6 +429,19 @@ DisturbedPeople/fast:
 .PHONY : DisturbedPeople/fast
 
 #=============================================================================
+# Target rules for targets named UniversalSolution
+
+# Build rule for target.
+UniversalSolution: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 UniversalSolution
+.PHONY : UniversalSolution
+
+# fast build rule for target.
+UniversalSolution/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UniversalSolution.dir\build.make CMakeFiles/UniversalSolution.dir/build
+.PHONY : UniversalSolution/fast
+
+#=============================================================================
 # Target rules for targets named CandyBags
 
 # Build rule for target.
@@ -440,6 +453,19 @@ CandyBags: cmake_check_build_system
 CandyBags/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CandyBags.dir\build.make CMakeFiles/CandyBags.dir/build
 .PHONY : CandyBags/fast
+
+#=============================================================================
+# Target rules for targets named CreateTheTeams
+
+# Build rule for target.
+CreateTheTeams: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CreateTheTeams
+.PHONY : CreateTheTeams
+
+# fast build rule for target.
+CreateTheTeams/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreateTheTeams.dir\build.make CMakeFiles/CreateTheTeams.dir/build
+.PHONY : CreateTheTeams/fast
 
 #=============================================================================
 # Target rules for targets named OmkarAndWaterslide
@@ -648,6 +674,32 @@ ApplejackAndStorages: cmake_check_build_system
 ApplejackAndStorages/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ApplejackAndStorages.dir\build.make CMakeFiles/ApplejackAndStorages.dir/build
 .PHONY : ApplejackAndStorages/fast
+
+#=============================================================================
+# Target rules for targets named ElementExtermination
+
+# Build rule for target.
+ElementExtermination: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ElementExtermination
+.PHONY : ElementExtermination
+
+# fast build rule for target.
+ElementExtermination/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ElementExtermination.dir\build.make CMakeFiles/ElementExtermination.dir/build
+.PHONY : ElementExtermination/fast
+
+#=============================================================================
+# Target rules for targets named TwoButtons
+
+# Build rule for target.
+TwoButtons: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TwoButtons
+.PHONY : TwoButtons
+
+# fast build rule for target.
+TwoButtons/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TwoButtons.dir\build.make CMakeFiles/TwoButtons.dir/build
+.PHONY : TwoButtons/fast
 
 1000/CandyBags.obj: 1000/CandyBags.cpp.obj
 
@@ -1324,6 +1376,114 @@ ApplejackAndStorages/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ApplejackAndStorages.dir\build.make CMakeFiles/ApplejackAndStorages.dir/1400/ApplejackAndStorages.cpp.s
 .PHONY : 1400/ApplejackAndStorages.cpp.s
 
+1400/CreateTheTeams.obj: 1400/CreateTheTeams.cpp.obj
+
+.PHONY : 1400/CreateTheTeams.obj
+
+# target to build an object file
+1400/CreateTheTeams.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreateTheTeams.dir\build.make CMakeFiles/CreateTheTeams.dir/1400/CreateTheTeams.cpp.obj
+.PHONY : 1400/CreateTheTeams.cpp.obj
+
+1400/CreateTheTeams.i: 1400/CreateTheTeams.cpp.i
+
+.PHONY : 1400/CreateTheTeams.i
+
+# target to preprocess a source file
+1400/CreateTheTeams.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreateTheTeams.dir\build.make CMakeFiles/CreateTheTeams.dir/1400/CreateTheTeams.cpp.i
+.PHONY : 1400/CreateTheTeams.cpp.i
+
+1400/CreateTheTeams.s: 1400/CreateTheTeams.cpp.s
+
+.PHONY : 1400/CreateTheTeams.s
+
+# target to generate assembly for a file
+1400/CreateTheTeams.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreateTheTeams.dir\build.make CMakeFiles/CreateTheTeams.dir/1400/CreateTheTeams.cpp.s
+.PHONY : 1400/CreateTheTeams.cpp.s
+
+1400/ElementExtermination.obj: 1400/ElementExtermination.cpp.obj
+
+.PHONY : 1400/ElementExtermination.obj
+
+# target to build an object file
+1400/ElementExtermination.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ElementExtermination.dir\build.make CMakeFiles/ElementExtermination.dir/1400/ElementExtermination.cpp.obj
+.PHONY : 1400/ElementExtermination.cpp.obj
+
+1400/ElementExtermination.i: 1400/ElementExtermination.cpp.i
+
+.PHONY : 1400/ElementExtermination.i
+
+# target to preprocess a source file
+1400/ElementExtermination.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ElementExtermination.dir\build.make CMakeFiles/ElementExtermination.dir/1400/ElementExtermination.cpp.i
+.PHONY : 1400/ElementExtermination.cpp.i
+
+1400/ElementExtermination.s: 1400/ElementExtermination.cpp.s
+
+.PHONY : 1400/ElementExtermination.s
+
+# target to generate assembly for a file
+1400/ElementExtermination.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ElementExtermination.dir\build.make CMakeFiles/ElementExtermination.dir/1400/ElementExtermination.cpp.s
+.PHONY : 1400/ElementExtermination.cpp.s
+
+1400/TwoButtons.obj: 1400/TwoButtons.cpp.obj
+
+.PHONY : 1400/TwoButtons.obj
+
+# target to build an object file
+1400/TwoButtons.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TwoButtons.dir\build.make CMakeFiles/TwoButtons.dir/1400/TwoButtons.cpp.obj
+.PHONY : 1400/TwoButtons.cpp.obj
+
+1400/TwoButtons.i: 1400/TwoButtons.cpp.i
+
+.PHONY : 1400/TwoButtons.i
+
+# target to preprocess a source file
+1400/TwoButtons.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TwoButtons.dir\build.make CMakeFiles/TwoButtons.dir/1400/TwoButtons.cpp.i
+.PHONY : 1400/TwoButtons.cpp.i
+
+1400/TwoButtons.s: 1400/TwoButtons.cpp.s
+
+.PHONY : 1400/TwoButtons.s
+
+# target to generate assembly for a file
+1400/TwoButtons.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TwoButtons.dir\build.make CMakeFiles/TwoButtons.dir/1400/TwoButtons.cpp.s
+.PHONY : 1400/TwoButtons.cpp.s
+
+1400/UniversalSolution.obj: 1400/UniversalSolution.cpp.obj
+
+.PHONY : 1400/UniversalSolution.obj
+
+# target to build an object file
+1400/UniversalSolution.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UniversalSolution.dir\build.make CMakeFiles/UniversalSolution.dir/1400/UniversalSolution.cpp.obj
+.PHONY : 1400/UniversalSolution.cpp.obj
+
+1400/UniversalSolution.i: 1400/UniversalSolution.cpp.i
+
+.PHONY : 1400/UniversalSolution.i
+
+# target to preprocess a source file
+1400/UniversalSolution.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UniversalSolution.dir\build.make CMakeFiles/UniversalSolution.dir/1400/UniversalSolution.cpp.i
+.PHONY : 1400/UniversalSolution.cpp.i
+
+1400/UniversalSolution.s: 1400/UniversalSolution.cpp.s
+
+.PHONY : 1400/UniversalSolution.s
+
+# target to generate assembly for a file
+1400/UniversalSolution.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UniversalSolution.dir\build.make CMakeFiles/UniversalSolution.dir/1400/UniversalSolution.cpp.s
+.PHONY : 1400/UniversalSolution.cpp.s
+
 800/BeautifulMatrix.obj: 800/BeautifulMatrix.cpp.obj
 
 .PHONY : 800/BeautifulMatrix.obj
@@ -1745,8 +1905,10 @@ help:
 	@echo ... BoatsCompetition
 	@echo ... BoyOrGirl
 	@echo ... CandyBags
+	@echo ... CreateTheTeams
 	@echo ... DisturbedPeople
 	@echo ... DominoPiling
+	@echo ... ElementExtermination
 	@echo ... Football
 	@echo ... HQ9+
 	@echo ... HelpfulMaths
@@ -1772,6 +1934,8 @@ help:
 	@echo ... TernaryString
 	@echo ... TernaryXOR
 	@echo ... Twins
+	@echo ... TwoButtons
+	@echo ... UniversalSolution
 	@echo ... WaterMelon
 	@echo ... WayTooLongWords
 	@echo ... WordCapitalization
@@ -1852,6 +2016,18 @@ help:
 	@echo ... 1400/ApplejackAndStorages.obj
 	@echo ... 1400/ApplejackAndStorages.i
 	@echo ... 1400/ApplejackAndStorages.s
+	@echo ... 1400/CreateTheTeams.obj
+	@echo ... 1400/CreateTheTeams.i
+	@echo ... 1400/CreateTheTeams.s
+	@echo ... 1400/ElementExtermination.obj
+	@echo ... 1400/ElementExtermination.i
+	@echo ... 1400/ElementExtermination.s
+	@echo ... 1400/TwoButtons.obj
+	@echo ... 1400/TwoButtons.i
+	@echo ... 1400/TwoButtons.s
+	@echo ... 1400/UniversalSolution.obj
+	@echo ... 1400/UniversalSolution.i
+	@echo ... 1400/UniversalSolution.s
 	@echo ... 800/BeautifulMatrix.obj
 	@echo ... 800/BeautifulMatrix.i
 	@echo ... 800/BeautifulMatrix.s
