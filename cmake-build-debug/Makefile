@@ -637,6 +637,19 @@ TernaryXOR/fast:
 .PHONY : TernaryXOR/fast
 
 #=============================================================================
+# Target rules for targets named ZeroRemainderArray
+
+# Build rule for target.
+ZeroRemainderArray: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ZeroRemainderArray
+.PHONY : ZeroRemainderArray
+
+# fast build rule for target.
+ZeroRemainderArray/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZeroRemainderArray.dir\build.make CMakeFiles/ZeroRemainderArray.dir/build
+.PHONY : ZeroRemainderArray/fast
+
+#=============================================================================
 # Target rules for targets named MereArray
 
 # Build rule for target.
@@ -1484,6 +1497,33 @@ TwoButtons/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UniversalSolution.dir\build.make CMakeFiles/UniversalSolution.dir/1400/UniversalSolution.cpp.s
 .PHONY : 1400/UniversalSolution.cpp.s
 
+1400/ZeroRemainderArray.obj: 1400/ZeroRemainderArray.cpp.obj
+
+.PHONY : 1400/ZeroRemainderArray.obj
+
+# target to build an object file
+1400/ZeroRemainderArray.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZeroRemainderArray.dir\build.make CMakeFiles/ZeroRemainderArray.dir/1400/ZeroRemainderArray.cpp.obj
+.PHONY : 1400/ZeroRemainderArray.cpp.obj
+
+1400/ZeroRemainderArray.i: 1400/ZeroRemainderArray.cpp.i
+
+.PHONY : 1400/ZeroRemainderArray.i
+
+# target to preprocess a source file
+1400/ZeroRemainderArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZeroRemainderArray.dir\build.make CMakeFiles/ZeroRemainderArray.dir/1400/ZeroRemainderArray.cpp.i
+.PHONY : 1400/ZeroRemainderArray.cpp.i
+
+1400/ZeroRemainderArray.s: 1400/ZeroRemainderArray.cpp.s
+
+.PHONY : 1400/ZeroRemainderArray.s
+
+# target to generate assembly for a file
+1400/ZeroRemainderArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZeroRemainderArray.dir\build.make CMakeFiles/ZeroRemainderArray.dir/1400/ZeroRemainderArray.cpp.s
+.PHONY : 1400/ZeroRemainderArray.cpp.s
+
 800/BeautifulMatrix.obj: 800/BeautifulMatrix.cpp.obj
 
 .PHONY : 800/BeautifulMatrix.obj
@@ -1941,6 +1981,7 @@ help:
 	@echo ... WordCapitalization
 	@echo ... XXXXX
 	@echo ... YoungExplorers
+	@echo ... ZeroRemainderArray
 	@echo ... 1000/CandyBags.obj
 	@echo ... 1000/CandyBags.i
 	@echo ... 1000/CandyBags.s
@@ -2028,6 +2069,9 @@ help:
 	@echo ... 1400/UniversalSolution.obj
 	@echo ... 1400/UniversalSolution.i
 	@echo ... 1400/UniversalSolution.s
+	@echo ... 1400/ZeroRemainderArray.obj
+	@echo ... 1400/ZeroRemainderArray.i
+	@echo ... 1400/ZeroRemainderArray.s
 	@echo ... 800/BeautifulMatrix.obj
 	@echo ... 800/BeautifulMatrix.i
 	@echo ... 800/BeautifulMatrix.s

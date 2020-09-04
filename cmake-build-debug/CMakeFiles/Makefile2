@@ -111,6 +111,7 @@ all: CMakeFiles/K-thNotDivisibleByN.dir/all
 all: CMakeFiles/K-thNotDivisibleByNBinarySearch.dir/all
 all: CMakeFiles/SameParitySummands.dir/all
 all: CMakeFiles/TernaryXOR.dir/all
+all: CMakeFiles/ZeroRemainderArray.dir/all
 all: CMakeFiles/MereArray.dir/all
 all: CMakeFiles/PrefixFlipEasyVersion.dir/all
 all: CMakeFiles/ApplejackAndStorages.dir/all
@@ -164,6 +165,7 @@ clean: CMakeFiles/K-thNotDivisibleByN.dir/clean
 clean: CMakeFiles/K-thNotDivisibleByNBinarySearch.dir/clean
 clean: CMakeFiles/SameParitySummands.dir/clean
 clean: CMakeFiles/TernaryXOR.dir/clean
+clean: CMakeFiles/ZeroRemainderArray.dir/clean
 clean: CMakeFiles/MereArray.dir/clean
 clean: CMakeFiles/PrefixFlipEasyVersion.dir/clean
 clean: CMakeFiles/ApplejackAndStorages.dir/clean
@@ -1224,6 +1226,33 @@ TernaryXOR: CMakeFiles/TernaryXOR.dir/rule
 CMakeFiles/TernaryXOR.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TernaryXOR.dir\build.make CMakeFiles/TernaryXOR.dir/clean
 .PHONY : CMakeFiles/TernaryXOR.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ZeroRemainderArray.dir
+
+# All Build rule for target.
+CMakeFiles/ZeroRemainderArray.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZeroRemainderArray.dir\build.make CMakeFiles/ZeroRemainderArray.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZeroRemainderArray.dir\build.make CMakeFiles/ZeroRemainderArray.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=89,90 "Built target ZeroRemainderArray"
+.PHONY : CMakeFiles/ZeroRemainderArray.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ZeroRemainderArray.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ZeroRemainderArray.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/ZeroRemainderArray.dir/rule
+
+# Convenience name for target.
+ZeroRemainderArray: CMakeFiles/ZeroRemainderArray.dir/rule
+
+.PHONY : ZeroRemainderArray
+
+# clean rule for target.
+CMakeFiles/ZeroRemainderArray.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZeroRemainderArray.dir\build.make CMakeFiles/ZeroRemainderArray.dir/clean
+.PHONY : CMakeFiles/ZeroRemainderArray.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/MereArray.dir
