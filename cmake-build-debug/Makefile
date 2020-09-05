@@ -533,6 +533,19 @@ AccurateLee/fast:
 .PHONY : AccurateLee/fast
 
 #=============================================================================
+# Target rules for targets named AsSimpleAsOneAndTwo
+
+# Build rule for target.
+AsSimpleAsOneAndTwo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 AsSimpleAsOneAndTwo
+.PHONY : AsSimpleAsOneAndTwo
+
+# fast build rule for target.
+AsSimpleAsOneAndTwo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AsSimpleAsOneAndTwo.dir\build.make CMakeFiles/AsSimpleAsOneAndTwo.dir/build
+.PHONY : AsSimpleAsOneAndTwo/fast
+
+#=============================================================================
 # Target rules for targets named OddSelection
 
 # Build rule for target.
@@ -583,6 +596,19 @@ SequenceWithDigits: cmake_check_build_system
 SequenceWithDigits/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceWithDigits.dir\build.make CMakeFiles/SequenceWithDigits.dir/build
 .PHONY : SequenceWithDigits/fast
+
+#=============================================================================
+# Target rules for targets named NumberGame
+
+# Build rule for target.
+NumberGame: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 NumberGame
+.PHONY : NumberGame
+
+# fast build rule for target.
+NumberGame/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumberGame.dir\build.make CMakeFiles/NumberGame.dir/build
+.PHONY : NumberGame/fast
 
 #=============================================================================
 # Target rules for targets named K-thNotDivisibleByN
@@ -663,6 +689,19 @@ MereArray/fast:
 .PHONY : MereArray/fast
 
 #=============================================================================
+# Target rules for targets named ConstanzesMachine
+
+# Build rule for target.
+ConstanzesMachine: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ConstanzesMachine
+.PHONY : ConstanzesMachine
+
+# fast build rule for target.
+ConstanzesMachine/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ConstanzesMachine.dir\build.make CMakeFiles/ConstanzesMachine.dir/build
+.PHONY : ConstanzesMachine/fast
+
+#=============================================================================
 # Target rules for targets named PrefixFlipEasyVersion
 
 # Build rule for target.
@@ -713,6 +752,19 @@ TwoButtons: cmake_check_build_system
 TwoButtons/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TwoButtons.dir\build.make CMakeFiles/TwoButtons.dir/build
 .PHONY : TwoButtons/fast
+
+#=============================================================================
+# Target rules for targets named BasketballExercise
+
+# Build rule for target.
+BasketballExercise: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BasketballExercise
+.PHONY : BasketballExercise
+
+# fast build rule for target.
+BasketballExercise/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BasketballExercise.dir\build.make CMakeFiles/BasketballExercise.dir/build
+.PHONY : BasketballExercise/fast
 
 1000/CandyBags.obj: 1000/CandyBags.cpp.obj
 
@@ -1389,6 +1441,87 @@ TwoButtons/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ApplejackAndStorages.dir\build.make CMakeFiles/ApplejackAndStorages.dir/1400/ApplejackAndStorages.cpp.s
 .PHONY : 1400/ApplejackAndStorages.cpp.s
 
+1400/AsSimpleAsOneAndTwo.obj: 1400/AsSimpleAsOneAndTwo.cpp.obj
+
+.PHONY : 1400/AsSimpleAsOneAndTwo.obj
+
+# target to build an object file
+1400/AsSimpleAsOneAndTwo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AsSimpleAsOneAndTwo.dir\build.make CMakeFiles/AsSimpleAsOneAndTwo.dir/1400/AsSimpleAsOneAndTwo.cpp.obj
+.PHONY : 1400/AsSimpleAsOneAndTwo.cpp.obj
+
+1400/AsSimpleAsOneAndTwo.i: 1400/AsSimpleAsOneAndTwo.cpp.i
+
+.PHONY : 1400/AsSimpleAsOneAndTwo.i
+
+# target to preprocess a source file
+1400/AsSimpleAsOneAndTwo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AsSimpleAsOneAndTwo.dir\build.make CMakeFiles/AsSimpleAsOneAndTwo.dir/1400/AsSimpleAsOneAndTwo.cpp.i
+.PHONY : 1400/AsSimpleAsOneAndTwo.cpp.i
+
+1400/AsSimpleAsOneAndTwo.s: 1400/AsSimpleAsOneAndTwo.cpp.s
+
+.PHONY : 1400/AsSimpleAsOneAndTwo.s
+
+# target to generate assembly for a file
+1400/AsSimpleAsOneAndTwo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AsSimpleAsOneAndTwo.dir\build.make CMakeFiles/AsSimpleAsOneAndTwo.dir/1400/AsSimpleAsOneAndTwo.cpp.s
+.PHONY : 1400/AsSimpleAsOneAndTwo.cpp.s
+
+1400/BasketballExercise.obj: 1400/BasketballExercise.cpp.obj
+
+.PHONY : 1400/BasketballExercise.obj
+
+# target to build an object file
+1400/BasketballExercise.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BasketballExercise.dir\build.make CMakeFiles/BasketballExercise.dir/1400/BasketballExercise.cpp.obj
+.PHONY : 1400/BasketballExercise.cpp.obj
+
+1400/BasketballExercise.i: 1400/BasketballExercise.cpp.i
+
+.PHONY : 1400/BasketballExercise.i
+
+# target to preprocess a source file
+1400/BasketballExercise.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BasketballExercise.dir\build.make CMakeFiles/BasketballExercise.dir/1400/BasketballExercise.cpp.i
+.PHONY : 1400/BasketballExercise.cpp.i
+
+1400/BasketballExercise.s: 1400/BasketballExercise.cpp.s
+
+.PHONY : 1400/BasketballExercise.s
+
+# target to generate assembly for a file
+1400/BasketballExercise.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BasketballExercise.dir\build.make CMakeFiles/BasketballExercise.dir/1400/BasketballExercise.cpp.s
+.PHONY : 1400/BasketballExercise.cpp.s
+
+1400/ConstanzesMachine.obj: 1400/ConstanzesMachine.cpp.obj
+
+.PHONY : 1400/ConstanzesMachine.obj
+
+# target to build an object file
+1400/ConstanzesMachine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ConstanzesMachine.dir\build.make CMakeFiles/ConstanzesMachine.dir/1400/ConstanzesMachine.cpp.obj
+.PHONY : 1400/ConstanzesMachine.cpp.obj
+
+1400/ConstanzesMachine.i: 1400/ConstanzesMachine.cpp.i
+
+.PHONY : 1400/ConstanzesMachine.i
+
+# target to preprocess a source file
+1400/ConstanzesMachine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ConstanzesMachine.dir\build.make CMakeFiles/ConstanzesMachine.dir/1400/ConstanzesMachine.cpp.i
+.PHONY : 1400/ConstanzesMachine.cpp.i
+
+1400/ConstanzesMachine.s: 1400/ConstanzesMachine.cpp.s
+
+.PHONY : 1400/ConstanzesMachine.s
+
+# target to generate assembly for a file
+1400/ConstanzesMachine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ConstanzesMachine.dir\build.make CMakeFiles/ConstanzesMachine.dir/1400/ConstanzesMachine.cpp.s
+.PHONY : 1400/ConstanzesMachine.cpp.s
+
 1400/CreateTheTeams.obj: 1400/CreateTheTeams.cpp.obj
 
 .PHONY : 1400/CreateTheTeams.obj
@@ -1442,6 +1575,33 @@ TwoButtons/fast:
 1400/ElementExtermination.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ElementExtermination.dir\build.make CMakeFiles/ElementExtermination.dir/1400/ElementExtermination.cpp.s
 .PHONY : 1400/ElementExtermination.cpp.s
+
+1400/NumberGame.obj: 1400/NumberGame.cpp.obj
+
+.PHONY : 1400/NumberGame.obj
+
+# target to build an object file
+1400/NumberGame.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumberGame.dir\build.make CMakeFiles/NumberGame.dir/1400/NumberGame.cpp.obj
+.PHONY : 1400/NumberGame.cpp.obj
+
+1400/NumberGame.i: 1400/NumberGame.cpp.i
+
+.PHONY : 1400/NumberGame.i
+
+# target to preprocess a source file
+1400/NumberGame.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumberGame.dir\build.make CMakeFiles/NumberGame.dir/1400/NumberGame.cpp.i
+.PHONY : 1400/NumberGame.cpp.i
+
+1400/NumberGame.s: 1400/NumberGame.cpp.s
+
+.PHONY : 1400/NumberGame.s
+
+# target to generate assembly for a file
+1400/NumberGame.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumberGame.dir\build.make CMakeFiles/NumberGame.dir/1400/NumberGame.cpp.s
+.PHONY : 1400/NumberGame.cpp.s
 
 1400/TwoButtons.obj: 1400/TwoButtons.cpp.obj
 
@@ -1940,11 +2100,14 @@ help:
 	@echo ... AccurateLee
 	@echo ... AlternatingSubsequence
 	@echo ... ApplejackAndStorages
+	@echo ... AsSimpleAsOneAndTwo
+	@echo ... BasketballExercise
 	@echo ... BeautifulMatrix
 	@echo ... Bit++
 	@echo ... BoatsCompetition
 	@echo ... BoyOrGirl
 	@echo ... CandyBags
+	@echo ... ConstanzesMachine
 	@echo ... CreateTheTeams
 	@echo ... DisturbedPeople
 	@echo ... DominoPiling
@@ -1960,6 +2123,7 @@ help:
 	@echo ... MereArray
 	@echo ... NeighborGrid
 	@echo ... NextRound
+	@echo ... NumberGame
 	@echo ... OddSelection
 	@echo ... OmkarAndWaterslide
 	@echo ... PetyaAndStrings
@@ -2057,12 +2221,24 @@ help:
 	@echo ... 1400/ApplejackAndStorages.obj
 	@echo ... 1400/ApplejackAndStorages.i
 	@echo ... 1400/ApplejackAndStorages.s
+	@echo ... 1400/AsSimpleAsOneAndTwo.obj
+	@echo ... 1400/AsSimpleAsOneAndTwo.i
+	@echo ... 1400/AsSimpleAsOneAndTwo.s
+	@echo ... 1400/BasketballExercise.obj
+	@echo ... 1400/BasketballExercise.i
+	@echo ... 1400/BasketballExercise.s
+	@echo ... 1400/ConstanzesMachine.obj
+	@echo ... 1400/ConstanzesMachine.i
+	@echo ... 1400/ConstanzesMachine.s
 	@echo ... 1400/CreateTheTeams.obj
 	@echo ... 1400/CreateTheTeams.i
 	@echo ... 1400/CreateTheTeams.s
 	@echo ... 1400/ElementExtermination.obj
 	@echo ... 1400/ElementExtermination.i
 	@echo ... 1400/ElementExtermination.s
+	@echo ... 1400/NumberGame.obj
+	@echo ... 1400/NumberGame.i
+	@echo ... 1400/NumberGame.s
 	@echo ... 1400/TwoButtons.obj
 	@echo ... 1400/TwoButtons.i
 	@echo ... 1400/TwoButtons.s
