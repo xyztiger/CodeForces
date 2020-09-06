@@ -58,6 +58,7 @@ int main() {
             cout << answer[i] << ' ';
         }
         cout << endl;
+        //stratting
     }
     return 0;
 }
