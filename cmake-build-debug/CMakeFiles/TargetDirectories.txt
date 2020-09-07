@@ -12,6 +12,7 @@ C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/Team.di
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/NextRound.dir
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/BeautifulMatrix.dir
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/HelpfulMaths.dir
+C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/RationalLee.dir
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/BoatsCompetition.dir
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/StonesOnTheTable.dir
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/SortedAdjacentDifferences.dir

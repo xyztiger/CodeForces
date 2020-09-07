@@ -312,6 +312,19 @@ HelpfulMaths/fast:
 .PHONY : HelpfulMaths/fast
 
 #=============================================================================
+# Target rules for targets named RationalLee
+
+# Build rule for target.
+RationalLee: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RationalLee
+.PHONY : RationalLee
+
+# fast build rule for target.
+RationalLee/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RationalLee.dir\build.make CMakeFiles/RationalLee.dir/build
+.PHONY : RationalLee/fast
+
+#=============================================================================
 # Target rules for targets named BoatsCompetition
 
 # Build rule for target.
@@ -1603,6 +1616,33 @@ BasketballExercise/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumberGame.dir\build.make CMakeFiles/NumberGame.dir/1400/NumberGame.cpp.s
 .PHONY : 1400/NumberGame.cpp.s
 
+1400/RationalLee.obj: 1400/RationalLee.cpp.obj
+
+.PHONY : 1400/RationalLee.obj
+
+# target to build an object file
+1400/RationalLee.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RationalLee.dir\build.make CMakeFiles/RationalLee.dir/1400/RationalLee.cpp.obj
+.PHONY : 1400/RationalLee.cpp.obj
+
+1400/RationalLee.i: 1400/RationalLee.cpp.i
+
+.PHONY : 1400/RationalLee.i
+
+# target to preprocess a source file
+1400/RationalLee.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RationalLee.dir\build.make CMakeFiles/RationalLee.dir/1400/RationalLee.cpp.i
+.PHONY : 1400/RationalLee.cpp.i
+
+1400/RationalLee.s: 1400/RationalLee.cpp.s
+
+.PHONY : 1400/RationalLee.s
+
+# target to generate assembly for a file
+1400/RationalLee.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RationalLee.dir\build.make CMakeFiles/RationalLee.dir/1400/RationalLee.cpp.s
+.PHONY : 1400/RationalLee.cpp.s
+
 1400/TwoButtons.obj: 1400/TwoButtons.cpp.obj
 
 .PHONY : 1400/TwoButtons.obj
@@ -2129,6 +2169,7 @@ help:
 	@echo ... PetyaAndStrings
 	@echo ... Polygon
 	@echo ... PrefixFlipEasyVersion
+	@echo ... RationalLee
 	@echo ... SameParitySummands
 	@echo ... SequenceWithDigits
 	@echo ... SortedAdjacentDifferences
@@ -2239,6 +2280,9 @@ help:
 	@echo ... 1400/NumberGame.obj
 	@echo ... 1400/NumberGame.i
 	@echo ... 1400/NumberGame.s
+	@echo ... 1400/RationalLee.obj
+	@echo ... 1400/RationalLee.i
+	@echo ... 1400/RationalLee.s
 	@echo ... 1400/TwoButtons.obj
 	@echo ... 1400/TwoButtons.i
 	@echo ... 1400/TwoButtons.s
