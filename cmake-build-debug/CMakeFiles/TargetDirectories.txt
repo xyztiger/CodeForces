@@ -25,6 +25,7 @@ C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/Superhe
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/DisturbedPeople.dir
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/UniversalSolution.dir
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/CandyBags.dir
+C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/NEKOsMazeGame.dir
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/CreateTheTeams.dir
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/OmkarAndWaterslide.dir
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/MakeItGood.dir
@@ -34,6 +35,7 @@ C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/Accurat
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/AsSimpleAsOneAndTwo.dir
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/OddSelection.dir
+C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/BSTNewYearAndAscentSequence.dir
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/YoungExplorers.dir
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/LevelStatistics.dir
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/SequenceWithDigits.dir

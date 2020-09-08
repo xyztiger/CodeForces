@@ -27,23 +27,20 @@ int main() {
         }
         sort(a, a + n);
         sort(w, w + k);
-        int j = 0;
-        for (int i = n - 1; i >= 0; i--) {
-            while (w[j] == 0) {
-                if (j == k -1) {
-                    j = 0;
-                } else {
-                    j++;
-                }
+        int used = 0;
+        for (int i = 0; i < k; i++) {        //assign largest numbers to each friend
+            w[i]--;
+            assignment[i][0] = max(assignment[i][0], a[n - 1 - i]);
+            assignment[i][1] = min(assignment[i][1], a[n - 1 - i]);
+            used++;
+        }
+        int j = k - 1;
+        for (int i = 0; i < n - used; i++){
+            if (w[j] == 0) {
+                j--;
             }
-            assignment[j][0] = max(assignment[j][0], a[i]);
             assignment[j][1] = min(assignment[j][1], a[i]);
             w[j]--;
-            if (j == k - 1) {
-                j = 0;
-            } else {
-                j++;
-            }
         }
         long long answer = 0;
         for (int i = 0; i < k; i++) {

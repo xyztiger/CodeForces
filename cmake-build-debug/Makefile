@@ -468,6 +468,19 @@ CandyBags/fast:
 .PHONY : CandyBags/fast
 
 #=============================================================================
+# Target rules for targets named NEKOsMazeGame
+
+# Build rule for target.
+NEKOsMazeGame: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 NEKOsMazeGame
+.PHONY : NEKOsMazeGame
+
+# fast build rule for target.
+NEKOsMazeGame/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NEKOsMazeGame.dir\build.make CMakeFiles/NEKOsMazeGame.dir/build
+.PHONY : NEKOsMazeGame/fast
+
+#=============================================================================
 # Target rules for targets named CreateTheTeams
 
 # Build rule for target.
@@ -570,6 +583,19 @@ OddSelection: cmake_check_build_system
 OddSelection/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddSelection.dir\build.make CMakeFiles/OddSelection.dir/build
 .PHONY : OddSelection/fast
+
+#=============================================================================
+# Target rules for targets named BSTNewYearAndAscentSequence
+
+# Build rule for target.
+BSTNewYearAndAscentSequence: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BSTNewYearAndAscentSequence
+.PHONY : BSTNewYearAndAscentSequence
+
+# fast build rule for target.
+BSTNewYearAndAscentSequence/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BSTNewYearAndAscentSequence.dir\build.make CMakeFiles/BSTNewYearAndAscentSequence.dir/build
+.PHONY : BSTNewYearAndAscentSequence/fast
 
 #=============================================================================
 # Target rules for targets named YoungExplorers
@@ -1481,6 +1507,33 @@ BasketballExercise/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AsSimpleAsOneAndTwo.dir\build.make CMakeFiles/AsSimpleAsOneAndTwo.dir/1400/AsSimpleAsOneAndTwo.cpp.s
 .PHONY : 1400/AsSimpleAsOneAndTwo.cpp.s
 
+1400/BSTNewYearAndAscentSequence.obj: 1400/BSTNewYearAndAscentSequence.cpp.obj
+
+.PHONY : 1400/BSTNewYearAndAscentSequence.obj
+
+# target to build an object file
+1400/BSTNewYearAndAscentSequence.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BSTNewYearAndAscentSequence.dir\build.make CMakeFiles/BSTNewYearAndAscentSequence.dir/1400/BSTNewYearAndAscentSequence.cpp.obj
+.PHONY : 1400/BSTNewYearAndAscentSequence.cpp.obj
+
+1400/BSTNewYearAndAscentSequence.i: 1400/BSTNewYearAndAscentSequence.cpp.i
+
+.PHONY : 1400/BSTNewYearAndAscentSequence.i
+
+# target to preprocess a source file
+1400/BSTNewYearAndAscentSequence.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BSTNewYearAndAscentSequence.dir\build.make CMakeFiles/BSTNewYearAndAscentSequence.dir/1400/BSTNewYearAndAscentSequence.cpp.i
+.PHONY : 1400/BSTNewYearAndAscentSequence.cpp.i
+
+1400/BSTNewYearAndAscentSequence.s: 1400/BSTNewYearAndAscentSequence.cpp.s
+
+.PHONY : 1400/BSTNewYearAndAscentSequence.s
+
+# target to generate assembly for a file
+1400/BSTNewYearAndAscentSequence.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BSTNewYearAndAscentSequence.dir\build.make CMakeFiles/BSTNewYearAndAscentSequence.dir/1400/BSTNewYearAndAscentSequence.cpp.s
+.PHONY : 1400/BSTNewYearAndAscentSequence.cpp.s
+
 1400/BasketballExercise.obj: 1400/BasketballExercise.cpp.obj
 
 .PHONY : 1400/BasketballExercise.obj
@@ -1588,6 +1641,33 @@ BasketballExercise/fast:
 1400/ElementExtermination.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ElementExtermination.dir\build.make CMakeFiles/ElementExtermination.dir/1400/ElementExtermination.cpp.s
 .PHONY : 1400/ElementExtermination.cpp.s
+
+1400/NEKOsMazeGame.obj: 1400/NEKOsMazeGame.cpp.obj
+
+.PHONY : 1400/NEKOsMazeGame.obj
+
+# target to build an object file
+1400/NEKOsMazeGame.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NEKOsMazeGame.dir\build.make CMakeFiles/NEKOsMazeGame.dir/1400/NEKOsMazeGame.cpp.obj
+.PHONY : 1400/NEKOsMazeGame.cpp.obj
+
+1400/NEKOsMazeGame.i: 1400/NEKOsMazeGame.cpp.i
+
+.PHONY : 1400/NEKOsMazeGame.i
+
+# target to preprocess a source file
+1400/NEKOsMazeGame.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NEKOsMazeGame.dir\build.make CMakeFiles/NEKOsMazeGame.dir/1400/NEKOsMazeGame.cpp.i
+.PHONY : 1400/NEKOsMazeGame.cpp.i
+
+1400/NEKOsMazeGame.s: 1400/NEKOsMazeGame.cpp.s
+
+.PHONY : 1400/NEKOsMazeGame.s
+
+# target to generate assembly for a file
+1400/NEKOsMazeGame.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NEKOsMazeGame.dir\build.make CMakeFiles/NEKOsMazeGame.dir/1400/NEKOsMazeGame.cpp.s
+.PHONY : 1400/NEKOsMazeGame.cpp.s
 
 1400/NumberGame.obj: 1400/NumberGame.cpp.obj
 
@@ -2141,6 +2221,7 @@ help:
 	@echo ... AlternatingSubsequence
 	@echo ... ApplejackAndStorages
 	@echo ... AsSimpleAsOneAndTwo
+	@echo ... BSTNewYearAndAscentSequence
 	@echo ... BasketballExercise
 	@echo ... BeautifulMatrix
 	@echo ... Bit++
@@ -2161,6 +2242,7 @@ help:
 	@echo ... MagicalCalendar
 	@echo ... MakeItGood
 	@echo ... MereArray
+	@echo ... NEKOsMazeGame
 	@echo ... NeighborGrid
 	@echo ... NextRound
 	@echo ... NumberGame
@@ -2265,6 +2347,9 @@ help:
 	@echo ... 1400/AsSimpleAsOneAndTwo.obj
 	@echo ... 1400/AsSimpleAsOneAndTwo.i
 	@echo ... 1400/AsSimpleAsOneAndTwo.s
+	@echo ... 1400/BSTNewYearAndAscentSequence.obj
+	@echo ... 1400/BSTNewYearAndAscentSequence.i
+	@echo ... 1400/BSTNewYearAndAscentSequence.s
 	@echo ... 1400/BasketballExercise.obj
 	@echo ... 1400/BasketballExercise.i
 	@echo ... 1400/BasketballExercise.s
@@ -2277,6 +2362,9 @@ help:
 	@echo ... 1400/ElementExtermination.obj
 	@echo ... 1400/ElementExtermination.i
 	@echo ... 1400/ElementExtermination.s
+	@echo ... 1400/NEKOsMazeGame.obj
+	@echo ... 1400/NEKOsMazeGame.i
+	@echo ... 1400/NEKOsMazeGame.s
 	@echo ... 1400/NumberGame.obj
 	@echo ... 1400/NumberGame.i
 	@echo ... 1400/NumberGame.s
