@@ -611,6 +611,19 @@ YoungExplorers/fast:
 .PHONY : YoungExplorers/fast
 
 #=============================================================================
+# Target rules for targets named NewYearAndAscentSequence
+
+# Build rule for target.
+NewYearAndAscentSequence: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 NewYearAndAscentSequence
+.PHONY : NewYearAndAscentSequence
+
+# fast build rule for target.
+NewYearAndAscentSequence/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NewYearAndAscentSequence.dir\build.make CMakeFiles/NewYearAndAscentSequence.dir/build
+.PHONY : NewYearAndAscentSequence/fast
+
+#=============================================================================
 # Target rules for targets named LevelStatistics
 
 # Build rule for target.
@@ -674,6 +687,19 @@ K-thNotDivisibleByNBinarySearch: cmake_check_build_system
 K-thNotDivisibleByNBinarySearch/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\K-thNotDivisibleByNBinarySearch.dir\build.make CMakeFiles/K-thNotDivisibleByNBinarySearch.dir/build
 .PHONY : K-thNotDivisibleByNBinarySearch/fast
+
+#=============================================================================
+# Target rules for targets named KForThePriceOfOneEasy
+
+# Build rule for target.
+KForThePriceOfOneEasy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 KForThePriceOfOneEasy
+.PHONY : KForThePriceOfOneEasy
+
+# fast build rule for target.
+KForThePriceOfOneEasy/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\KForThePriceOfOneEasy.dir\build.make CMakeFiles/KForThePriceOfOneEasy.dir/build
+.PHONY : KForThePriceOfOneEasy/fast
 
 #=============================================================================
 # Target rules for targets named SameParitySummands
@@ -804,6 +830,19 @@ BasketballExercise: cmake_check_build_system
 BasketballExercise/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BasketballExercise.dir\build.make CMakeFiles/BasketballExercise.dir/build
 .PHONY : BasketballExercise/fast
+
+#=============================================================================
+# Target rules for targets named ValhallaSiege
+
+# Build rule for target.
+ValhallaSiege: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ValhallaSiege
+.PHONY : ValhallaSiege
+
+# fast build rule for target.
+ValhallaSiege/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ValhallaSiege.dir\build.make CMakeFiles/ValhallaSiege.dir/build
+.PHONY : ValhallaSiege/fast
 
 1000/CandyBags.obj: 1000/CandyBags.cpp.obj
 
@@ -1642,6 +1681,33 @@ BasketballExercise/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ElementExtermination.dir\build.make CMakeFiles/ElementExtermination.dir/1400/ElementExtermination.cpp.s
 .PHONY : 1400/ElementExtermination.cpp.s
 
+1400/KForThePriceOfOneEasy.obj: 1400/KForThePriceOfOneEasy.cpp.obj
+
+.PHONY : 1400/KForThePriceOfOneEasy.obj
+
+# target to build an object file
+1400/KForThePriceOfOneEasy.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\KForThePriceOfOneEasy.dir\build.make CMakeFiles/KForThePriceOfOneEasy.dir/1400/KForThePriceOfOneEasy.cpp.obj
+.PHONY : 1400/KForThePriceOfOneEasy.cpp.obj
+
+1400/KForThePriceOfOneEasy.i: 1400/KForThePriceOfOneEasy.cpp.i
+
+.PHONY : 1400/KForThePriceOfOneEasy.i
+
+# target to preprocess a source file
+1400/KForThePriceOfOneEasy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\KForThePriceOfOneEasy.dir\build.make CMakeFiles/KForThePriceOfOneEasy.dir/1400/KForThePriceOfOneEasy.cpp.i
+.PHONY : 1400/KForThePriceOfOneEasy.cpp.i
+
+1400/KForThePriceOfOneEasy.s: 1400/KForThePriceOfOneEasy.cpp.s
+
+.PHONY : 1400/KForThePriceOfOneEasy.s
+
+# target to generate assembly for a file
+1400/KForThePriceOfOneEasy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\KForThePriceOfOneEasy.dir\build.make CMakeFiles/KForThePriceOfOneEasy.dir/1400/KForThePriceOfOneEasy.cpp.s
+.PHONY : 1400/KForThePriceOfOneEasy.cpp.s
+
 1400/NEKOsMazeGame.obj: 1400/NEKOsMazeGame.cpp.obj
 
 .PHONY : 1400/NEKOsMazeGame.obj
@@ -1668,6 +1734,33 @@ BasketballExercise/fast:
 1400/NEKOsMazeGame.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NEKOsMazeGame.dir\build.make CMakeFiles/NEKOsMazeGame.dir/1400/NEKOsMazeGame.cpp.s
 .PHONY : 1400/NEKOsMazeGame.cpp.s
+
+1400/NewYearAndAscentSequence.obj: 1400/NewYearAndAscentSequence.cpp.obj
+
+.PHONY : 1400/NewYearAndAscentSequence.obj
+
+# target to build an object file
+1400/NewYearAndAscentSequence.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NewYearAndAscentSequence.dir\build.make CMakeFiles/NewYearAndAscentSequence.dir/1400/NewYearAndAscentSequence.cpp.obj
+.PHONY : 1400/NewYearAndAscentSequence.cpp.obj
+
+1400/NewYearAndAscentSequence.i: 1400/NewYearAndAscentSequence.cpp.i
+
+.PHONY : 1400/NewYearAndAscentSequence.i
+
+# target to preprocess a source file
+1400/NewYearAndAscentSequence.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NewYearAndAscentSequence.dir\build.make CMakeFiles/NewYearAndAscentSequence.dir/1400/NewYearAndAscentSequence.cpp.i
+.PHONY : 1400/NewYearAndAscentSequence.cpp.i
+
+1400/NewYearAndAscentSequence.s: 1400/NewYearAndAscentSequence.cpp.s
+
+.PHONY : 1400/NewYearAndAscentSequence.s
+
+# target to generate assembly for a file
+1400/NewYearAndAscentSequence.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NewYearAndAscentSequence.dir\build.make CMakeFiles/NewYearAndAscentSequence.dir/1400/NewYearAndAscentSequence.cpp.s
+.PHONY : 1400/NewYearAndAscentSequence.cpp.s
 
 1400/NumberGame.obj: 1400/NumberGame.cpp.obj
 
@@ -1776,6 +1869,33 @@ BasketballExercise/fast:
 1400/UniversalSolution.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UniversalSolution.dir\build.make CMakeFiles/UniversalSolution.dir/1400/UniversalSolution.cpp.s
 .PHONY : 1400/UniversalSolution.cpp.s
+
+1400/ValhallaSiege.obj: 1400/ValhallaSiege.cpp.obj
+
+.PHONY : 1400/ValhallaSiege.obj
+
+# target to build an object file
+1400/ValhallaSiege.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ValhallaSiege.dir\build.make CMakeFiles/ValhallaSiege.dir/1400/ValhallaSiege.cpp.obj
+.PHONY : 1400/ValhallaSiege.cpp.obj
+
+1400/ValhallaSiege.i: 1400/ValhallaSiege.cpp.i
+
+.PHONY : 1400/ValhallaSiege.i
+
+# target to preprocess a source file
+1400/ValhallaSiege.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ValhallaSiege.dir\build.make CMakeFiles/ValhallaSiege.dir/1400/ValhallaSiege.cpp.i
+.PHONY : 1400/ValhallaSiege.cpp.i
+
+1400/ValhallaSiege.s: 1400/ValhallaSiege.cpp.s
+
+.PHONY : 1400/ValhallaSiege.s
+
+# target to generate assembly for a file
+1400/ValhallaSiege.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ValhallaSiege.dir\build.make CMakeFiles/ValhallaSiege.dir/1400/ValhallaSiege.cpp.s
+.PHONY : 1400/ValhallaSiege.cpp.s
 
 1400/ZeroRemainderArray.obj: 1400/ZeroRemainderArray.cpp.obj
 
@@ -2238,12 +2358,14 @@ help:
 	@echo ... HelpfulMaths
 	@echo ... K-thNotDivisibleByN
 	@echo ... K-thNotDivisibleByNBinarySearch
+	@echo ... KForThePriceOfOneEasy
 	@echo ... LevelStatistics
 	@echo ... MagicalCalendar
 	@echo ... MakeItGood
 	@echo ... MereArray
 	@echo ... NEKOsMazeGame
 	@echo ... NeighborGrid
+	@echo ... NewYearAndAscentSequence
 	@echo ... NextRound
 	@echo ... NumberGame
 	@echo ... OddSelection
@@ -2263,6 +2385,7 @@ help:
 	@echo ... Twins
 	@echo ... TwoButtons
 	@echo ... UniversalSolution
+	@echo ... ValhallaSiege
 	@echo ... WaterMelon
 	@echo ... WayTooLongWords
 	@echo ... WordCapitalization
@@ -2362,9 +2485,15 @@ help:
 	@echo ... 1400/ElementExtermination.obj
 	@echo ... 1400/ElementExtermination.i
 	@echo ... 1400/ElementExtermination.s
+	@echo ... 1400/KForThePriceOfOneEasy.obj
+	@echo ... 1400/KForThePriceOfOneEasy.i
+	@echo ... 1400/KForThePriceOfOneEasy.s
 	@echo ... 1400/NEKOsMazeGame.obj
 	@echo ... 1400/NEKOsMazeGame.i
 	@echo ... 1400/NEKOsMazeGame.s
+	@echo ... 1400/NewYearAndAscentSequence.obj
+	@echo ... 1400/NewYearAndAscentSequence.i
+	@echo ... 1400/NewYearAndAscentSequence.s
 	@echo ... 1400/NumberGame.obj
 	@echo ... 1400/NumberGame.i
 	@echo ... 1400/NumberGame.s
@@ -2377,6 +2506,9 @@ help:
 	@echo ... 1400/UniversalSolution.obj
 	@echo ... 1400/UniversalSolution.i
 	@echo ... 1400/UniversalSolution.s
+	@echo ... 1400/ValhallaSiege.obj
+	@echo ... 1400/ValhallaSiege.i
+	@echo ... 1400/ValhallaSiege.s
 	@echo ... 1400/ZeroRemainderArray.obj
 	@echo ... 1400/ZeroRemainderArray.i
 	@echo ... 1400/ZeroRemainderArray.s
