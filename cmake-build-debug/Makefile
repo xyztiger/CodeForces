@@ -390,6 +390,19 @@ Football/fast:
 .PHONY : Football/fast
 
 #=============================================================================
+# Target rules for targets named RotationMatching
+
+# Build rule for target.
+RotationMatching: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RotationMatching
+.PHONY : RotationMatching
+
+# fast build rule for target.
+RotationMatching/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RotationMatching.dir\build.make CMakeFiles/RotationMatching.dir/build
+.PHONY : RotationMatching/fast
+
+#=============================================================================
 # Target rules for targets named Twins
 
 # Build rule for target.
@@ -1816,6 +1829,33 @@ ValhallaSiege/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RationalLee.dir\build.make CMakeFiles/RationalLee.dir/1400/RationalLee.cpp.s
 .PHONY : 1400/RationalLee.cpp.s
 
+1400/RotationMatching.obj: 1400/RotationMatching.cpp.obj
+
+.PHONY : 1400/RotationMatching.obj
+
+# target to build an object file
+1400/RotationMatching.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RotationMatching.dir\build.make CMakeFiles/RotationMatching.dir/1400/RotationMatching.cpp.obj
+.PHONY : 1400/RotationMatching.cpp.obj
+
+1400/RotationMatching.i: 1400/RotationMatching.cpp.i
+
+.PHONY : 1400/RotationMatching.i
+
+# target to preprocess a source file
+1400/RotationMatching.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RotationMatching.dir\build.make CMakeFiles/RotationMatching.dir/1400/RotationMatching.cpp.i
+.PHONY : 1400/RotationMatching.cpp.i
+
+1400/RotationMatching.s: 1400/RotationMatching.cpp.s
+
+.PHONY : 1400/RotationMatching.s
+
+# target to generate assembly for a file
+1400/RotationMatching.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RotationMatching.dir\build.make CMakeFiles/RotationMatching.dir/1400/RotationMatching.cpp.s
+.PHONY : 1400/RotationMatching.cpp.s
+
 1400/TwoButtons.obj: 1400/TwoButtons.cpp.obj
 
 .PHONY : 1400/TwoButtons.obj
@@ -2374,6 +2414,7 @@ help:
 	@echo ... Polygon
 	@echo ... PrefixFlipEasyVersion
 	@echo ... RationalLee
+	@echo ... RotationMatching
 	@echo ... SameParitySummands
 	@echo ... SequenceWithDigits
 	@echo ... SortedAdjacentDifferences
@@ -2500,6 +2541,9 @@ help:
 	@echo ... 1400/RationalLee.obj
 	@echo ... 1400/RationalLee.i
 	@echo ... 1400/RationalLee.s
+	@echo ... 1400/RotationMatching.obj
+	@echo ... 1400/RotationMatching.i
+	@echo ... 1400/RotationMatching.s
 	@echo ... 1400/TwoButtons.obj
 	@echo ... 1400/TwoButtons.i
 	@echo ... 1400/TwoButtons.s

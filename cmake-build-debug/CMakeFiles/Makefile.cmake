@@ -73,6 +73,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/SortedAdjacentDifferences.dir/DependInfo.cmake"
   "CMakeFiles/BoyOrGirl.dir/DependInfo.cmake"
   "CMakeFiles/Football.dir/DependInfo.cmake"
+  "CMakeFiles/RotationMatching.dir/DependInfo.cmake"
   "CMakeFiles/Twins.dir/DependInfo.cmake"
   "CMakeFiles/HQ9+.dir/DependInfo.cmake"
   "CMakeFiles/SuperheroTransformation.dir/DependInfo.cmake"

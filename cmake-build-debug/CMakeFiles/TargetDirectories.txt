@@ -18,6 +18,7 @@ C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/StonesO
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/SortedAdjacentDifferences.dir
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/BoyOrGirl.dir
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/Football.dir
+C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/RotationMatching.dir
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/Twins.dir
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/HQ9+.dir
 C:/Users/TigerZhao/CLionProjects/CodeForces/cmake-build-debug/CMakeFiles/rebuild_cache.dir

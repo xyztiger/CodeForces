@@ -92,6 +92,7 @@ all: CMakeFiles/StonesOnTheTable.dir/all
 all: CMakeFiles/SortedAdjacentDifferences.dir/all
 all: CMakeFiles/BoyOrGirl.dir/all
 all: CMakeFiles/Football.dir/all
+all: CMakeFiles/RotationMatching.dir/all
 all: CMakeFiles/Twins.dir/all
 all: CMakeFiles/HQ9+.dir/all
 all: CMakeFiles/SuperheroTransformation.dir/all
@@ -156,6 +157,7 @@ clean: CMakeFiles/StonesOnTheTable.dir/clean
 clean: CMakeFiles/SortedAdjacentDifferences.dir/clean
 clean: CMakeFiles/BoyOrGirl.dir/clean
 clean: CMakeFiles/Football.dir/clean
+clean: CMakeFiles/RotationMatching.dir/clean
 clean: CMakeFiles/Twins.dir/clean
 clean: CMakeFiles/HQ9+.dir/clean
 clean: CMakeFiles/SuperheroTransformation.dir/clean
@@ -255,12 +257,12 @@ CMakeFiles/WordCapitalization.dir/clean:
 CMakeFiles/PetyaAndStrings.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PetyaAndStrings.dir\build.make CMakeFiles/PetyaAndStrings.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PetyaAndStrings.dir\build.make CMakeFiles/PetyaAndStrings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=61 "Built target PetyaAndStrings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=59,60 "Built target PetyaAndStrings"
 .PHONY : CMakeFiles/PetyaAndStrings.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/PetyaAndStrings.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/PetyaAndStrings.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/PetyaAndStrings.dir/rule
@@ -282,7 +284,7 @@ CMakeFiles/PetyaAndStrings.dir/clean:
 CMakeFiles/Polygon.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polygon.dir\build.make CMakeFiles/Polygon.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polygon.dir\build.make CMakeFiles/Polygon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=62,63 "Built target Polygon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=61,62 "Built target Polygon"
 .PHONY : CMakeFiles/Polygon.dir/all
 
 # Build rule for subdir invocation for target.
@@ -336,12 +338,12 @@ CMakeFiles/AlternatingSubsequence.dir/clean:
 CMakeFiles/WayTooLongWords.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WayTooLongWords.dir\build.make CMakeFiles/WayTooLongWords.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WayTooLongWords.dir\build.make CMakeFiles/WayTooLongWords.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=91,92 "Built target WayTooLongWords"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=92 "Built target WayTooLongWords"
 .PHONY : CMakeFiles/WayTooLongWords.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/WayTooLongWords.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/WayTooLongWords.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/WayTooLongWords.dir/rule
@@ -390,12 +392,12 @@ CMakeFiles/XXXXX.dir/clean:
 CMakeFiles/WaterMelon.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WaterMelon.dir\build.make CMakeFiles/WaterMelon.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WaterMelon.dir\build.make CMakeFiles/WaterMelon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=90 "Built target WaterMelon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=90,91 "Built target WaterMelon"
 .PHONY : CMakeFiles/WaterMelon.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/WaterMelon.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/WaterMelon.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/WaterMelon.dir/rule
@@ -417,12 +419,12 @@ CMakeFiles/WaterMelon.dir/clean:
 CMakeFiles/DominoPiling.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DominoPiling.dir\build.make CMakeFiles/DominoPiling.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DominoPiling.dir\build.make CMakeFiles/DominoPiling.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=26,27 "Built target DominoPiling"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=26 "Built target DominoPiling"
 .PHONY : CMakeFiles/DominoPiling.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DominoPiling.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/DominoPiling.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/DominoPiling.dir/rule
@@ -498,7 +500,7 @@ CMakeFiles/Team.dir/clean:
 CMakeFiles/NextRound.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NextRound.dir\build.make CMakeFiles/NextRound.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NextRound.dir\build.make CMakeFiles/NextRound.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=53,54 "Built target NextRound"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=52,53 "Built target NextRound"
 .PHONY : CMakeFiles/NextRound.dir/all
 
 # Build rule for subdir invocation for target.
@@ -552,12 +554,12 @@ CMakeFiles/BeautifulMatrix.dir/clean:
 CMakeFiles/HelpfulMaths.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HelpfulMaths.dir\build.make CMakeFiles/HelpfulMaths.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HelpfulMaths.dir\build.make CMakeFiles/HelpfulMaths.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target HelpfulMaths"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=33 "Built target HelpfulMaths"
 .PHONY : CMakeFiles/HelpfulMaths.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/HelpfulMaths.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/HelpfulMaths.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/HelpfulMaths.dir/rule
@@ -579,7 +581,7 @@ CMakeFiles/HelpfulMaths.dir/clean:
 CMakeFiles/RationalLee.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RationalLee.dir\build.make CMakeFiles/RationalLee.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RationalLee.dir\build.make CMakeFiles/RationalLee.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=66,67 "Built target RationalLee"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=65,66 "Built target RationalLee"
 .PHONY : CMakeFiles/RationalLee.dir/all
 
 # Build rule for subdir invocation for target.
@@ -633,7 +635,7 @@ CMakeFiles/BoatsCompetition.dir/clean:
 CMakeFiles/StonesOnTheTable.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StonesOnTheTable.dir\build.make CMakeFiles/StonesOnTheTable.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StonesOnTheTable.dir\build.make CMakeFiles/StonesOnTheTable.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=73,74 "Built target StonesOnTheTable"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=74,75 "Built target StonesOnTheTable"
 .PHONY : CMakeFiles/StonesOnTheTable.dir/all
 
 # Build rule for subdir invocation for target.
@@ -660,7 +662,7 @@ CMakeFiles/StonesOnTheTable.dir/clean:
 CMakeFiles/SortedAdjacentDifferences.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedAdjacentDifferences.dir\build.make CMakeFiles/SortedAdjacentDifferences.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedAdjacentDifferences.dir\build.make CMakeFiles/SortedAdjacentDifferences.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=71,72 "Built target SortedAdjacentDifferences"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=72,73 "Built target SortedAdjacentDifferences"
 .PHONY : CMakeFiles/SortedAdjacentDifferences.dir/all
 
 # Build rule for subdir invocation for target.
@@ -687,12 +689,12 @@ CMakeFiles/SortedAdjacentDifferences.dir/clean:
 CMakeFiles/BoyOrGirl.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoyOrGirl.dir\build.make CMakeFiles/BoyOrGirl.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoyOrGirl.dir\build.make CMakeFiles/BoyOrGirl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target BoyOrGirl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=17 "Built target BoyOrGirl"
 .PHONY : CMakeFiles/BoyOrGirl.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/BoyOrGirl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/BoyOrGirl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/BoyOrGirl.dir/rule
@@ -714,12 +716,12 @@ CMakeFiles/BoyOrGirl.dir/clean:
 CMakeFiles/Football.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Football.dir\build.make CMakeFiles/Football.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Football.dir\build.make CMakeFiles/Football.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=30 "Built target Football"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target Football"
 .PHONY : CMakeFiles/Football.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Football.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Football.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Football.dir/rule
@@ -735,18 +737,45 @@ CMakeFiles/Football.dir/clean:
 .PHONY : CMakeFiles/Football.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/RotationMatching.dir
+
+# All Build rule for target.
+CMakeFiles/RotationMatching.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RotationMatching.dir\build.make CMakeFiles/RotationMatching.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RotationMatching.dir\build.make CMakeFiles/RotationMatching.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=67 "Built target RotationMatching"
+.PHONY : CMakeFiles/RotationMatching.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/RotationMatching.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/RotationMatching.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/RotationMatching.dir/rule
+
+# Convenience name for target.
+RotationMatching: CMakeFiles/RotationMatching.dir/rule
+
+.PHONY : RotationMatching
+
+# clean rule for target.
+CMakeFiles/RotationMatching.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RotationMatching.dir\build.make CMakeFiles/RotationMatching.dir/clean
+.PHONY : CMakeFiles/RotationMatching.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Twins.dir
 
 # All Build rule for target.
 CMakeFiles/Twins.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Twins.dir\build.make CMakeFiles/Twins.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Twins.dir\build.make CMakeFiles/Twins.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=82,83 "Built target Twins"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=83 "Built target Twins"
 .PHONY : CMakeFiles/Twins.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Twins.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Twins.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Twins.dir/rule
@@ -795,12 +824,12 @@ CMakeFiles/HQ9+.dir/clean:
 CMakeFiles/SuperheroTransformation.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SuperheroTransformation.dir\build.make CMakeFiles/SuperheroTransformation.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SuperheroTransformation.dir\build.make CMakeFiles/SuperheroTransformation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=75,76 "Built target SuperheroTransformation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=76 "Built target SuperheroTransformation"
 .PHONY : CMakeFiles/SuperheroTransformation.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SuperheroTransformation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/SuperheroTransformation.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/SuperheroTransformation.dir/rule
@@ -876,7 +905,7 @@ CMakeFiles/UniversalSolution.dir/clean:
 CMakeFiles/CandyBags.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CandyBags.dir\build.make CMakeFiles/CandyBags.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CandyBags.dir\build.make CMakeFiles/CandyBags.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target CandyBags"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=18,19 "Built target CandyBags"
 .PHONY : CMakeFiles/CandyBags.dir/all
 
 # Build rule for subdir invocation for target.
@@ -903,7 +932,7 @@ CMakeFiles/CandyBags.dir/clean:
 CMakeFiles/NEKOsMazeGame.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NEKOsMazeGame.dir\build.make CMakeFiles/NEKOsMazeGame.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NEKOsMazeGame.dir\build.make CMakeFiles/NEKOsMazeGame.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=48,49 "Built target NEKOsMazeGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target NEKOsMazeGame"
 .PHONY : CMakeFiles/NEKOsMazeGame.dir/all
 
 # Build rule for subdir invocation for target.
@@ -957,12 +986,12 @@ CMakeFiles/CreateTheTeams.dir/clean:
 CMakeFiles/OmkarAndWaterslide.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OmkarAndWaterslide.dir\build.make CMakeFiles/OmkarAndWaterslide.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OmkarAndWaterslide.dir\build.make CMakeFiles/OmkarAndWaterslide.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=59,60 "Built target OmkarAndWaterslide"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=58 "Built target OmkarAndWaterslide"
 .PHONY : CMakeFiles/OmkarAndWaterslide.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/OmkarAndWaterslide.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/OmkarAndWaterslide.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/OmkarAndWaterslide.dir/rule
@@ -984,7 +1013,7 @@ CMakeFiles/OmkarAndWaterslide.dir/clean:
 CMakeFiles/MakeItGood.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MakeItGood.dir\build.make CMakeFiles/MakeItGood.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MakeItGood.dir\build.make CMakeFiles/MakeItGood.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=44,45 "Built target MakeItGood"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target MakeItGood"
 .PHONY : CMakeFiles/MakeItGood.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1011,12 +1040,12 @@ CMakeFiles/MakeItGood.dir/clean:
 CMakeFiles/NeighborGrid.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeighborGrid.dir\build.make CMakeFiles/NeighborGrid.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeighborGrid.dir\build.make CMakeFiles/NeighborGrid.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=50 "Built target NeighborGrid"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target NeighborGrid"
 .PHONY : CMakeFiles/NeighborGrid.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/NeighborGrid.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/NeighborGrid.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/NeighborGrid.dir/rule
@@ -1038,12 +1067,12 @@ CMakeFiles/NeighborGrid.dir/clean:
 CMakeFiles/MagicalCalendar.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicalCalendar.dir\build.make CMakeFiles/MagicalCalendar.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicalCalendar.dir\build.make CMakeFiles/MagicalCalendar.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=42,43 "Built target MagicalCalendar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=42 "Built target MagicalCalendar"
 .PHONY : CMakeFiles/MagicalCalendar.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MagicalCalendar.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/MagicalCalendar.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/MagicalCalendar.dir/rule
@@ -1119,7 +1148,7 @@ CMakeFiles/AsSimpleAsOneAndTwo.dir/clean:
 CMakeFiles/OddSelection.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddSelection.dir\build.make CMakeFiles/OddSelection.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddSelection.dir\build.make CMakeFiles/OddSelection.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target OddSelection"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=56,57 "Built target OddSelection"
 .PHONY : CMakeFiles/OddSelection.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1146,12 +1175,12 @@ CMakeFiles/OddSelection.dir/clean:
 CMakeFiles/BSTNewYearAndAscentSequence.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BSTNewYearAndAscentSequence.dir\build.make CMakeFiles/BSTNewYearAndAscentSequence.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BSTNewYearAndAscentSequence.dir\build.make CMakeFiles/BSTNewYearAndAscentSequence.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=8,9 "Built target BSTNewYearAndAscentSequence"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=8 "Built target BSTNewYearAndAscentSequence"
 .PHONY : CMakeFiles/BSTNewYearAndAscentSequence.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/BSTNewYearAndAscentSequence.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/BSTNewYearAndAscentSequence.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/BSTNewYearAndAscentSequence.dir/rule
@@ -1200,12 +1229,12 @@ CMakeFiles/YoungExplorers.dir/clean:
 CMakeFiles/NewYearAndAscentSequence.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NewYearAndAscentSequence.dir\build.make CMakeFiles/NewYearAndAscentSequence.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NewYearAndAscentSequence.dir\build.make CMakeFiles/NewYearAndAscentSequence.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target NewYearAndAscentSequence"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=51 "Built target NewYearAndAscentSequence"
 .PHONY : CMakeFiles/NewYearAndAscentSequence.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/NewYearAndAscentSequence.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/NewYearAndAscentSequence.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/NewYearAndAscentSequence.dir/rule
@@ -1227,12 +1256,12 @@ CMakeFiles/NewYearAndAscentSequence.dir/clean:
 CMakeFiles/LevelStatistics.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LevelStatistics.dir\build.make CMakeFiles/LevelStatistics.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LevelStatistics.dir\build.make CMakeFiles/LevelStatistics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=41 "Built target LevelStatistics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=40,41 "Built target LevelStatistics"
 .PHONY : CMakeFiles/LevelStatistics.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LevelStatistics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/LevelStatistics.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/LevelStatistics.dir/rule
@@ -1254,12 +1283,12 @@ CMakeFiles/LevelStatistics.dir/clean:
 CMakeFiles/SequenceWithDigits.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceWithDigits.dir\build.make CMakeFiles/SequenceWithDigits.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceWithDigits.dir\build.make CMakeFiles/SequenceWithDigits.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=70 "Built target SequenceWithDigits"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=70,71 "Built target SequenceWithDigits"
 .PHONY : CMakeFiles/SequenceWithDigits.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SequenceWithDigits.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/SequenceWithDigits.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/SequenceWithDigits.dir/rule
@@ -1281,7 +1310,7 @@ CMakeFiles/SequenceWithDigits.dir/clean:
 CMakeFiles/NumberGame.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumberGame.dir\build.make CMakeFiles/NumberGame.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumberGame.dir\build.make CMakeFiles/NumberGame.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=55,56 "Built target NumberGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=54,55 "Built target NumberGame"
 .PHONY : CMakeFiles/NumberGame.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1308,7 +1337,7 @@ CMakeFiles/NumberGame.dir/clean:
 CMakeFiles/K-thNotDivisibleByN.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\K-thNotDivisibleByN.dir\build.make CMakeFiles/K-thNotDivisibleByN.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\K-thNotDivisibleByN.dir\build.make CMakeFiles/K-thNotDivisibleByN.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target K-thNotDivisibleByN"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=34,35 "Built target K-thNotDivisibleByN"
 .PHONY : CMakeFiles/K-thNotDivisibleByN.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1335,7 +1364,7 @@ CMakeFiles/K-thNotDivisibleByN.dir/clean:
 CMakeFiles/K-thNotDivisibleByNBinarySearch.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\K-thNotDivisibleByNBinarySearch.dir\build.make CMakeFiles/K-thNotDivisibleByNBinarySearch.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\K-thNotDivisibleByNBinarySearch.dir\build.make CMakeFiles/K-thNotDivisibleByNBinarySearch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target K-thNotDivisibleByNBinarySearch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=36,37 "Built target K-thNotDivisibleByNBinarySearch"
 .PHONY : CMakeFiles/K-thNotDivisibleByNBinarySearch.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1362,7 +1391,7 @@ CMakeFiles/K-thNotDivisibleByNBinarySearch.dir/clean:
 CMakeFiles/KForThePriceOfOneEasy.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\KForThePriceOfOneEasy.dir\build.make CMakeFiles/KForThePriceOfOneEasy.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\KForThePriceOfOneEasy.dir\build.make CMakeFiles/KForThePriceOfOneEasy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target KForThePriceOfOneEasy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=38,39 "Built target KForThePriceOfOneEasy"
 .PHONY : CMakeFiles/KForThePriceOfOneEasy.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1416,12 +1445,12 @@ CMakeFiles/SameParitySummands.dir/clean:
 CMakeFiles/TernaryXOR.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TernaryXOR.dir\build.make CMakeFiles/TernaryXOR.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TernaryXOR.dir\build.make CMakeFiles/TernaryXOR.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=81 "Built target TernaryXOR"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=81,82 "Built target TernaryXOR"
 .PHONY : CMakeFiles/TernaryXOR.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/TernaryXOR.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/TernaryXOR.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/TernaryXOR.dir/rule
@@ -1470,7 +1499,7 @@ CMakeFiles/ZeroRemainderArray.dir/clean:
 CMakeFiles/MereArray.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MereArray.dir\build.make CMakeFiles/MereArray.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MereArray.dir\build.make CMakeFiles/MereArray.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=46,47 "Built target MereArray"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target MereArray"
 .PHONY : CMakeFiles/MereArray.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1497,12 +1526,12 @@ CMakeFiles/MereArray.dir/clean:
 CMakeFiles/ConstanzesMachine.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ConstanzesMachine.dir\build.make CMakeFiles/ConstanzesMachine.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ConstanzesMachine.dir\build.make CMakeFiles/ConstanzesMachine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=21 "Built target ConstanzesMachine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=20,21 "Built target ConstanzesMachine"
 .PHONY : CMakeFiles/ConstanzesMachine.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ConstanzesMachine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ConstanzesMachine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/ConstanzesMachine.dir/rule
@@ -1524,7 +1553,7 @@ CMakeFiles/ConstanzesMachine.dir/clean:
 CMakeFiles/PrefixFlipEasyVersion.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrefixFlipEasyVersion.dir\build.make CMakeFiles/PrefixFlipEasyVersion.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrefixFlipEasyVersion.dir\build.make CMakeFiles/PrefixFlipEasyVersion.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=64,65 "Built target PrefixFlipEasyVersion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=63,64 "Built target PrefixFlipEasyVersion"
 .PHONY : CMakeFiles/PrefixFlipEasyVersion.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1578,7 +1607,7 @@ CMakeFiles/ApplejackAndStorages.dir/clean:
 CMakeFiles/ElementExtermination.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ElementExtermination.dir\build.make CMakeFiles/ElementExtermination.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ElementExtermination.dir\build.make CMakeFiles/ElementExtermination.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=28,29 "Built target ElementExtermination"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target ElementExtermination"
 .PHONY : CMakeFiles/ElementExtermination.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1632,12 +1661,12 @@ CMakeFiles/TwoButtons.dir/clean:
 CMakeFiles/BasketballExercise.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BasketballExercise.dir\build.make CMakeFiles/BasketballExercise.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BasketballExercise.dir\build.make CMakeFiles/BasketballExercise.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=10 "Built target BasketballExercise"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target BasketballExercise"
 .PHONY : CMakeFiles/BasketballExercise.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/BasketballExercise.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/BasketballExercise.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/BasketballExercise.dir/rule
