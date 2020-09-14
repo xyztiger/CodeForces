@@ -559,6 +559,19 @@ MagicalCalendar/fast:
 .PHONY : MagicalCalendar/fast
 
 #=============================================================================
+# Target rules for targets named BoardMoves
+
+# Build rule for target.
+BoardMoves: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BoardMoves
+.PHONY : BoardMoves
+
+# fast build rule for target.
+BoardMoves/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoardMoves.dir\build.make CMakeFiles/BoardMoves.dir/build
+.PHONY : BoardMoves/fast
+
+#=============================================================================
 # Target rules for targets named AccurateLee
 
 # Build rule for target.
@@ -832,6 +845,19 @@ TwoButtons/fast:
 .PHONY : TwoButtons/fast
 
 #=============================================================================
+# Target rules for targets named TwoArraysAndSwaps
+
+# Build rule for target.
+TwoArraysAndSwaps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TwoArraysAndSwaps
+.PHONY : TwoArraysAndSwaps
+
+# fast build rule for target.
+TwoArraysAndSwaps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TwoArraysAndSwaps.dir\build.make CMakeFiles/TwoArraysAndSwaps.dir/build
+.PHONY : TwoArraysAndSwaps/fast
+
+#=============================================================================
 # Target rules for targets named BasketballExercise
 
 # Build rule for target.
@@ -856,6 +882,46 @@ ValhallaSiege: cmake_check_build_system
 ValhallaSiege/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ValhallaSiege.dir\build.make CMakeFiles/ValhallaSiege.dir/build
 .PHONY : ValhallaSiege/fast
+
+#=============================================================================
+# Target rules for targets named MostUnstableArray
+
+# Build rule for target.
+MostUnstableArray: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MostUnstableArray
+.PHONY : MostUnstableArray
+
+# fast build rule for target.
+MostUnstableArray/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MostUnstableArray.dir\build.make CMakeFiles/MostUnstableArray.dir/build
+.PHONY : MostUnstableArray/fast
+
+1000/BoardMoves.obj: 1000/BoardMoves.cpp.obj
+
+.PHONY : 1000/BoardMoves.obj
+
+# target to build an object file
+1000/BoardMoves.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoardMoves.dir\build.make CMakeFiles/BoardMoves.dir/1000/BoardMoves.cpp.obj
+.PHONY : 1000/BoardMoves.cpp.obj
+
+1000/BoardMoves.i: 1000/BoardMoves.cpp.i
+
+.PHONY : 1000/BoardMoves.i
+
+# target to preprocess a source file
+1000/BoardMoves.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoardMoves.dir\build.make CMakeFiles/BoardMoves.dir/1000/BoardMoves.cpp.i
+.PHONY : 1000/BoardMoves.cpp.i
+
+1000/BoardMoves.s: 1000/BoardMoves.cpp.s
+
+.PHONY : 1000/BoardMoves.s
+
+# target to generate assembly for a file
+1000/BoardMoves.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoardMoves.dir\build.make CMakeFiles/BoardMoves.dir/1000/BoardMoves.cpp.s
+.PHONY : 1000/BoardMoves.cpp.s
 
 1000/CandyBags.obj: 1000/CandyBags.cpp.obj
 
@@ -2099,6 +2165,33 @@ ValhallaSiege/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HelpfulMaths.dir\build.make CMakeFiles/HelpfulMaths.dir/800/HelpfulMaths.cpp.s
 .PHONY : 800/HelpfulMaths.cpp.s
 
+800/MostUnstableArray.obj: 800/MostUnstableArray.cpp.obj
+
+.PHONY : 800/MostUnstableArray.obj
+
+# target to build an object file
+800/MostUnstableArray.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MostUnstableArray.dir\build.make CMakeFiles/MostUnstableArray.dir/800/MostUnstableArray.cpp.obj
+.PHONY : 800/MostUnstableArray.cpp.obj
+
+800/MostUnstableArray.i: 800/MostUnstableArray.cpp.i
+
+.PHONY : 800/MostUnstableArray.i
+
+# target to preprocess a source file
+800/MostUnstableArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MostUnstableArray.dir\build.make CMakeFiles/MostUnstableArray.dir/800/MostUnstableArray.cpp.i
+.PHONY : 800/MostUnstableArray.cpp.i
+
+800/MostUnstableArray.s: 800/MostUnstableArray.cpp.s
+
+.PHONY : 800/MostUnstableArray.s
+
+# target to generate assembly for a file
+800/MostUnstableArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MostUnstableArray.dir\build.make CMakeFiles/MostUnstableArray.dir/800/MostUnstableArray.cpp.s
+.PHONY : 800/MostUnstableArray.cpp.s
+
 800/NextRound.obj: 800/NextRound.cpp.obj
 
 .PHONY : 800/NextRound.obj
@@ -2206,6 +2299,33 @@ ValhallaSiege/fast:
 800/Team.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Team.dir\build.make CMakeFiles/Team.dir/800/Team.cpp.s
 .PHONY : 800/Team.cpp.s
+
+800/TwoArraysAndSwaps.obj: 800/TwoArraysAndSwaps.cpp.obj
+
+.PHONY : 800/TwoArraysAndSwaps.obj
+
+# target to build an object file
+800/TwoArraysAndSwaps.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TwoArraysAndSwaps.dir\build.make CMakeFiles/TwoArraysAndSwaps.dir/800/TwoArraysAndSwaps.cpp.obj
+.PHONY : 800/TwoArraysAndSwaps.cpp.obj
+
+800/TwoArraysAndSwaps.i: 800/TwoArraysAndSwaps.cpp.i
+
+.PHONY : 800/TwoArraysAndSwaps.i
+
+# target to preprocess a source file
+800/TwoArraysAndSwaps.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TwoArraysAndSwaps.dir\build.make CMakeFiles/TwoArraysAndSwaps.dir/800/TwoArraysAndSwaps.cpp.i
+.PHONY : 800/TwoArraysAndSwaps.cpp.i
+
+800/TwoArraysAndSwaps.s: 800/TwoArraysAndSwaps.cpp.s
+
+.PHONY : 800/TwoArraysAndSwaps.s
+
+# target to generate assembly for a file
+800/TwoArraysAndSwaps.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TwoArraysAndSwaps.dir\build.make CMakeFiles/TwoArraysAndSwaps.dir/800/TwoArraysAndSwaps.cpp.s
+.PHONY : 800/TwoArraysAndSwaps.cpp.s
 
 800/WaterMelon.obj: 800/WaterMelon.cpp.obj
 
@@ -2385,6 +2505,7 @@ help:
 	@echo ... BasketballExercise
 	@echo ... BeautifulMatrix
 	@echo ... Bit++
+	@echo ... BoardMoves
 	@echo ... BoatsCompetition
 	@echo ... BoyOrGirl
 	@echo ... CandyBags
@@ -2403,6 +2524,7 @@ help:
 	@echo ... MagicalCalendar
 	@echo ... MakeItGood
 	@echo ... MereArray
+	@echo ... MostUnstableArray
 	@echo ... NEKOsMazeGame
 	@echo ... NeighborGrid
 	@echo ... NewYearAndAscentSequence
@@ -2424,6 +2546,7 @@ help:
 	@echo ... TernaryString
 	@echo ... TernaryXOR
 	@echo ... Twins
+	@echo ... TwoArraysAndSwaps
 	@echo ... TwoButtons
 	@echo ... UniversalSolution
 	@echo ... ValhallaSiege
@@ -2433,6 +2556,9 @@ help:
 	@echo ... XXXXX
 	@echo ... YoungExplorers
 	@echo ... ZeroRemainderArray
+	@echo ... 1000/BoardMoves.obj
+	@echo ... 1000/BoardMoves.i
+	@echo ... 1000/BoardMoves.s
 	@echo ... 1000/CandyBags.obj
 	@echo ... 1000/CandyBags.i
 	@echo ... 1000/CandyBags.s
@@ -2571,6 +2697,9 @@ help:
 	@echo ... 800/HelpfulMaths.obj
 	@echo ... 800/HelpfulMaths.i
 	@echo ... 800/HelpfulMaths.s
+	@echo ... 800/MostUnstableArray.obj
+	@echo ... 800/MostUnstableArray.i
+	@echo ... 800/MostUnstableArray.s
 	@echo ... 800/NextRound.obj
 	@echo ... 800/NextRound.i
 	@echo ... 800/NextRound.s
@@ -2583,6 +2712,9 @@ help:
 	@echo ... 800/Team.obj
 	@echo ... 800/Team.i
 	@echo ... 800/Team.s
+	@echo ... 800/TwoArraysAndSwaps.obj
+	@echo ... 800/TwoArraysAndSwaps.i
+	@echo ... 800/TwoArraysAndSwaps.s
 	@echo ... 800/WaterMelon.obj
 	@echo ... 800/WaterMelon.i
 	@echo ... 800/WaterMelon.s

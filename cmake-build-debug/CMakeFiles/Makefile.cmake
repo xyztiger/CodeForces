@@ -86,6 +86,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/MakeItGood.dir/DependInfo.cmake"
   "CMakeFiles/NeighborGrid.dir/DependInfo.cmake"
   "CMakeFiles/MagicalCalendar.dir/DependInfo.cmake"
+  "CMakeFiles/BoardMoves.dir/DependInfo.cmake"
   "CMakeFiles/AccurateLee.dir/DependInfo.cmake"
   "CMakeFiles/AsSimpleAsOneAndTwo.dir/DependInfo.cmake"
   "CMakeFiles/OddSelection.dir/DependInfo.cmake"
@@ -107,6 +108,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ApplejackAndStorages.dir/DependInfo.cmake"
   "CMakeFiles/ElementExtermination.dir/DependInfo.cmake"
   "CMakeFiles/TwoButtons.dir/DependInfo.cmake"
+  "CMakeFiles/TwoArraysAndSwaps.dir/DependInfo.cmake"
   "CMakeFiles/BasketballExercise.dir/DependInfo.cmake"
   "CMakeFiles/ValhallaSiege.dir/DependInfo.cmake"
+  "CMakeFiles/MostUnstableArray.dir/DependInfo.cmake"
   )
