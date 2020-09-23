@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = C:\Users\TigerZhao\CLionProjects\CodeForces\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -96,6 +85,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"C:\Program Files\JetBrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -143,6 +143,19 @@ TernaryString/fast:
 .PHONY : TernaryString/fast
 
 #=============================================================================
+# Target rules for targets named PetyaAndStrings
+
+# Build rule for target.
+PetyaAndStrings: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PetyaAndStrings
+.PHONY : PetyaAndStrings
+
+# fast build rule for target.
+PetyaAndStrings/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PetyaAndStrings.dir\build.make CMakeFiles/PetyaAndStrings.dir/build
+.PHONY : PetyaAndStrings/fast
+
+#=============================================================================
 # Target rules for targets named WordCapitalization
 
 # Build rule for target.
@@ -156,17 +169,17 @@ WordCapitalization/fast:
 .PHONY : WordCapitalization/fast
 
 #=============================================================================
-# Target rules for targets named PetyaAndStrings
+# Target rules for targets named SummerCamp
 
 # Build rule for target.
-PetyaAndStrings: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PetyaAndStrings
-.PHONY : PetyaAndStrings
+SummerCamp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SummerCamp
+.PHONY : SummerCamp
 
 # fast build rule for target.
-PetyaAndStrings/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PetyaAndStrings.dir\build.make CMakeFiles/PetyaAndStrings.dir/build
-.PHONY : PetyaAndStrings/fast
+SummerCamp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SummerCamp.dir\build.make CMakeFiles/SummerCamp.dir/build
+.PHONY : SummerCamp/fast
 
 #=============================================================================
 # Target rules for targets named Polygon
@@ -208,19 +221,6 @@ WayTooLongWords/fast:
 .PHONY : WayTooLongWords/fast
 
 #=============================================================================
-# Target rules for targets named XXXXX
-
-# Build rule for target.
-XXXXX: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 XXXXX
-.PHONY : XXXXX
-
-# fast build rule for target.
-XXXXX/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\XXXXX.dir\build.make CMakeFiles/XXXXX.dir/build
-.PHONY : XXXXX/fast
-
-#=============================================================================
 # Target rules for targets named WaterMelon
 
 # Build rule for target.
@@ -232,6 +232,19 @@ WaterMelon: cmake_check_build_system
 WaterMelon/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WaterMelon.dir\build.make CMakeFiles/WaterMelon.dir/build
 .PHONY : WaterMelon/fast
+
+#=============================================================================
+# Target rules for targets named XXXXX
+
+# Build rule for target.
+XXXXX: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 XXXXX
+.PHONY : XXXXX
+
+# fast build rule for target.
+XXXXX/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\XXXXX.dir\build.make CMakeFiles/XXXXX.dir/build
+.PHONY : XXXXX/fast
 
 #=============================================================================
 # Target rules for targets named DominoPiling
@@ -351,19 +364,6 @@ StonesOnTheTable/fast:
 .PHONY : StonesOnTheTable/fast
 
 #=============================================================================
-# Target rules for targets named SortedAdjacentDifferences
-
-# Build rule for target.
-SortedAdjacentDifferences: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SortedAdjacentDifferences
-.PHONY : SortedAdjacentDifferences
-
-# fast build rule for target.
-SortedAdjacentDifferences/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedAdjacentDifferences.dir\build.make CMakeFiles/SortedAdjacentDifferences.dir/build
-.PHONY : SortedAdjacentDifferences/fast
-
-#=============================================================================
 # Target rules for targets named BoyOrGirl
 
 # Build rule for target.
@@ -375,6 +375,19 @@ BoyOrGirl: cmake_check_build_system
 BoyOrGirl/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoyOrGirl.dir\build.make CMakeFiles/BoyOrGirl.dir/build
 .PHONY : BoyOrGirl/fast
+
+#=============================================================================
+# Target rules for targets named SortedAdjacentDifferences
+
+# Build rule for target.
+SortedAdjacentDifferences: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SortedAdjacentDifferences
+.PHONY : SortedAdjacentDifferences
+
+# fast build rule for target.
+SortedAdjacentDifferences/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedAdjacentDifferences.dir\build.make CMakeFiles/SortedAdjacentDifferences.dir/build
+.PHONY : SortedAdjacentDifferences/fast
 
 #=============================================================================
 # Target rules for targets named Football
@@ -481,19 +494,6 @@ CandyBags/fast:
 .PHONY : CandyBags/fast
 
 #=============================================================================
-# Target rules for targets named NEKOsMazeGame
-
-# Build rule for target.
-NEKOsMazeGame: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 NEKOsMazeGame
-.PHONY : NEKOsMazeGame
-
-# fast build rule for target.
-NEKOsMazeGame/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NEKOsMazeGame.dir\build.make CMakeFiles/NEKOsMazeGame.dir/build
-.PHONY : NEKOsMazeGame/fast
-
-#=============================================================================
 # Target rules for targets named CreateTheTeams
 
 # Build rule for target.
@@ -505,6 +505,19 @@ CreateTheTeams: cmake_check_build_system
 CreateTheTeams/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreateTheTeams.dir\build.make CMakeFiles/CreateTheTeams.dir/build
 .PHONY : CreateTheTeams/fast
+
+#=============================================================================
+# Target rules for targets named NEKOsMazeGame
+
+# Build rule for target.
+NEKOsMazeGame: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 NEKOsMazeGame
+.PHONY : NEKOsMazeGame
+
+# fast build rule for target.
+NEKOsMazeGame/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NEKOsMazeGame.dir\build.make CMakeFiles/NEKOsMazeGame.dir/build
+.PHONY : NEKOsMazeGame/fast
 
 #=============================================================================
 # Target rules for targets named OmkarAndWaterslide
@@ -531,6 +544,19 @@ MakeItGood: cmake_check_build_system
 MakeItGood/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MakeItGood.dir\build.make CMakeFiles/MakeItGood.dir/build
 .PHONY : MakeItGood/fast
+
+#=============================================================================
+# Target rules for targets named UEFAChampionsLeague
+
+# Build rule for target.
+UEFAChampionsLeague: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 UEFAChampionsLeague
+.PHONY : UEFAChampionsLeague
+
+# fast build rule for target.
+UEFAChampionsLeague/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UEFAChampionsLeague.dir\build.make CMakeFiles/UEFAChampionsLeague.dir/build
+.PHONY : UEFAChampionsLeague/fast
 
 #=============================================================================
 # Target rules for targets named NeighborGrid
@@ -611,19 +637,6 @@ OddSelection/fast:
 .PHONY : OddSelection/fast
 
 #=============================================================================
-# Target rules for targets named BSTNewYearAndAscentSequence
-
-# Build rule for target.
-BSTNewYearAndAscentSequence: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BSTNewYearAndAscentSequence
-.PHONY : BSTNewYearAndAscentSequence
-
-# fast build rule for target.
-BSTNewYearAndAscentSequence/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BSTNewYearAndAscentSequence.dir\build.make CMakeFiles/BSTNewYearAndAscentSequence.dir/build
-.PHONY : BSTNewYearAndAscentSequence/fast
-
-#=============================================================================
 # Target rules for targets named YoungExplorers
 
 # Build rule for target.
@@ -635,6 +648,19 @@ YoungExplorers: cmake_check_build_system
 YoungExplorers/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\YoungExplorers.dir\build.make CMakeFiles/YoungExplorers.dir/build
 .PHONY : YoungExplorers/fast
+
+#=============================================================================
+# Target rules for targets named BSTNewYearAndAscentSequence
+
+# Build rule for target.
+BSTNewYearAndAscentSequence: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BSTNewYearAndAscentSequence
+.PHONY : BSTNewYearAndAscentSequence
+
+# fast build rule for target.
+BSTNewYearAndAscentSequence/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BSTNewYearAndAscentSequence.dir\build.make CMakeFiles/BSTNewYearAndAscentSequence.dir/build
+.PHONY : BSTNewYearAndAscentSequence/fast
 
 #=============================================================================
 # Target rules for targets named NewYearAndAscentSequence
@@ -674,6 +700,19 @@ SequenceWithDigits: cmake_check_build_system
 SequenceWithDigits/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceWithDigits.dir\build.make CMakeFiles/SequenceWithDigits.dir/build
 .PHONY : SequenceWithDigits/fast
+
+#=============================================================================
+# Target rules for targets named RestoringPainting
+
+# Build rule for target.
+RestoringPainting: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RestoringPainting
+.PHONY : RestoringPainting
+
+# fast build rule for target.
+RestoringPainting/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestoringPainting.dir\build.make CMakeFiles/RestoringPainting.dir/build
+.PHONY : RestoringPainting/fast
 
 #=============================================================================
 # Target rules for targets named NumberGame
@@ -895,6 +934,19 @@ MostUnstableArray: cmake_check_build_system
 MostUnstableArray/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MostUnstableArray.dir\build.make CMakeFiles/MostUnstableArray.dir/build
 .PHONY : MostUnstableArray/fast
+
+#=============================================================================
+# Target rules for targets named scrap
+
+# Build rule for target.
+scrap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 scrap
+.PHONY : scrap
+
+# fast build rule for target.
+scrap/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\scrap.dir\build.make CMakeFiles/scrap.dir/build
+.PHONY : scrap/fast
 
 1000/BoardMoves.obj: 1000/BoardMoves.cpp.obj
 
@@ -2489,6 +2541,114 @@ MostUnstableArray/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Twins.dir\build.make CMakeFiles/Twins.dir/900/Twins.cpp.s
 .PHONY : 900/Twins.cpp.s
 
+practice/SFU/week16/RestoringPainting.obj: practice/SFU/week16/RestoringPainting.cpp.obj
+
+.PHONY : practice/SFU/week16/RestoringPainting.obj
+
+# target to build an object file
+practice/SFU/week16/RestoringPainting.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestoringPainting.dir\build.make CMakeFiles/RestoringPainting.dir/practice/SFU/week16/RestoringPainting.cpp.obj
+.PHONY : practice/SFU/week16/RestoringPainting.cpp.obj
+
+practice/SFU/week16/RestoringPainting.i: practice/SFU/week16/RestoringPainting.cpp.i
+
+.PHONY : practice/SFU/week16/RestoringPainting.i
+
+# target to preprocess a source file
+practice/SFU/week16/RestoringPainting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestoringPainting.dir\build.make CMakeFiles/RestoringPainting.dir/practice/SFU/week16/RestoringPainting.cpp.i
+.PHONY : practice/SFU/week16/RestoringPainting.cpp.i
+
+practice/SFU/week16/RestoringPainting.s: practice/SFU/week16/RestoringPainting.cpp.s
+
+.PHONY : practice/SFU/week16/RestoringPainting.s
+
+# target to generate assembly for a file
+practice/SFU/week16/RestoringPainting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestoringPainting.dir\build.make CMakeFiles/RestoringPainting.dir/practice/SFU/week16/RestoringPainting.cpp.s
+.PHONY : practice/SFU/week16/RestoringPainting.cpp.s
+
+practice/SFU/week16/SummerCamp.obj: practice/SFU/week16/SummerCamp.cpp.obj
+
+.PHONY : practice/SFU/week16/SummerCamp.obj
+
+# target to build an object file
+practice/SFU/week16/SummerCamp.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SummerCamp.dir\build.make CMakeFiles/SummerCamp.dir/practice/SFU/week16/SummerCamp.cpp.obj
+.PHONY : practice/SFU/week16/SummerCamp.cpp.obj
+
+practice/SFU/week16/SummerCamp.i: practice/SFU/week16/SummerCamp.cpp.i
+
+.PHONY : practice/SFU/week16/SummerCamp.i
+
+# target to preprocess a source file
+practice/SFU/week16/SummerCamp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SummerCamp.dir\build.make CMakeFiles/SummerCamp.dir/practice/SFU/week16/SummerCamp.cpp.i
+.PHONY : practice/SFU/week16/SummerCamp.cpp.i
+
+practice/SFU/week16/SummerCamp.s: practice/SFU/week16/SummerCamp.cpp.s
+
+.PHONY : practice/SFU/week16/SummerCamp.s
+
+# target to generate assembly for a file
+practice/SFU/week16/SummerCamp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SummerCamp.dir\build.make CMakeFiles/SummerCamp.dir/practice/SFU/week16/SummerCamp.cpp.s
+.PHONY : practice/SFU/week16/SummerCamp.cpp.s
+
+practice/SFU/week16/UEFAChampionsLeague.obj: practice/SFU/week16/UEFAChampionsLeague.cpp.obj
+
+.PHONY : practice/SFU/week16/UEFAChampionsLeague.obj
+
+# target to build an object file
+practice/SFU/week16/UEFAChampionsLeague.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UEFAChampionsLeague.dir\build.make CMakeFiles/UEFAChampionsLeague.dir/practice/SFU/week16/UEFAChampionsLeague.cpp.obj
+.PHONY : practice/SFU/week16/UEFAChampionsLeague.cpp.obj
+
+practice/SFU/week16/UEFAChampionsLeague.i: practice/SFU/week16/UEFAChampionsLeague.cpp.i
+
+.PHONY : practice/SFU/week16/UEFAChampionsLeague.i
+
+# target to preprocess a source file
+practice/SFU/week16/UEFAChampionsLeague.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UEFAChampionsLeague.dir\build.make CMakeFiles/UEFAChampionsLeague.dir/practice/SFU/week16/UEFAChampionsLeague.cpp.i
+.PHONY : practice/SFU/week16/UEFAChampionsLeague.cpp.i
+
+practice/SFU/week16/UEFAChampionsLeague.s: practice/SFU/week16/UEFAChampionsLeague.cpp.s
+
+.PHONY : practice/SFU/week16/UEFAChampionsLeague.s
+
+# target to generate assembly for a file
+practice/SFU/week16/UEFAChampionsLeague.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UEFAChampionsLeague.dir\build.make CMakeFiles/UEFAChampionsLeague.dir/practice/SFU/week16/UEFAChampionsLeague.cpp.s
+.PHONY : practice/SFU/week16/UEFAChampionsLeague.cpp.s
+
+scrap.obj: scrap.cpp.obj
+
+.PHONY : scrap.obj
+
+# target to build an object file
+scrap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\scrap.dir\build.make CMakeFiles/scrap.dir/scrap.cpp.obj
+.PHONY : scrap.cpp.obj
+
+scrap.i: scrap.cpp.i
+
+.PHONY : scrap.i
+
+# target to preprocess a source file
+scrap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\scrap.dir\build.make CMakeFiles/scrap.dir/scrap.cpp.i
+.PHONY : scrap.cpp.i
+
+scrap.s: scrap.cpp.s
+
+.PHONY : scrap.s
+
+# target to generate assembly for a file
+scrap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\scrap.dir\build.make CMakeFiles/scrap.dir/scrap.cpp.s
+.PHONY : scrap.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -2536,11 +2696,13 @@ help:
 	@echo ... Polygon
 	@echo ... PrefixFlipEasyVersion
 	@echo ... RationalLee
+	@echo ... RestoringPainting
 	@echo ... RotationMatching
 	@echo ... SameParitySummands
 	@echo ... SequenceWithDigits
 	@echo ... SortedAdjacentDifferences
 	@echo ... StonesOnTheTable
+	@echo ... SummerCamp
 	@echo ... SuperheroTransformation
 	@echo ... Team
 	@echo ... TernaryString
@@ -2548,6 +2710,7 @@ help:
 	@echo ... Twins
 	@echo ... TwoArraysAndSwaps
 	@echo ... TwoButtons
+	@echo ... UEFAChampionsLeague
 	@echo ... UniversalSolution
 	@echo ... ValhallaSiege
 	@echo ... WaterMelon
@@ -2556,6 +2719,7 @@ help:
 	@echo ... XXXXX
 	@echo ... YoungExplorers
 	@echo ... ZeroRemainderArray
+	@echo ... scrap
 	@echo ... 1000/BoardMoves.obj
 	@echo ... 1000/BoardMoves.i
 	@echo ... 1000/BoardMoves.s
@@ -2733,6 +2897,18 @@ help:
 	@echo ... 900/Twins.obj
 	@echo ... 900/Twins.i
 	@echo ... 900/Twins.s
+	@echo ... practice/SFU/week16/RestoringPainting.obj
+	@echo ... practice/SFU/week16/RestoringPainting.i
+	@echo ... practice/SFU/week16/RestoringPainting.s
+	@echo ... practice/SFU/week16/SummerCamp.obj
+	@echo ... practice/SFU/week16/SummerCamp.i
+	@echo ... practice/SFU/week16/SummerCamp.s
+	@echo ... practice/SFU/week16/UEFAChampionsLeague.obj
+	@echo ... practice/SFU/week16/UEFAChampionsLeague.i
+	@echo ... practice/SFU/week16/UEFAChampionsLeague.s
+	@echo ... scrap.obj
+	@echo ... scrap.i
+	@echo ... scrap.s
 .PHONY : help
 
 
