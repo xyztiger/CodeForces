@@ -468,6 +468,19 @@ DisturbedPeople/fast:
 .PHONY : DisturbedPeople/fast
 
 #=============================================================================
+# Target rules for targets named ShortSubStrings
+
+# Build rule for target.
+ShortSubStrings: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ShortSubStrings
+.PHONY : ShortSubStrings
+
+# fast build rule for target.
+ShortSubStrings/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ShortSubStrings.dir\build.make CMakeFiles/ShortSubStrings.dir/build
+.PHONY : ShortSubStrings/fast
+
+#=============================================================================
 # Target rules for targets named UniversalSolution
 
 # Build rule for target.
@@ -947,6 +960,45 @@ scrap: cmake_check_build_system
 scrap/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\scrap.dir\build.make CMakeFiles/scrap.dir/build
 .PHONY : scrap/fast
+
+#=============================================================================
+# Target rules for targets named EvenArray
+
+# Build rule for target.
+EvenArray: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 EvenArray
+.PHONY : EvenArray
+
+# fast build rule for target.
+EvenArray/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EvenArray.dir\build.make CMakeFiles/EvenArray.dir/build
+.PHONY : EvenArray/fast
+
+#=============================================================================
+# Target rules for targets named SocialDistance
+
+# Build rule for target.
+SocialDistance: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SocialDistance
+.PHONY : SocialDistance
+
+# fast build rule for target.
+SocialDistance/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SocialDistance.dir\build.make CMakeFiles/SocialDistance.dir/build
+.PHONY : SocialDistance/fast
+
+#=============================================================================
+# Target rules for targets named TaskOnTheBoard
+
+# Build rule for target.
+TaskOnTheBoard: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TaskOnTheBoard
+.PHONY : TaskOnTheBoard
+
+# fast build rule for target.
+TaskOnTheBoard/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaskOnTheBoard.dir\build.make CMakeFiles/TaskOnTheBoard.dir/build
+.PHONY : TaskOnTheBoard/fast
 
 1000/BoardMoves.obj: 1000/BoardMoves.cpp.obj
 
@@ -2622,6 +2674,114 @@ practice/SFU/week16/UEFAChampionsLeague.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UEFAChampionsLeague.dir\build.make CMakeFiles/UEFAChampionsLeague.dir/practice/SFU/week16/UEFAChampionsLeague.cpp.s
 .PHONY : practice/SFU/week16/UEFAChampionsLeague.cpp.s
 
+practice/UBC/CF650/EvenArray.obj: practice/UBC/CF650/EvenArray.cpp.obj
+
+.PHONY : practice/UBC/CF650/EvenArray.obj
+
+# target to build an object file
+practice/UBC/CF650/EvenArray.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EvenArray.dir\build.make CMakeFiles/EvenArray.dir/practice/UBC/CF650/EvenArray.cpp.obj
+.PHONY : practice/UBC/CF650/EvenArray.cpp.obj
+
+practice/UBC/CF650/EvenArray.i: practice/UBC/CF650/EvenArray.cpp.i
+
+.PHONY : practice/UBC/CF650/EvenArray.i
+
+# target to preprocess a source file
+practice/UBC/CF650/EvenArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EvenArray.dir\build.make CMakeFiles/EvenArray.dir/practice/UBC/CF650/EvenArray.cpp.i
+.PHONY : practice/UBC/CF650/EvenArray.cpp.i
+
+practice/UBC/CF650/EvenArray.s: practice/UBC/CF650/EvenArray.cpp.s
+
+.PHONY : practice/UBC/CF650/EvenArray.s
+
+# target to generate assembly for a file
+practice/UBC/CF650/EvenArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EvenArray.dir\build.make CMakeFiles/EvenArray.dir/practice/UBC/CF650/EvenArray.cpp.s
+.PHONY : practice/UBC/CF650/EvenArray.cpp.s
+
+practice/UBC/CF650/ShortSubStrings.obj: practice/UBC/CF650/ShortSubStrings.cpp.obj
+
+.PHONY : practice/UBC/CF650/ShortSubStrings.obj
+
+# target to build an object file
+practice/UBC/CF650/ShortSubStrings.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ShortSubStrings.dir\build.make CMakeFiles/ShortSubStrings.dir/practice/UBC/CF650/ShortSubStrings.cpp.obj
+.PHONY : practice/UBC/CF650/ShortSubStrings.cpp.obj
+
+practice/UBC/CF650/ShortSubStrings.i: practice/UBC/CF650/ShortSubStrings.cpp.i
+
+.PHONY : practice/UBC/CF650/ShortSubStrings.i
+
+# target to preprocess a source file
+practice/UBC/CF650/ShortSubStrings.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ShortSubStrings.dir\build.make CMakeFiles/ShortSubStrings.dir/practice/UBC/CF650/ShortSubStrings.cpp.i
+.PHONY : practice/UBC/CF650/ShortSubStrings.cpp.i
+
+practice/UBC/CF650/ShortSubStrings.s: practice/UBC/CF650/ShortSubStrings.cpp.s
+
+.PHONY : practice/UBC/CF650/ShortSubStrings.s
+
+# target to generate assembly for a file
+practice/UBC/CF650/ShortSubStrings.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ShortSubStrings.dir\build.make CMakeFiles/ShortSubStrings.dir/practice/UBC/CF650/ShortSubStrings.cpp.s
+.PHONY : practice/UBC/CF650/ShortSubStrings.cpp.s
+
+practice/UBC/CF650/SocialDistance.obj: practice/UBC/CF650/SocialDistance.cpp.obj
+
+.PHONY : practice/UBC/CF650/SocialDistance.obj
+
+# target to build an object file
+practice/UBC/CF650/SocialDistance.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SocialDistance.dir\build.make CMakeFiles/SocialDistance.dir/practice/UBC/CF650/SocialDistance.cpp.obj
+.PHONY : practice/UBC/CF650/SocialDistance.cpp.obj
+
+practice/UBC/CF650/SocialDistance.i: practice/UBC/CF650/SocialDistance.cpp.i
+
+.PHONY : practice/UBC/CF650/SocialDistance.i
+
+# target to preprocess a source file
+practice/UBC/CF650/SocialDistance.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SocialDistance.dir\build.make CMakeFiles/SocialDistance.dir/practice/UBC/CF650/SocialDistance.cpp.i
+.PHONY : practice/UBC/CF650/SocialDistance.cpp.i
+
+practice/UBC/CF650/SocialDistance.s: practice/UBC/CF650/SocialDistance.cpp.s
+
+.PHONY : practice/UBC/CF650/SocialDistance.s
+
+# target to generate assembly for a file
+practice/UBC/CF650/SocialDistance.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SocialDistance.dir\build.make CMakeFiles/SocialDistance.dir/practice/UBC/CF650/SocialDistance.cpp.s
+.PHONY : practice/UBC/CF650/SocialDistance.cpp.s
+
+practice/UBC/CF650/TaskOnTheBoard.obj: practice/UBC/CF650/TaskOnTheBoard.cpp.obj
+
+.PHONY : practice/UBC/CF650/TaskOnTheBoard.obj
+
+# target to build an object file
+practice/UBC/CF650/TaskOnTheBoard.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaskOnTheBoard.dir\build.make CMakeFiles/TaskOnTheBoard.dir/practice/UBC/CF650/TaskOnTheBoard.cpp.obj
+.PHONY : practice/UBC/CF650/TaskOnTheBoard.cpp.obj
+
+practice/UBC/CF650/TaskOnTheBoard.i: practice/UBC/CF650/TaskOnTheBoard.cpp.i
+
+.PHONY : practice/UBC/CF650/TaskOnTheBoard.i
+
+# target to preprocess a source file
+practice/UBC/CF650/TaskOnTheBoard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaskOnTheBoard.dir\build.make CMakeFiles/TaskOnTheBoard.dir/practice/UBC/CF650/TaskOnTheBoard.cpp.i
+.PHONY : practice/UBC/CF650/TaskOnTheBoard.cpp.i
+
+practice/UBC/CF650/TaskOnTheBoard.s: practice/UBC/CF650/TaskOnTheBoard.cpp.s
+
+.PHONY : practice/UBC/CF650/TaskOnTheBoard.s
+
+# target to generate assembly for a file
+practice/UBC/CF650/TaskOnTheBoard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaskOnTheBoard.dir\build.make CMakeFiles/TaskOnTheBoard.dir/practice/UBC/CF650/TaskOnTheBoard.cpp.s
+.PHONY : practice/UBC/CF650/TaskOnTheBoard.cpp.s
+
 scrap.obj: scrap.cpp.obj
 
 .PHONY : scrap.obj
@@ -2674,6 +2834,7 @@ help:
 	@echo ... DisturbedPeople
 	@echo ... DominoPiling
 	@echo ... ElementExtermination
+	@echo ... EvenArray
 	@echo ... Football
 	@echo ... HQ9+
 	@echo ... HelpfulMaths
@@ -2700,10 +2861,13 @@ help:
 	@echo ... RotationMatching
 	@echo ... SameParitySummands
 	@echo ... SequenceWithDigits
+	@echo ... ShortSubStrings
+	@echo ... SocialDistance
 	@echo ... SortedAdjacentDifferences
 	@echo ... StonesOnTheTable
 	@echo ... SummerCamp
 	@echo ... SuperheroTransformation
+	@echo ... TaskOnTheBoard
 	@echo ... Team
 	@echo ... TernaryString
 	@echo ... TernaryXOR
@@ -2906,6 +3070,18 @@ help:
 	@echo ... practice/SFU/week16/UEFAChampionsLeague.obj
 	@echo ... practice/SFU/week16/UEFAChampionsLeague.i
 	@echo ... practice/SFU/week16/UEFAChampionsLeague.s
+	@echo ... practice/UBC/CF650/EvenArray.obj
+	@echo ... practice/UBC/CF650/EvenArray.i
+	@echo ... practice/UBC/CF650/EvenArray.s
+	@echo ... practice/UBC/CF650/ShortSubStrings.obj
+	@echo ... practice/UBC/CF650/ShortSubStrings.i
+	@echo ... practice/UBC/CF650/ShortSubStrings.s
+	@echo ... practice/UBC/CF650/SocialDistance.obj
+	@echo ... practice/UBC/CF650/SocialDistance.i
+	@echo ... practice/UBC/CF650/SocialDistance.s
+	@echo ... practice/UBC/CF650/TaskOnTheBoard.obj
+	@echo ... practice/UBC/CF650/TaskOnTheBoard.i
+	@echo ... practice/UBC/CF650/TaskOnTheBoard.s
 	@echo ... scrap.obj
 	@echo ... scrap.i
 	@echo ... scrap.s

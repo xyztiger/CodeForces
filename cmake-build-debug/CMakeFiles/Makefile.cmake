@@ -79,6 +79,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/HQ9+.dir/DependInfo.cmake"
   "CMakeFiles/SuperheroTransformation.dir/DependInfo.cmake"
   "CMakeFiles/DisturbedPeople.dir/DependInfo.cmake"
+  "CMakeFiles/ShortSubStrings.dir/DependInfo.cmake"
   "CMakeFiles/UniversalSolution.dir/DependInfo.cmake"
   "CMakeFiles/CandyBags.dir/DependInfo.cmake"
   "CMakeFiles/CreateTheTeams.dir/DependInfo.cmake"
@@ -116,4 +117,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ValhallaSiege.dir/DependInfo.cmake"
   "CMakeFiles/MostUnstableArray.dir/DependInfo.cmake"
   "CMakeFiles/scrap.dir/DependInfo.cmake"
+  "CMakeFiles/EvenArray.dir/DependInfo.cmake"
+  "CMakeFiles/SocialDistance.dir/DependInfo.cmake"
+  "CMakeFiles/TaskOnTheBoard.dir/DependInfo.cmake"
   )

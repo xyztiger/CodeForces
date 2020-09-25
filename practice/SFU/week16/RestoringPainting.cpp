@@ -9,25 +9,11 @@
 using namespace std;
 
 int main() {
-  int n, a, b, c, d;
+  long long n, a, b, c, d;
   cin >> n >> a >> b >> c >> d;
-  int answer = 0;
-  for (int i = 1; i <= n; i++) {
-    int sum = a + b + i;
-    for (int j = 1; j <= n; j++) {
-      if (a + c + j == sum) {
-        for (int l = 1; l <= n; l++) {
-          if (b + d + l == sum) {
-            for (int m = 1; m <= n; m++) {
-              if (c + d + m == sum) {
-                answer++;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  cout << n * answer << endl;
+  long long maximum = max({a + b, a + c, c + d, b + d});
+  long long minimum = min({a + b, a + c, c + d, b + d});
+  long long answer = max(0 * 1ll, n * (n - maximum + minimum));
+  cout << answer << endl;
   return 0;
 }
