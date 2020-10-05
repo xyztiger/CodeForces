@@ -23,6 +23,7 @@
 /home/xyztiger/Repositories/CodeForces/cmake-build-debug/CMakeFiles/CreateTheTeams.dir
 /home/xyztiger/Repositories/CodeForces/cmake-build-debug/CMakeFiles/Polygon.dir
 /home/xyztiger/Repositories/CodeForces/cmake-build-debug/CMakeFiles/PrefixFlipEasyVersion.dir
+/home/xyztiger/Repositories/CodeForces/cmake-build-debug/CMakeFiles/D.dir
 /home/xyztiger/Repositories/CodeForces/cmake-build-debug/CMakeFiles/MereArray.dir
 /home/xyztiger/Repositories/CodeForces/cmake-build-debug/CMakeFiles/SuperheroTransformation.dir
 /home/xyztiger/Repositories/CodeForces/cmake-build-debug/CMakeFiles/BoatsCompetition.dir

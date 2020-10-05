@@ -410,6 +410,19 @@ PrefixFlipEasyVersion/fast:
 .PHONY : PrefixFlipEasyVersion/fast
 
 #=============================================================================
+# Target rules for targets named D
+
+# Build rule for target.
+D : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 D
+.PHONY : D
+
+# fast build rule for target.
+D/fast:
+	$(MAKE) -f CMakeFiles/D.dir/build.make CMakeFiles/D.dir/build
+.PHONY : D/fast
+
+#=============================================================================
 # Target rules for targets named MereArray
 
 # Build rule for target.
@@ -2895,6 +2908,33 @@ practice/SFU/week17/ZSort.cpp.s:
 	$(MAKE) -f CMakeFiles/ZSort.dir/build.make CMakeFiles/ZSort.dir/practice/SFU/week17/ZSort.cpp.s
 .PHONY : practice/SFU/week17/ZSort.cpp.s
 
+practice/UBC/CF544/D.o: practice/UBC/CF544/D.cpp.o
+
+.PHONY : practice/UBC/CF544/D.o
+
+# target to build an object file
+practice/UBC/CF544/D.cpp.o:
+	$(MAKE) -f CMakeFiles/D.dir/build.make CMakeFiles/D.dir/practice/UBC/CF544/D.cpp.o
+.PHONY : practice/UBC/CF544/D.cpp.o
+
+practice/UBC/CF544/D.i: practice/UBC/CF544/D.cpp.i
+
+.PHONY : practice/UBC/CF544/D.i
+
+# target to preprocess a source file
+practice/UBC/CF544/D.cpp.i:
+	$(MAKE) -f CMakeFiles/D.dir/build.make CMakeFiles/D.dir/practice/UBC/CF544/D.cpp.i
+.PHONY : practice/UBC/CF544/D.cpp.i
+
+practice/UBC/CF544/D.s: practice/UBC/CF544/D.cpp.s
+
+.PHONY : practice/UBC/CF544/D.s
+
+# target to generate assembly for a file
+practice/UBC/CF544/D.cpp.s:
+	$(MAKE) -f CMakeFiles/D.dir/build.make CMakeFiles/D.dir/practice/UBC/CF544/D.cpp.s
+.PHONY : practice/UBC/CF544/D.cpp.s
+
 practice/UBC/CF650/EvenArray.o: practice/UBC/CF650/EvenArray.cpp.o
 
 .PHONY : practice/UBC/CF650/EvenArray.o
@@ -3061,6 +3101,7 @@ help:
 	@echo "... CreateTheTeams"
 	@echo "... Polygon"
 	@echo "... PrefixFlipEasyVersion"
+	@echo "... D"
 	@echo "... MereArray"
 	@echo "... SuperheroTransformation"
 	@echo "... BoatsCompetition"
@@ -3315,6 +3356,9 @@ help:
 	@echo "... practice/SFU/week17/ZSort.o"
 	@echo "... practice/SFU/week17/ZSort.i"
 	@echo "... practice/SFU/week17/ZSort.s"
+	@echo "... practice/UBC/CF544/D.o"
+	@echo "... practice/UBC/CF544/D.i"
+	@echo "... practice/UBC/CF544/D.s"
 	@echo "... practice/UBC/CF650/EvenArray.o"
 	@echo "... practice/UBC/CF650/EvenArray.i"
 	@echo "... practice/UBC/CF650/EvenArray.s"
