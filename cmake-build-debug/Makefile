@@ -481,6 +481,19 @@ ShortSubStrings/fast:
 .PHONY : ShortSubStrings/fast
 
 #=============================================================================
+# Target rules for targets named OddSum
+
+# Build rule for target.
+OddSum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 OddSum
+.PHONY : OddSum
+
+# fast build rule for target.
+OddSum/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddSum.dir\build.make CMakeFiles/OddSum.dir/build
+.PHONY : OddSum/fast
+
+#=============================================================================
 # Target rules for targets named UniversalSolution
 
 # Build rule for target.
@@ -1090,6 +1103,84 @@ D : cmake_check_build_system
 D/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\D.dir\build.make CMakeFiles/D.dir/build
 .PHONY : D/fast
+
+#=============================================================================
+# Target rules for targets named B
+
+# Build rule for target.
+B : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 B
+.PHONY : B
+
+# fast build rule for target.
+B/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\B.dir\build.make CMakeFiles/B.dir/build
+.PHONY : B/fast
+
+#=============================================================================
+# Target rules for targets named I
+
+# Build rule for target.
+I : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 I
+.PHONY : I
+
+# fast build rule for target.
+I/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\I.dir\build.make CMakeFiles/I.dir/build
+.PHONY : I/fast
+
+#=============================================================================
+# Target rules for targets named F
+
+# Build rule for target.
+F : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 F
+.PHONY : F
+
+# fast build rule for target.
+F/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F.dir\build.make CMakeFiles/F.dir/build
+.PHONY : F/fast
+
+#=============================================================================
+# Target rules for targets named H
+
+# Build rule for target.
+H : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 H
+.PHONY : H
+
+# fast build rule for target.
+H/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\H.dir\build.make CMakeFiles/H.dir/build
+.PHONY : H/fast
+
+#=============================================================================
+# Target rules for targets named J
+
+# Build rule for target.
+J : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 J
+.PHONY : J
+
+# fast build rule for target.
+J/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\J.dir\build.make CMakeFiles/J.dir/build
+.PHONY : J/fast
+
+#=============================================================================
+# Target rules for targets named A
+
+# Build rule for target.
+A : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 A
+.PHONY : A
+
+# fast build rule for target.
+A/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\A.dir\build.make CMakeFiles/A.dir/build
+.PHONY : A/fast
 
 1000/BoardMoves.obj: 1000/BoardMoves.cpp.obj
 
@@ -2090,6 +2181,33 @@ D/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumberGame.dir\build.make CMakeFiles/NumberGame.dir/1400/NumberGame.cpp.s
 .PHONY : 1400/NumberGame.cpp.s
 
+1400/OddSum.obj: 1400/OddSum.cpp.obj
+
+.PHONY : 1400/OddSum.obj
+
+# target to build an object file
+1400/OddSum.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddSum.dir\build.make CMakeFiles/OddSum.dir/1400/OddSum.cpp.obj
+.PHONY : 1400/OddSum.cpp.obj
+
+1400/OddSum.i: 1400/OddSum.cpp.i
+
+.PHONY : 1400/OddSum.i
+
+# target to preprocess a source file
+1400/OddSum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddSum.dir\build.make CMakeFiles/OddSum.dir/1400/OddSum.cpp.i
+.PHONY : 1400/OddSum.cpp.i
+
+1400/OddSum.s: 1400/OddSum.cpp.s
+
+.PHONY : 1400/OddSum.s
+
+# target to generate assembly for a file
+1400/OddSum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddSum.dir\build.make CMakeFiles/OddSum.dir/1400/OddSum.cpp.s
+.PHONY : 1400/OddSum.cpp.s
+
 1400/RationalLee.obj: 1400/RationalLee.cpp.obj
 
 .PHONY : 1400/RationalLee.obj
@@ -3062,6 +3180,168 @@ practice/UBC/CF650/TaskOnTheBoard.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaskOnTheBoard.dir\build.make CMakeFiles/TaskOnTheBoard.dir/practice/UBC/CF650/TaskOnTheBoard.cpp.s
 .PHONY : practice/UBC/CF650/TaskOnTheBoard.cpp.s
 
+practice/UBC/tryout/A.obj: practice/UBC/tryout/A.cpp.obj
+
+.PHONY : practice/UBC/tryout/A.obj
+
+# target to build an object file
+practice/UBC/tryout/A.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\A.dir\build.make CMakeFiles/A.dir/practice/UBC/tryout/A.cpp.obj
+.PHONY : practice/UBC/tryout/A.cpp.obj
+
+practice/UBC/tryout/A.i: practice/UBC/tryout/A.cpp.i
+
+.PHONY : practice/UBC/tryout/A.i
+
+# target to preprocess a source file
+practice/UBC/tryout/A.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\A.dir\build.make CMakeFiles/A.dir/practice/UBC/tryout/A.cpp.i
+.PHONY : practice/UBC/tryout/A.cpp.i
+
+practice/UBC/tryout/A.s: practice/UBC/tryout/A.cpp.s
+
+.PHONY : practice/UBC/tryout/A.s
+
+# target to generate assembly for a file
+practice/UBC/tryout/A.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\A.dir\build.make CMakeFiles/A.dir/practice/UBC/tryout/A.cpp.s
+.PHONY : practice/UBC/tryout/A.cpp.s
+
+practice/UBC/tryout/B.obj: practice/UBC/tryout/B.cpp.obj
+
+.PHONY : practice/UBC/tryout/B.obj
+
+# target to build an object file
+practice/UBC/tryout/B.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\B.dir\build.make CMakeFiles/B.dir/practice/UBC/tryout/B.cpp.obj
+.PHONY : practice/UBC/tryout/B.cpp.obj
+
+practice/UBC/tryout/B.i: practice/UBC/tryout/B.cpp.i
+
+.PHONY : practice/UBC/tryout/B.i
+
+# target to preprocess a source file
+practice/UBC/tryout/B.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\B.dir\build.make CMakeFiles/B.dir/practice/UBC/tryout/B.cpp.i
+.PHONY : practice/UBC/tryout/B.cpp.i
+
+practice/UBC/tryout/B.s: practice/UBC/tryout/B.cpp.s
+
+.PHONY : practice/UBC/tryout/B.s
+
+# target to generate assembly for a file
+practice/UBC/tryout/B.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\B.dir\build.make CMakeFiles/B.dir/practice/UBC/tryout/B.cpp.s
+.PHONY : practice/UBC/tryout/B.cpp.s
+
+practice/UBC/tryout/F.obj: practice/UBC/tryout/F.cpp.obj
+
+.PHONY : practice/UBC/tryout/F.obj
+
+# target to build an object file
+practice/UBC/tryout/F.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F.dir\build.make CMakeFiles/F.dir/practice/UBC/tryout/F.cpp.obj
+.PHONY : practice/UBC/tryout/F.cpp.obj
+
+practice/UBC/tryout/F.i: practice/UBC/tryout/F.cpp.i
+
+.PHONY : practice/UBC/tryout/F.i
+
+# target to preprocess a source file
+practice/UBC/tryout/F.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F.dir\build.make CMakeFiles/F.dir/practice/UBC/tryout/F.cpp.i
+.PHONY : practice/UBC/tryout/F.cpp.i
+
+practice/UBC/tryout/F.s: practice/UBC/tryout/F.cpp.s
+
+.PHONY : practice/UBC/tryout/F.s
+
+# target to generate assembly for a file
+practice/UBC/tryout/F.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F.dir\build.make CMakeFiles/F.dir/practice/UBC/tryout/F.cpp.s
+.PHONY : practice/UBC/tryout/F.cpp.s
+
+practice/UBC/tryout/H.obj: practice/UBC/tryout/H.cpp.obj
+
+.PHONY : practice/UBC/tryout/H.obj
+
+# target to build an object file
+practice/UBC/tryout/H.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\H.dir\build.make CMakeFiles/H.dir/practice/UBC/tryout/H.cpp.obj
+.PHONY : practice/UBC/tryout/H.cpp.obj
+
+practice/UBC/tryout/H.i: practice/UBC/tryout/H.cpp.i
+
+.PHONY : practice/UBC/tryout/H.i
+
+# target to preprocess a source file
+practice/UBC/tryout/H.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\H.dir\build.make CMakeFiles/H.dir/practice/UBC/tryout/H.cpp.i
+.PHONY : practice/UBC/tryout/H.cpp.i
+
+practice/UBC/tryout/H.s: practice/UBC/tryout/H.cpp.s
+
+.PHONY : practice/UBC/tryout/H.s
+
+# target to generate assembly for a file
+practice/UBC/tryout/H.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\H.dir\build.make CMakeFiles/H.dir/practice/UBC/tryout/H.cpp.s
+.PHONY : practice/UBC/tryout/H.cpp.s
+
+practice/UBC/tryout/I.obj: practice/UBC/tryout/I.cpp.obj
+
+.PHONY : practice/UBC/tryout/I.obj
+
+# target to build an object file
+practice/UBC/tryout/I.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\I.dir\build.make CMakeFiles/I.dir/practice/UBC/tryout/I.cpp.obj
+.PHONY : practice/UBC/tryout/I.cpp.obj
+
+practice/UBC/tryout/I.i: practice/UBC/tryout/I.cpp.i
+
+.PHONY : practice/UBC/tryout/I.i
+
+# target to preprocess a source file
+practice/UBC/tryout/I.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\I.dir\build.make CMakeFiles/I.dir/practice/UBC/tryout/I.cpp.i
+.PHONY : practice/UBC/tryout/I.cpp.i
+
+practice/UBC/tryout/I.s: practice/UBC/tryout/I.cpp.s
+
+.PHONY : practice/UBC/tryout/I.s
+
+# target to generate assembly for a file
+practice/UBC/tryout/I.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\I.dir\build.make CMakeFiles/I.dir/practice/UBC/tryout/I.cpp.s
+.PHONY : practice/UBC/tryout/I.cpp.s
+
+practice/UBC/tryout/J.obj: practice/UBC/tryout/J.cpp.obj
+
+.PHONY : practice/UBC/tryout/J.obj
+
+# target to build an object file
+practice/UBC/tryout/J.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\J.dir\build.make CMakeFiles/J.dir/practice/UBC/tryout/J.cpp.obj
+.PHONY : practice/UBC/tryout/J.cpp.obj
+
+practice/UBC/tryout/J.i: practice/UBC/tryout/J.cpp.i
+
+.PHONY : practice/UBC/tryout/J.i
+
+# target to preprocess a source file
+practice/UBC/tryout/J.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\J.dir\build.make CMakeFiles/J.dir/practice/UBC/tryout/J.cpp.i
+.PHONY : practice/UBC/tryout/J.cpp.i
+
+practice/UBC/tryout/J.s: practice/UBC/tryout/J.cpp.s
+
+.PHONY : practice/UBC/tryout/J.s
+
+# target to generate assembly for a file
+practice/UBC/tryout/J.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\J.dir\build.make CMakeFiles/J.dir/practice/UBC/tryout/J.cpp.s
+.PHONY : practice/UBC/tryout/J.cpp.s
+
 scrap.obj: scrap.cpp.obj
 
 .PHONY : scrap.obj
@@ -3097,10 +3377,12 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... A
 	@echo ... AccurateLee
 	@echo ... AlternatingSubsequence
 	@echo ... ApplejackAndStorages
 	@echo ... AsSimpleAsOneAndTwo
+	@echo ... B
 	@echo ... BSTNewYearAndAscentSequence
 	@echo ... BasketballExercise
 	@echo ... BeautifulMatrix
@@ -3118,9 +3400,13 @@ help:
 	@echo ... DominoPiling
 	@echo ... ElementExtermination
 	@echo ... EvenArray
+	@echo ... F
 	@echo ... Football
+	@echo ... H
 	@echo ... HQ9+
 	@echo ... HelpfulMaths
+	@echo ... I
+	@echo ... J
 	@echo ... K-thNotDivisibleByN
 	@echo ... K-thNotDivisibleByNBinarySearch
 	@echo ... KForThePriceOfOneEasy
@@ -3135,6 +3421,7 @@ help:
 	@echo ... NextRound
 	@echo ... NumberGame
 	@echo ... OddSelection
+	@echo ... OddSum
 	@echo ... OmkarAndWaterslide
 	@echo ... PetyaAndStrings
 	@echo ... Polygon
@@ -3282,6 +3569,9 @@ help:
 	@echo ... 1400/NumberGame.obj
 	@echo ... 1400/NumberGame.i
 	@echo ... 1400/NumberGame.s
+	@echo ... 1400/OddSum.obj
+	@echo ... 1400/OddSum.i
+	@echo ... 1400/OddSum.s
 	@echo ... 1400/RationalLee.obj
 	@echo ... 1400/RationalLee.i
 	@echo ... 1400/RationalLee.s
@@ -3390,6 +3680,24 @@ help:
 	@echo ... practice/UBC/CF650/TaskOnTheBoard.obj
 	@echo ... practice/UBC/CF650/TaskOnTheBoard.i
 	@echo ... practice/UBC/CF650/TaskOnTheBoard.s
+	@echo ... practice/UBC/tryout/A.obj
+	@echo ... practice/UBC/tryout/A.i
+	@echo ... practice/UBC/tryout/A.s
+	@echo ... practice/UBC/tryout/B.obj
+	@echo ... practice/UBC/tryout/B.i
+	@echo ... practice/UBC/tryout/B.s
+	@echo ... practice/UBC/tryout/F.obj
+	@echo ... practice/UBC/tryout/F.i
+	@echo ... practice/UBC/tryout/F.s
+	@echo ... practice/UBC/tryout/H.obj
+	@echo ... practice/UBC/tryout/H.i
+	@echo ... practice/UBC/tryout/H.s
+	@echo ... practice/UBC/tryout/I.obj
+	@echo ... practice/UBC/tryout/I.i
+	@echo ... practice/UBC/tryout/I.s
+	@echo ... practice/UBC/tryout/J.obj
+	@echo ... practice/UBC/tryout/J.i
+	@echo ... practice/UBC/tryout/J.s
 	@echo ... scrap.obj
 	@echo ... scrap.i
 	@echo ... scrap.s

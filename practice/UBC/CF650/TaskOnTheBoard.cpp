@@ -1,9 +1,5 @@
 //
 // Created by TigerZhao on 2020-09-24.
-//
-
-
-//testing vim
 
 
 #include <iostream>
