@@ -73,6 +73,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/StonesOnTheTable.dir/DependInfo.cmake"
   "CMakeFiles/BoyOrGirl.dir/DependInfo.cmake"
   "CMakeFiles/SortedAdjacentDifferences.dir/DependInfo.cmake"
+  "CMakeFiles/Queue.dir/DependInfo.cmake"
   "CMakeFiles/Football.dir/DependInfo.cmake"
   "CMakeFiles/RotationMatching.dir/DependInfo.cmake"
   "CMakeFiles/Twins.dir/DependInfo.cmake"
@@ -134,4 +135,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/H.dir/DependInfo.cmake"
   "CMakeFiles/J.dir/DependInfo.cmake"
   "CMakeFiles/A.dir/DependInfo.cmake"
+  "CMakeFiles/JohnyLikesNumbers.dir/DependInfo.cmake"
+  "CMakeFiles/EquidistantString.dir/DependInfo.cmake"
+  "CMakeFiles/Exam.dir/DependInfo.cmake"
   )

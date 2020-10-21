@@ -390,6 +390,19 @@ SortedAdjacentDifferences/fast:
 .PHONY : SortedAdjacentDifferences/fast
 
 #=============================================================================
+# Target rules for targets named Queue
+
+# Build rule for target.
+Queue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Queue
+.PHONY : Queue
+
+# fast build rule for target.
+Queue/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make CMakeFiles/Queue.dir/build
+.PHONY : Queue/fast
+
+#=============================================================================
 # Target rules for targets named Football
 
 # Build rule for target.
@@ -1181,6 +1194,45 @@ A : cmake_check_build_system
 A/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\A.dir\build.make CMakeFiles/A.dir/build
 .PHONY : A/fast
+
+#=============================================================================
+# Target rules for targets named JohnyLikesNumbers
+
+# Build rule for target.
+JohnyLikesNumbers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 JohnyLikesNumbers
+.PHONY : JohnyLikesNumbers
+
+# fast build rule for target.
+JohnyLikesNumbers/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JohnyLikesNumbers.dir\build.make CMakeFiles/JohnyLikesNumbers.dir/build
+.PHONY : JohnyLikesNumbers/fast
+
+#=============================================================================
+# Target rules for targets named EquidistantString
+
+# Build rule for target.
+EquidistantString: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 EquidistantString
+.PHONY : EquidistantString
+
+# fast build rule for target.
+EquidistantString/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EquidistantString.dir\build.make CMakeFiles/EquidistantString.dir/build
+.PHONY : EquidistantString/fast
+
+#=============================================================================
+# Target rules for targets named Exam
+
+# Build rule for target.
+Exam: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Exam
+.PHONY : Exam
+
+# fast build rule for target.
+Exam/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exam.dir\build.make CMakeFiles/Exam.dir/build
+.PHONY : Exam/fast
 
 1000/BoardMoves.obj: 1000/BoardMoves.cpp.obj
 
@@ -3045,6 +3097,114 @@ practice/SFU/week17/ZSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZSort.dir\build.make CMakeFiles/ZSort.dir/practice/SFU/week17/ZSort.cpp.s
 .PHONY : practice/SFU/week17/ZSort.cpp.s
 
+practice/SFU/week19/EquidistantString.obj: practice/SFU/week19/EquidistantString.cpp.obj
+
+.PHONY : practice/SFU/week19/EquidistantString.obj
+
+# target to build an object file
+practice/SFU/week19/EquidistantString.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EquidistantString.dir\build.make CMakeFiles/EquidistantString.dir/practice/SFU/week19/EquidistantString.cpp.obj
+.PHONY : practice/SFU/week19/EquidistantString.cpp.obj
+
+practice/SFU/week19/EquidistantString.i: practice/SFU/week19/EquidistantString.cpp.i
+
+.PHONY : practice/SFU/week19/EquidistantString.i
+
+# target to preprocess a source file
+practice/SFU/week19/EquidistantString.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EquidistantString.dir\build.make CMakeFiles/EquidistantString.dir/practice/SFU/week19/EquidistantString.cpp.i
+.PHONY : practice/SFU/week19/EquidistantString.cpp.i
+
+practice/SFU/week19/EquidistantString.s: practice/SFU/week19/EquidistantString.cpp.s
+
+.PHONY : practice/SFU/week19/EquidistantString.s
+
+# target to generate assembly for a file
+practice/SFU/week19/EquidistantString.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EquidistantString.dir\build.make CMakeFiles/EquidistantString.dir/practice/SFU/week19/EquidistantString.cpp.s
+.PHONY : practice/SFU/week19/EquidistantString.cpp.s
+
+practice/SFU/week19/Exam.obj: practice/SFU/week19/Exam.cpp.obj
+
+.PHONY : practice/SFU/week19/Exam.obj
+
+# target to build an object file
+practice/SFU/week19/Exam.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exam.dir\build.make CMakeFiles/Exam.dir/practice/SFU/week19/Exam.cpp.obj
+.PHONY : practice/SFU/week19/Exam.cpp.obj
+
+practice/SFU/week19/Exam.i: practice/SFU/week19/Exam.cpp.i
+
+.PHONY : practice/SFU/week19/Exam.i
+
+# target to preprocess a source file
+practice/SFU/week19/Exam.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exam.dir\build.make CMakeFiles/Exam.dir/practice/SFU/week19/Exam.cpp.i
+.PHONY : practice/SFU/week19/Exam.cpp.i
+
+practice/SFU/week19/Exam.s: practice/SFU/week19/Exam.cpp.s
+
+.PHONY : practice/SFU/week19/Exam.s
+
+# target to generate assembly for a file
+practice/SFU/week19/Exam.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exam.dir\build.make CMakeFiles/Exam.dir/practice/SFU/week19/Exam.cpp.s
+.PHONY : practice/SFU/week19/Exam.cpp.s
+
+practice/SFU/week19/JohnyLikesNumbers.obj: practice/SFU/week19/JohnyLikesNumbers.cpp.obj
+
+.PHONY : practice/SFU/week19/JohnyLikesNumbers.obj
+
+# target to build an object file
+practice/SFU/week19/JohnyLikesNumbers.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JohnyLikesNumbers.dir\build.make CMakeFiles/JohnyLikesNumbers.dir/practice/SFU/week19/JohnyLikesNumbers.cpp.obj
+.PHONY : practice/SFU/week19/JohnyLikesNumbers.cpp.obj
+
+practice/SFU/week19/JohnyLikesNumbers.i: practice/SFU/week19/JohnyLikesNumbers.cpp.i
+
+.PHONY : practice/SFU/week19/JohnyLikesNumbers.i
+
+# target to preprocess a source file
+practice/SFU/week19/JohnyLikesNumbers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JohnyLikesNumbers.dir\build.make CMakeFiles/JohnyLikesNumbers.dir/practice/SFU/week19/JohnyLikesNumbers.cpp.i
+.PHONY : practice/SFU/week19/JohnyLikesNumbers.cpp.i
+
+practice/SFU/week19/JohnyLikesNumbers.s: practice/SFU/week19/JohnyLikesNumbers.cpp.s
+
+.PHONY : practice/SFU/week19/JohnyLikesNumbers.s
+
+# target to generate assembly for a file
+practice/SFU/week19/JohnyLikesNumbers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JohnyLikesNumbers.dir\build.make CMakeFiles/JohnyLikesNumbers.dir/practice/SFU/week19/JohnyLikesNumbers.cpp.s
+.PHONY : practice/SFU/week19/JohnyLikesNumbers.cpp.s
+
+practice/SFU/week19/Queue.obj: practice/SFU/week19/Queue.cpp.obj
+
+.PHONY : practice/SFU/week19/Queue.obj
+
+# target to build an object file
+practice/SFU/week19/Queue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make CMakeFiles/Queue.dir/practice/SFU/week19/Queue.cpp.obj
+.PHONY : practice/SFU/week19/Queue.cpp.obj
+
+practice/SFU/week19/Queue.i: practice/SFU/week19/Queue.cpp.i
+
+.PHONY : practice/SFU/week19/Queue.i
+
+# target to preprocess a source file
+practice/SFU/week19/Queue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make CMakeFiles/Queue.dir/practice/SFU/week19/Queue.cpp.i
+.PHONY : practice/SFU/week19/Queue.cpp.i
+
+practice/SFU/week19/Queue.s: practice/SFU/week19/Queue.cpp.s
+
+.PHONY : practice/SFU/week19/Queue.s
+
+# target to generate assembly for a file
+practice/SFU/week19/Queue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make CMakeFiles/Queue.dir/practice/SFU/week19/Queue.cpp.s
+.PHONY : practice/SFU/week19/Queue.cpp.s
+
 practice/UBC/CF544/D.obj: practice/UBC/CF544/D.cpp.obj
 
 .PHONY : practice/UBC/CF544/D.obj
@@ -3399,7 +3559,9 @@ help:
 	@echo ... DisturbedPeople
 	@echo ... DominoPiling
 	@echo ... ElementExtermination
+	@echo ... EquidistantString
 	@echo ... EvenArray
+	@echo ... Exam
 	@echo ... F
 	@echo ... Football
 	@echo ... H
@@ -3407,6 +3569,7 @@ help:
 	@echo ... HelpfulMaths
 	@echo ... I
 	@echo ... J
+	@echo ... JohnyLikesNumbers
 	@echo ... K-thNotDivisibleByN
 	@echo ... K-thNotDivisibleByNBinarySearch
 	@echo ... KForThePriceOfOneEasy
@@ -3427,6 +3590,7 @@ help:
 	@echo ... Polygon
 	@echo ... PrefixFlipEasyVersion
 	@echo ... QueriesOnAString
+	@echo ... Queue
 	@echo ... RationalLee
 	@echo ... RestoringPainting
 	@echo ... RotationMatching
@@ -3665,6 +3829,18 @@ help:
 	@echo ... practice/SFU/week17/ZSort.obj
 	@echo ... practice/SFU/week17/ZSort.i
 	@echo ... practice/SFU/week17/ZSort.s
+	@echo ... practice/SFU/week19/EquidistantString.obj
+	@echo ... practice/SFU/week19/EquidistantString.i
+	@echo ... practice/SFU/week19/EquidistantString.s
+	@echo ... practice/SFU/week19/Exam.obj
+	@echo ... practice/SFU/week19/Exam.i
+	@echo ... practice/SFU/week19/Exam.s
+	@echo ... practice/SFU/week19/JohnyLikesNumbers.obj
+	@echo ... practice/SFU/week19/JohnyLikesNumbers.i
+	@echo ... practice/SFU/week19/JohnyLikesNumbers.s
+	@echo ... practice/SFU/week19/Queue.obj
+	@echo ... practice/SFU/week19/Queue.i
+	@echo ... practice/SFU/week19/Queue.s
 	@echo ... practice/UBC/CF544/D.obj
 	@echo ... practice/UBC/CF544/D.i
 	@echo ... practice/UBC/CF544/D.s
