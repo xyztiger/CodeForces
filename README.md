@@ -1,3 +1,3 @@
 ## CodeForces Problems
 
-Codeforces problems organized by difficulty.
+Codeforces problems and ICPC practice.
