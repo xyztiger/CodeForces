@@ -1235,6 +1235,19 @@ Exam/fast:
 .PHONY : Exam/fast
 
 #=============================================================================
+# Target rules for targets named JaneEyre
+
+# Build rule for target.
+JaneEyre: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 JaneEyre
+.PHONY : JaneEyre
+
+# fast build rule for target.
+JaneEyre/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JaneEyre.dir\build.make CMakeFiles/JaneEyre.dir/build
+.PHONY : JaneEyre/fast
+
+#=============================================================================
 # Target rules for targets named TelephoneNumber
 
 # Build rule for target.
@@ -1324,6 +1337,19 @@ DiagonalCut: cmake_check_build_system
 DiagonalCut/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DiagonalCut.dir\build.make CMakeFiles/DiagonalCut.dir/build
 .PHONY : DiagonalCut/fast
+
+#=============================================================================
+# Target rules for targets named KillingChaos
+
+# Build rule for target.
+KillingChaos: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 KillingChaos
+.PHONY : KillingChaos
+
+# fast build rule for target.
+KillingChaos/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\KillingChaos.dir\build.make CMakeFiles/KillingChaos.dir/build
+.PHONY : KillingChaos/fast
 
 1000/BoardMoves.obj: 1000/BoardMoves.cpp.obj
 
@@ -2972,6 +2998,60 @@ DiagonalCut/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Twins.dir\build.make CMakeFiles/Twins.dir/900/Twins.cpp.s
 .PHONY : 900/Twins.cpp.s
 
+practice/ICPC/2020-NARPC/5/JaneEyre.obj: practice/ICPC/2020-NARPC/5/JaneEyre.cpp.obj
+
+.PHONY : practice/ICPC/2020-NARPC/5/JaneEyre.obj
+
+# target to build an object file
+practice/ICPC/2020-NARPC/5/JaneEyre.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JaneEyre.dir\build.make CMakeFiles/JaneEyre.dir/practice/ICPC/2020-NARPC/5/JaneEyre.cpp.obj
+.PHONY : practice/ICPC/2020-NARPC/5/JaneEyre.cpp.obj
+
+practice/ICPC/2020-NARPC/5/JaneEyre.i: practice/ICPC/2020-NARPC/5/JaneEyre.cpp.i
+
+.PHONY : practice/ICPC/2020-NARPC/5/JaneEyre.i
+
+# target to preprocess a source file
+practice/ICPC/2020-NARPC/5/JaneEyre.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JaneEyre.dir\build.make CMakeFiles/JaneEyre.dir/practice/ICPC/2020-NARPC/5/JaneEyre.cpp.i
+.PHONY : practice/ICPC/2020-NARPC/5/JaneEyre.cpp.i
+
+practice/ICPC/2020-NARPC/5/JaneEyre.s: practice/ICPC/2020-NARPC/5/JaneEyre.cpp.s
+
+.PHONY : practice/ICPC/2020-NARPC/5/JaneEyre.s
+
+# target to generate assembly for a file
+practice/ICPC/2020-NARPC/5/JaneEyre.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JaneEyre.dir\build.make CMakeFiles/JaneEyre.dir/practice/ICPC/2020-NARPC/5/JaneEyre.cpp.s
+.PHONY : practice/ICPC/2020-NARPC/5/JaneEyre.cpp.s
+
+practice/ICPC/2020-NARPC/5/KillingChaos.obj: practice/ICPC/2020-NARPC/5/KillingChaos.cpp.obj
+
+.PHONY : practice/ICPC/2020-NARPC/5/KillingChaos.obj
+
+# target to build an object file
+practice/ICPC/2020-NARPC/5/KillingChaos.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\KillingChaos.dir\build.make CMakeFiles/KillingChaos.dir/practice/ICPC/2020-NARPC/5/KillingChaos.cpp.obj
+.PHONY : practice/ICPC/2020-NARPC/5/KillingChaos.cpp.obj
+
+practice/ICPC/2020-NARPC/5/KillingChaos.i: practice/ICPC/2020-NARPC/5/KillingChaos.cpp.i
+
+.PHONY : practice/ICPC/2020-NARPC/5/KillingChaos.i
+
+# target to preprocess a source file
+practice/ICPC/2020-NARPC/5/KillingChaos.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\KillingChaos.dir\build.make CMakeFiles/KillingChaos.dir/practice/ICPC/2020-NARPC/5/KillingChaos.cpp.i
+.PHONY : practice/ICPC/2020-NARPC/5/KillingChaos.cpp.i
+
+practice/ICPC/2020-NARPC/5/KillingChaos.s: practice/ICPC/2020-NARPC/5/KillingChaos.cpp.s
+
+.PHONY : practice/ICPC/2020-NARPC/5/KillingChaos.s
+
+# target to generate assembly for a file
+practice/ICPC/2020-NARPC/5/KillingChaos.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\KillingChaos.dir\build.make CMakeFiles/KillingChaos.dir/practice/ICPC/2020-NARPC/5/KillingChaos.cpp.s
+.PHONY : practice/ICPC/2020-NARPC/5/KillingChaos.cpp.s
+
 practice/SFU/2021-1/Depression.obj: practice/SFU/2021-1/Depression.cpp.obj
 
 .PHONY : practice/SFU/2021-1/Depression.obj
@@ -3829,10 +3909,12 @@ help:
 	@echo ... HelpfulMaths
 	@echo ... I
 	@echo ... J
+	@echo ... JaneEyre
 	@echo ... JohnyLikesNumbers
 	@echo ... K-thNotDivisibleByN
 	@echo ... K-thNotDivisibleByNBinarySearch
 	@echo ... KForThePriceOfOneEasy
+	@echo ... KillingChaos
 	@echo ... LevelStatistics
 	@echo ... MagicalCalendar
 	@echo ... MakeItGood
@@ -4068,6 +4150,12 @@ help:
 	@echo ... 900/Twins.obj
 	@echo ... 900/Twins.i
 	@echo ... 900/Twins.s
+	@echo ... practice/ICPC/2020-NARPC/5/JaneEyre.obj
+	@echo ... practice/ICPC/2020-NARPC/5/JaneEyre.i
+	@echo ... practice/ICPC/2020-NARPC/5/JaneEyre.s
+	@echo ... practice/ICPC/2020-NARPC/5/KillingChaos.obj
+	@echo ... practice/ICPC/2020-NARPC/5/KillingChaos.i
+	@echo ... practice/ICPC/2020-NARPC/5/KillingChaos.s
 	@echo ... practice/SFU/2021-1/Depression.obj
 	@echo ... practice/SFU/2021-1/Depression.i
 	@echo ... practice/SFU/2021-1/Depression.s
